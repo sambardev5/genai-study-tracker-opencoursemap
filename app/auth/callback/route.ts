@@ -1,5 +1,5 @@
 import { NextResponse, type NextRequest } from "next/server";
-import { getSafeRedirectPath } from "@/lib/auth/redirects";
+import { buildAuthPageUrl, getSafeRedirectPath } from "@/lib/auth/redirects";
 import { createSupabaseServerClient } from "@/lib/supabase/server";
 import { hasSupabaseEnv } from "@/lib/utils/env";
 
@@ -8,25 +8,34 @@ export async function GET(request: NextRequest) {
   const next = getSafeRedirectPath(request.nextUrl.searchParams.get("next"));
 
   if (!hasSupabaseEnv() || !code) {
-    const loginUrl = new URL("/login", request.url);
-    loginUrl.searchParams.set("error", "Unable to verify sign-in. Please try again.");
-    return NextResponse.redirect(loginUrl);
+    return NextResponse.redirect(
+      buildAuthPageUrl(request.url, "/login", {
+        redirectTo: next,
+        error: "Unable to verify sign-in. Please try again.",
+      }),
+    );
   }
 
   const supabase = await createSupabaseServerClient();
 
   if (!supabase) {
-    const loginUrl = new URL("/login", request.url);
-    loginUrl.searchParams.set("error", "Supabase auth is not configured.");
-    return NextResponse.redirect(loginUrl);
+    return NextResponse.redirect(
+      buildAuthPageUrl(request.url, "/login", {
+        redirectTo: next,
+        error: "Authentication is not configured on the server.",
+      }),
+    );
   }
 
   const { error } = await supabase.auth.exchangeCodeForSession(code);
 
   if (error) {
-    const loginUrl = new URL("/login", request.url);
-    loginUrl.searchParams.set("error", error.message);
-    return NextResponse.redirect(loginUrl);
+    return NextResponse.redirect(
+      buildAuthPageUrl(request.url, "/login", {
+        redirectTo: next,
+        error: error.message,
+      }),
+    );
   }
 
   return NextResponse.redirect(new URL(next, request.url));

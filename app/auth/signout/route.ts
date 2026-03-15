@@ -1,4 +1,5 @@
 import { NextResponse } from "next/server";
+import { buildAuthPageUrl } from "@/lib/auth/redirects";
 import { createSupabaseServerClient } from "@/lib/supabase/server";
 import { hasSupabaseEnv } from "@/lib/utils/env";
 
@@ -11,8 +12,9 @@ export async function POST(request: Request) {
     }
   }
 
-  const loginUrl = new URL("/login", request.url);
-  loginUrl.searchParams.set("message", "Signed out successfully.");
-
-  return NextResponse.redirect(loginUrl);
+  return NextResponse.redirect(
+    buildAuthPageUrl(request.url, "/login", {
+      message: "Signed out successfully.",
+    }),
+  );
 }

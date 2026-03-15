@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { buildAuthCallbackUrl, getSafeRedirectPath } from "@/lib/auth/redirects";
+import { buildAuthCallbackUrl, buildAuthPageUrl, getSafeRedirectPath } from "@/lib/auth/redirects";
 
 describe("auth redirect helpers", () => {
   it("only allows internal redirect paths", () => {
@@ -15,5 +15,21 @@ describe("auth redirect helpers", () => {
     expect(buildAuthCallbackUrl("https://genaicoursepath.com", "https://evil.example")).toBe(
       "https://genaicoursepath.com/auth/callback",
     );
+  });
+
+  it("builds auth page URLs with safe feedback params", () => {
+    expect(
+      buildAuthPageUrl("https://genaicoursepath.com/login", "/login", {
+        redirectTo: "/profile",
+        error: "Invalid credentials",
+      }).toString(),
+    ).toBe("https://genaicoursepath.com/login?redirectTo=%2Fprofile&error=Invalid+credentials");
+
+    expect(
+      buildAuthPageUrl("https://genaicoursepath.com/signup", "/signup", {
+        redirectTo: "https://evil.example",
+        message: "Check your email",
+      }).toString(),
+    ).toBe("https://genaicoursepath.com/signup?message=Check+your+email");
   });
 });

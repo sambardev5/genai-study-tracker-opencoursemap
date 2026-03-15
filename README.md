@@ -24,6 +24,12 @@ OpenCourseMap is a Next.js + Supabase MVP for discovering only free-to-enroll AI
    `npm run dev`
 
 Without Supabase env vars, the app runs against demo data from `lib/db/demo-data.ts`.
+For production auth, set either:
+
+- `NEXT_PUBLIC_SUPABASE_URL` and `NEXT_PUBLIC_SUPABASE_ANON_KEY`
+- or `SUPABASE_URL` and `SUPABASE_ANON_KEY`
+
+Login, signup, and Google OAuth initiation now run through server routes, so production auth still works if you only configure the server-side `SUPABASE_*` env names.
 
 ## Verification
 
