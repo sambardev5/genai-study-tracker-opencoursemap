@@ -1,10 +1,10 @@
 import { SectionHeading } from "@/components/layout/section-heading";
 import { RecommendationList } from "@/components/recommendations/recommendation-list";
-import { getCurrentUser } from "@/lib/auth/session";
+import { requireCurrentUser } from "@/lib/auth/session";
 import { repository } from "@/lib/db/repository";
 
 export default async function RecommendationsPage() {
-  const user = await getCurrentUser();
+  const user = await requireCurrentUser();
   const recommendations = repository.getRecommendations(user.id);
 
   return (

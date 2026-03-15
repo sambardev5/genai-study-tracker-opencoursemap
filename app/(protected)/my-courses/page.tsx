@@ -1,11 +1,11 @@
 import { CourseStatusActions } from "@/components/courses/course-status-actions";
 import { CourseCard } from "@/components/courses/course-card";
 import { SectionHeading } from "@/components/layout/section-heading";
-import { getCurrentUser } from "@/lib/auth/session";
+import { requireCurrentUser } from "@/lib/auth/session";
 import { repository } from "@/lib/db/repository";
 
 export default async function MyCoursesPage() {
-  const user = await getCurrentUser();
+  const user = await requireCurrentUser();
   const items = repository.getUserCourseStatuses(user.id);
   const providers = repository.getProviders();
   const topics = repository.getTopics();

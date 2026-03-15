@@ -1,34 +1,33 @@
 import { SectionHeading } from "@/components/layout/section-heading";
 import { Badge } from "@/components/ui/badge";
 import { Card } from "@/components/ui/card";
-import { getCurrentUser } from "@/lib/auth/session";
+import { requireCurrentUser } from "@/lib/auth/session";
 import { repository } from "@/lib/db/repository";
 
 export default async function ProfilePage() {
-  const user = await getCurrentUser();
-  const profile = repository.getProfile(user.id);
+  const user = await requireCurrentUser();
   const preferences = repository.getPreferences(user.id);
   const topics = repository.getTopics();
   const providers = repository.getProviders();
 
   return (
     <div className="mx-auto max-w-5xl px-4 py-12 sm:px-6 lg:px-8">
-      <SectionHeading eyebrow="Profile" title={profile.fullName} description={profile.headline} />
+      <SectionHeading eyebrow="Profile" title={user.fullName} description={user.headline} />
       <div className="mt-10 grid gap-6 lg:grid-cols-2">
         <Card>
           <h2 className="font-display text-2xl font-semibold">Profile summary</h2>
           <dl className="mt-5 space-y-3 text-sm text-ink/68">
             <div className="flex justify-between gap-4">
               <dt>Current level</dt>
-              <dd className="font-semibold text-ink">{profile.currentLevel}</dd>
+              <dd className="font-semibold text-ink">{user.currentLevel}</dd>
             </div>
             <div className="flex justify-between gap-4">
               <dt>Weekly study hours</dt>
-              <dd className="font-semibold text-ink">{profile.weeklyStudyHours}</dd>
+              <dd className="font-semibold text-ink">{user.weeklyStudyHours}</dd>
             </div>
             <div className="flex justify-between gap-4">
               <dt>Email</dt>
-              <dd className="font-semibold text-ink">{profile.email}</dd>
+              <dd className="font-semibold text-ink">{user.email}</dd>
             </div>
           </dl>
         </Card>

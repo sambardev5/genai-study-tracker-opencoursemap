@@ -7,6 +7,10 @@ import { adminCandidateDecisionSchema } from "@/lib/validators/api";
 export async function POST(request: Request, { params }: { params: Promise<{ id: string }> }) {
   const user = await getCurrentUser();
 
+  if (!user) {
+    return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+  }
+
   if (!isAdmin(user)) {
     return NextResponse.json({ error: "Forbidden" }, { status: 403 });
   }

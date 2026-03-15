@@ -1,8 +1,10 @@
 import { CourseCard } from "@/components/courses/course-card";
 import { SectionHeading } from "@/components/layout/section-heading";
+import { requireAdminUser } from "@/lib/auth/session";
 import { repository } from "@/lib/db/repository";
 
-export default function AdminResourcesPage() {
+export default async function AdminResourcesPage() {
+  await requireAdminUser();
   const courses = repository.listCourses({ page: 1, pageSize: 24, sort: "newest" }).items;
   const providers = repository.getProviders();
   const topics = repository.getTopics();

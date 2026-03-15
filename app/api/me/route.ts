@@ -6,14 +6,23 @@ import { profileUpdateSchema } from "@/lib/validators/api";
 export async function GET() {
   const user = await getCurrentUser();
 
+  if (!user) {
+    return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+  }
+
   return NextResponse.json({
-    profile: repository.getProfile(user.id),
+    profile: user,
     preferences: repository.getPreferences(user.id),
   });
 }
 
 export async function PATCH(request: Request) {
   const user = await getCurrentUser();
+
+  if (!user) {
+    return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+  }
+
   const parsed = profileUpdateSchema.parse(await request.json());
   const profile = repository.updateProfile(user.id, parsed);
 

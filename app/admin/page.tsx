@@ -2,9 +2,11 @@ import Link from "next/link";
 import { RunIngestionButton } from "@/components/admin/admin-actions";
 import { SectionHeading } from "@/components/layout/section-heading";
 import { Card } from "@/components/ui/card";
+import { requireAdminUser } from "@/lib/auth/session";
 import { repository } from "@/lib/db/repository";
 
-export default function AdminPage() {
+export default async function AdminPage() {
+  await requireAdminUser();
   const snapshot = repository.getAdminSnapshot();
 
   return (

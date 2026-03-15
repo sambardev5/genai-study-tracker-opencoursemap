@@ -1,12 +1,12 @@
 import { DashboardCharts } from "@/components/dashboard/dashboard-charts";
 import { SectionHeading } from "@/components/layout/section-heading";
 import { Card } from "@/components/ui/card";
-import { getCurrentUser } from "@/lib/auth/session";
+import { requireCurrentUser } from "@/lib/auth/session";
 import { repository } from "@/lib/db/repository";
 import { formatHours, formatPercent } from "@/lib/utils";
 
 export default async function DashboardPage() {
-  const user = await getCurrentUser();
+  const user = await requireCurrentUser();
   const dashboard = repository.getDashboard(user.id);
 
   return (

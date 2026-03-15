@@ -6,6 +6,10 @@ import { repository } from "@/lib/db/repository";
 export async function POST() {
   const user = await getCurrentUser();
 
+  if (!user) {
+    return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+  }
+
   if (!isAdmin(user)) {
     return NextResponse.json({ error: "Forbidden" }, { status: 403 });
   }

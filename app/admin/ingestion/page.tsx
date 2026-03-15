@@ -2,9 +2,11 @@ import { CandidateDecisionButtons, RunIngestionButton } from "@/components/admin
 import { CandidateTable } from "@/components/admin/candidate-table";
 import { SectionHeading } from "@/components/layout/section-heading";
 import { Card } from "@/components/ui/card";
+import { requireAdminUser } from "@/lib/auth/session";
 import { repository } from "@/lib/db/repository";
 
-export default function AdminIngestionPage() {
+export default async function AdminIngestionPage() {
+  await requireAdminUser();
   const candidates = repository.listCandidates();
 
   return (

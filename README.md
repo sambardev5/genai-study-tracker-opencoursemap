@@ -8,6 +8,7 @@ OpenCourseMap is a Next.js + Supabase MVP for discovering only free-to-enroll AI
 - public catalog pages
 - protected dashboard, recommendations, profile, and my-courses pages
 - admin pages for ingestion review and resources
+- working Supabase Auth wiring for email/password, Google OAuth, callback exchange, sign-out, and session-aware middleware
 - matching API route handlers
 - deterministic recommendation and skill-gap logic
 - ingestion adapter interfaces and demo connectors
@@ -57,14 +58,17 @@ Or copy the files into the Supabase SQL editor in order:
 
 1. Create a project.
 2. Enable Google and email/password auth.
-3. Apply the migration and seed files.
-4. Deploy edge functions from `supabase/functions/`.
-5. Schedule ingestion and recompute jobs using Supabase Cron.
+3. In Auth URL configuration, add these redirect URLs:
+   - `https://genaicoursepath.com/auth/callback`
+   - `https://www.genaicoursepath.com/auth/callback`
+   - `http://localhost:3000/auth/callback`
+4. Apply the migration and seed files.
+5. Deploy edge functions from `supabase/functions/`.
+6. Schedule ingestion and recompute jobs using Supabase Cron.
 
 ## Future improvements
 
 - replace demo repository calls with live Supabase queries
 - persist admin candidate approval into `resources` and `courses`
 - add file uploads for completion evidence
-- add proper auth actions and session-aware middleware
 - deepen E2E coverage once OAuth is live

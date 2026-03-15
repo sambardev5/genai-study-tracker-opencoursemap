@@ -1,31 +1,51 @@
 import Link from "next/link";
+import { redirect } from "next/navigation";
+import { AuthForm } from "@/components/auth/auth-form";
 import { SectionHeading } from "@/components/layout/section-heading";
-import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import { Input } from "@/components/ui/input";
+import { getSafeRedirectPath } from "@/lib/auth/redirects";
+import { getCurrentUser } from "@/lib/auth/session";
+import { hasSupabaseEnv } from "@/lib/utils/env";
 
-export default function LoginPage() {
+export default async function LoginPage({
+  searchParams,
+}: {
+  searchParams?: Promise<Record<string, string | string[] | undefined>>;
+}) {
+  const resolved = (await searchParams) ?? {};
+  const redirectTo = getSafeRedirectPath(
+    typeof resolved.redirectTo === "string" ? resolved.redirectTo : undefined,
+  );
+  const error = typeof resolved.error === "string" ? resolved.error : undefined;
+  const message = typeof resolved.message === "string" ? resolved.message : undefined;
+
+  if (hasSupabaseEnv()) {
+    const user = await getCurrentUser();
+
+    if (user) {
+      redirect(redirectTo);
+    }
+  }
+
   return (
     <div className="mx-auto max-w-xl px-4 py-16 sm:px-6 lg:px-8">
       <Card>
         <SectionHeading
           eyebrow="Sign in"
           title="Access your learning tracker"
-          description="Wire Google OAuth and email/password in Supabase, then connect these forms to the hosted auth flows."
+          description="Use Google OAuth or email/password through Supabase Auth. Your session is persisted server-side for protected pages and APIs."
         />
-        <div className="mt-8 grid gap-4">
-          <Button variant="secondary">Continue with Google</Button>
-          <div className="grid gap-3">
-            <Input type="email" placeholder="Email address" />
-            <Input type="password" placeholder="Password" />
-            <Button>Sign in with email</Button>
-          </div>
+        <AuthForm mode="login" redirectTo={redirectTo} initialError={error} initialMessage={message} />
+        <div className="mt-4 grid gap-2">
           <p className="text-sm text-ink/58">
             Need an account?{" "}
             <Link href="/signup" className="font-semibold text-copper">
               Create one
             </Link>
           </p>
+          {redirectTo !== "/dashboard" ? (
+            <p className="text-sm text-ink/48">You will be returned to `{redirectTo}` after sign in.</p>
+          ) : null}
         </div>
       </Card>
     </div>

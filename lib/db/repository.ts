@@ -30,6 +30,9 @@ import type {
   UserProfile,
 } from "@/lib/types";
 
+const profileStore = new Map<string, UserProfile>([[demoProfile.id, demoProfile]]);
+const preferenceStore = new Map<string, UserPreferences>([[demoPreferences.userId, demoPreferences]]);
+
 function getVisibleCourses() {
   return courses.filter((course) => course.isActive && course.isFree);
 }
@@ -145,6 +148,32 @@ function getPathCourses(path: LearningPath) {
     }));
 }
 
+function defaultProfile(userId: string): UserProfile {
+  return {
+    id: userId,
+    email: "",
+    fullName: "Learner",
+    headline: "",
+    currentLevel: "basic",
+    weeklyStudyHours: 0,
+    avatarUrl: "",
+    isAdmin: false,
+  };
+}
+
+function defaultPreferences(userId: string): UserPreferences {
+  return {
+    userId,
+    goalText: "",
+    preferredLevel: "basic",
+    preferredLanguageCode: "en",
+    wantsCertificates: false,
+    prefersSelfPaced: true,
+    preferredTopics: [],
+    preferredProviders: [],
+  };
+}
+
 export const repository = {
   getTopics(): Topic[] {
     return topics.filter((topic) => topic.isActive);
@@ -225,29 +254,33 @@ export const repository = {
   },
 
   getProfile(userId: string): UserProfile {
-    return userId === demoProfile.id ? demoProfile : demoProfile;
+    return profileStore.get(userId) ?? defaultProfile(userId);
   },
 
   updateProfile(userId: string, patch: Partial<UserProfile>) {
-    if (userId !== demoProfile.id) {
-      return demoProfile;
-    }
+    const nextProfile = {
+      ...this.getProfile(userId),
+      ...patch,
+      id: userId,
+    };
 
-    Object.assign(demoProfile, patch);
-    return demoProfile;
+    profileStore.set(userId, nextProfile);
+    return nextProfile;
   },
 
   getPreferences(userId: string): UserPreferences {
-    return userId === demoPreferences.userId ? demoPreferences : demoPreferences;
+    return preferenceStore.get(userId) ?? defaultPreferences(userId);
   },
 
   updatePreferences(userId: string, patch: Partial<UserPreferences>) {
-    if (userId !== demoPreferences.userId) {
-      return demoPreferences;
-    }
+    const nextPreferences = {
+      ...this.getPreferences(userId),
+      ...patch,
+      userId,
+    };
 
-    Object.assign(demoPreferences, patch);
-    return demoPreferences;
+    preferenceStore.set(userId, nextPreferences);
+    return nextPreferences;
   },
 
   getUserCourseStatuses(userId: string) {
