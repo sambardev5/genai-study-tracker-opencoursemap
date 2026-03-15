@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at top left, rgba(138, 201, 209, 0.28), transparent 28%),
+    radial-gradient(circle at right 18%, rgba(180, 200, 168, 0.22), transparent 24%),
+    linear-gradient(180deg, #fffaf3 0%, #fff6ea 100%);
+  color: #1e1b18;
+  font-family: "IBM Plex Sans", "Segoe UI", sans-serif;
+}
+
+::selection {
+  background: rgba(182, 94, 50, 0.2);
+}
+
+a {
+  color: inherit;
+}
+
+.grain {
+  position: relative;
+}
+
+.grain::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background-image:
+    radial-gradient(rgba(33, 71, 62, 0.05) 0.7px, transparent 0.7px),
+    radial-gradient(rgba(182, 94, 50, 0.05) 0.7px, transparent 0.7px);
+  background-position: 0 0, 16px 16px;
+  background-size: 32px 32px;
+  opacity: 0.5;
+}
