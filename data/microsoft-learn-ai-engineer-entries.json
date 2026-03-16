@@ -1,0 +1,835 @@
+[
+  {
+    "index": 1,
+    "course": "Use AI responsibly with Microsoft Foundry Content Safety",
+    "url": "https://learn.microsoft.com/en-us/training/modules/responsible-content-safety/",
+    "credential": "Not stated",
+    "type": "module"
+  },
+  {
+    "index": 2,
+    "course": "Generate images with AI",
+    "url": "https://learn.microsoft.com/en-us/training/modules/generate-images-azure-openai/",
+    "credential": "Not stated",
+    "type": "module"
+  },
+  {
+    "index": 3,
+    "course": "Develop an AI app with the Microsoft Foundry SDK",
+    "url": "https://learn.microsoft.com/en-us/training/modules/ai-foundry-sdk/",
+    "credential": "Not stated",
+    "type": "module"
+  },
+  {
+    "index": 4,
+    "course": "Integrate your agent with Microsoft 365",
+    "url": "https://learn.microsoft.com/en-us/training/modules/integrate-foundry-agent-with-m365/",
+    "credential": "Not stated",
+    "type": "module"
+  },
+  {
+    "index": 5,
+    "course": "Translate speech with the Azure Speech service",
+    "url": "https://learn.microsoft.com/en-us/training/modules/translate-speech-speech-service/",
+    "credential": "Not stated",
+    "type": "module"
+  },
+  {
+    "index": 6,
+    "course": "Create an Azure Content Understanding client application",
+    "url": "https://learn.microsoft.com/en-us/training/modules/analyze-content-ai-api/",
+    "credential": "Not stated",
+    "type": "module"
+  },
+  {
+    "index": 7,
+    "course": "Responsible AI with GitHub Copilot",
+    "url": "https://learn.microsoft.com/en-us/training/modules/responsible-ai-with-github-copilot/",
+    "credential": "Not stated",
+    "type": "module"
+  },
+  {
+    "index": 8,
+    "course": "Custom named entity recognition",
+    "url": "https://learn.microsoft.com/en-us/training/modules/custom-name-entity-recognition/",
+    "credential": "Not stated",
+    "type": "module"
+  },
+  {
+    "index": 9,
+    "course": "Analyze images",
+    "url": "https://learn.microsoft.com/en-us/training/modules/analyze-images/",
+    "credential": "Not stated",
+    "type": "module"
+  },
+  {
+    "index": 10,
+    "course": "Create accessible AI experiences",
+    "url": "https://learn.microsoft.com/en-us/training/modules/create-accessible-solutions-using-ai-innovations/",
+    "credential": "Not stated",
+    "type": "module"
+  },
+  {
+    "index": 11,
+    "course": "Optimize spend and performance with Azure AI Foundry Provisioned Throughput reservations",
+    "url": "https://learn.microsoft.com/en-us/training/modules/optimize-spend-and-performance-with-azure-ai-foundry-provisioned-reservations/",
+    "credential": "Not stated",
+    "type": "module"
+  },
+  {
+    "index": 12,
+    "course": "Develop an AI agent with Microsoft Agent Framework",
+    "url": "https://learn.microsoft.com/en-us/training/modules/develop-ai-agent-with-semantic-kernel/",
+    "credential": "Not stated",
+    "type": "module"
+  },
+  {
+    "index": 13,
+    "course": "Fine-tune a language model with Microsoft Foundry",
+    "url": "https://learn.microsoft.com/en-us/training/modules/finetune-model-copilot-ai-studio/",
+    "credential": "Not stated",
+    "type": "module"
+  },
+  {
+    "index": 14,
+    "course": "Integrate custom tools into your agent",
+    "url": "https://learn.microsoft.com/en-us/training/modules/build-agent-with-custom-tools/",
+    "credential": "Not stated",
+    "type": "module"
+  },
+  {
+    "index": 15,
+    "course": "Extract data with Azure Document Intelligence",
+    "url": "https://learn.microsoft.com/en-us/training/modules/extract-data-with-document-intelligence/",
+    "credential": "Not stated",
+    "type": "module"
+  },
+  {
+    "index": 16,
+    "course": "Evaluate generative AI performance in Microsoft Foundry portal",
+    "url": "https://learn.microsoft.com/en-us/training/modules/evaluate-models-azure-ai-studio/",
+    "credential": "Not stated",
+    "type": "module"
+  },
+  {
+    "index": 17,
+    "course": "Plan and prepare to develop AI solutions on Azure",
+    "url": "https://learn.microsoft.com/en-us/training/modules/prepare-azure-ai-development/",
+    "credential": "Not stated",
+    "type": "module"
+  },
+  {
+    "index": 18,
+    "course": "Get started with Microsoft Copilot",
+    "url": "https://learn.microsoft.com/en-us/training/modules/get-started-with-copilot/",
+    "credential": "Not stated",
+    "type": "module"
+  },
+  {
+    "index": 19,
+    "course": "Develop a RAG-based solution with your own data using Microsoft Foundry",
+    "url": "https://learn.microsoft.com/en-us/training/modules/build-copilot-ai-studio/",
+    "credential": "Not stated",
+    "type": "module"
+  },
+  {
+    "index": 20,
+    "course": "Evaluate and optimize AI agents through structured experiments",
+    "url": "https://learn.microsoft.com/en-us/training/modules/evaluate-optimize-agents/",
+    "credential": "Not stated",
+    "type": "module"
+  },
+  {
+    "index": 21,
+    "course": "Apply governance controls to AI-ready workloads",
+    "url": "https://learn.microsoft.com/en-us/training/modules/apply-governance-controls-ai-ready-workloads/",
+    "credential": "Not stated",
+    "type": "module"
+  },
+  {
+    "index": 22,
+    "course": "Introduction to Azure Bot Service and Bot Framework Composer",
+    "url": "https://learn.microsoft.com/en-us/training/modules/intro-to-bot-service-bot-framework-composer/",
+    "credential": "Not stated",
+    "type": "module"
+  },
+  {
+    "index": 23,
+    "course": "Create speech-enabled apps with Microsoft Foundry",
+    "url": "https://learn.microsoft.com/en-us/training/modules/create-speech-enabled-apps/",
+    "credential": "Not stated",
+    "type": "module"
+  },
+  {
+    "index": 24,
+    "course": "Use prebuilt Document intelligence models",
+    "url": "https://learn.microsoft.com/en-us/training/modules/use-prebuilt-form-recognizer-models/",
+    "credential": "Not stated",
+    "type": "module"
+  },
+  {
+    "index": 25,
+    "course": "Plan and prepare a GenAIOps solution",
+    "url": "https://learn.microsoft.com/en-us/training/modules/plan-prepare-genaiops/",
+    "credential": "Not stated",
+    "type": "module"
+  },
+  {
+    "index": 26,
+    "course": "Create a custom skill for Azure AI Search",
+    "url": "https://learn.microsoft.com/en-us/training/modules/create-azure-ai-custom-skill/",
+    "credential": "Not stated",
+    "type": "module"
+  },
+  {
+    "index": 27,
+    "course": "Develop a text analysis agent with the Azure Language MCP server",
+    "url": "https://learn.microsoft.com/en-us/training/modules/develop-text-analysis-agent-language-mcp/",
+    "credential": "Not stated",
+    "type": "module"
+  },
+  {
+    "index": 28,
+    "course": "Challenge project - Add image analysis and generation capabilities to your application",
+    "url": "https://learn.microsoft.com/en-us/training/modules/challenge-project-add-image-analysis-generation-to-app/",
+    "credential": "Not stated",
+    "type": "module"
+  },
+  {
+    "index": 29,
+    "course": "Explore AI basics",
+    "url": "https://learn.microsoft.com/en-us/training/modules/explore-ai-basics/",
+    "credential": "Not stated",
+    "type": "module"
+  },
+  {
+    "index": 30,
+    "course": "Create an Azure AI Search solution",
+    "url": "https://learn.microsoft.com/en-us/training/modules/create-azure-cognitive-search-solution/",
+    "credential": "Not stated",
+    "type": "module"
+  },
+  {
+    "index": 31,
+    "course": "Create a multimodal analysis solution with Azure Content Understanding",
+    "url": "https://learn.microsoft.com/en-us/training/modules/analyze-content-ai/",
+    "credential": "Not stated",
+    "type": "module"
+  },
+  {
+    "index": 32,
+    "course": "Analyze images with Content Understanding",
+    "url": "https://learn.microsoft.com/en-us/training/modules/analyze-images-with-content-understanding/",
+    "credential": "Not stated",
+    "type": "module"
+  },
+  {
+    "index": 33,
+    "course": "Introduction to machine learning concepts",
+    "url": "https://learn.microsoft.com/en-us/training/modules/fundamentals-machine-learning/",
+    "credential": "Not stated",
+    "type": "module"
+  },
+  {
+    "index": 34,
+    "course": "Develop AI agents with Microsoft Foundry and Visual Studio Code",
+    "url": "https://learn.microsoft.com/en-us/training/modules/develop-ai-agents-azure-vs-code/",
+    "credential": "Not stated",
+    "type": "module"
+  },
+  {
+    "index": 35,
+    "course": "Build a conversational language understanding model",
+    "url": "https://learn.microsoft.com/en-us/training/modules/build-language-understanding-model/",
+    "credential": "Not stated",
+    "type": "module"
+  },
+  {
+    "index": 36,
+    "course": "Manage prompts for agents in Microsoft Foundry with GitHub",
+    "url": "https://learn.microsoft.com/en-us/training/modules/prompt-versioning-genaiops/",
+    "credential": "Not stated",
+    "type": "module"
+  },
+  {
+    "index": 37,
+    "course": "Enrich your data with Azure Language",
+    "url": "https://learn.microsoft.com/en-us/training/modules/enrich-search-index-using-language-studio/",
+    "credential": "Not stated",
+    "type": "module"
+  },
+  {
+    "index": 38,
+    "course": "Integrate MCP Tools with Azure AI Agents",
+    "url": "https://learn.microsoft.com/en-us/training/modules/connect-agent-to-mcp-tools/",
+    "credential": "Not stated",
+    "type": "module"
+  },
+  {
+    "index": 39,
+    "course": "Create a knowledge store with Azure AI Search",
+    "url": "https://learn.microsoft.com/en-us/training/modules/create-knowledge-store-azure-cognitive-search/",
+    "credential": "Not stated",
+    "type": "module"
+  },
+  {
+    "index": 40,
+    "course": "Build knowledge-enhanced AI agents with Foundry IQ",
+    "url": "https://learn.microsoft.com/en-us/training/modules/introduction-foundry-iq/",
+    "credential": "Not stated",
+    "type": "module"
+  },
+  {
+    "index": 41,
+    "course": "Generate videos with Microsoft Foundry",
+    "url": "https://learn.microsoft.com/en-us/training/modules/generate-video-with-foundry/",
+    "credential": "Not stated",
+    "type": "module"
+  },
+  {
+    "index": 42,
+    "course": "Explore AI governance for AI ready infrastructure",
+    "url": "https://learn.microsoft.com/en-us/training/modules/explore-ai-governance-ai-ready-infrastructure/",
+    "credential": "Not stated",
+    "type": "module"
+  },
+  {
+    "index": 43,
+    "course": "Develop an AI agent with Microsoft Foundry Agent Service",
+    "url": "https://learn.microsoft.com/en-us/training/modules/develop-ai-agent-azure/",
+    "credential": "Not stated",
+    "type": "module"
+  },
+  {
+    "index": 44,
+    "course": "Introduction to natural language processing concepts",
+    "url": "https://learn.microsoft.com/en-us/training/modules/introduction-language/",
+    "credential": "Not stated",
+    "type": "module"
+  },
+  {
+    "index": 45,
+    "course": "Maintain an Azure AI Search solution",
+    "url": "https://learn.microsoft.com/en-us/training/modules/maintain-azure-cognitive-search-solution/",
+    "credential": "Not stated",
+    "type": "module"
+  },
+  {
+    "index": 46,
+    "course": "Translate text with Azure Translator service",
+    "url": "https://learn.microsoft.com/en-us/training/modules/translate-text-with-translator-service/",
+    "credential": "Not stated",
+    "type": "module"
+  },
+  {
+    "index": 47,
+    "course": "Develop an AI app with the Microsoft Foundry SDK",
+    "url": "https://learn.microsoft.com/en-us/training/modules/foundry-sdk/",
+    "credential": "Not stated",
+    "type": "module"
+  },
+  {
+    "index": 48,
+    "course": "Choose and deploy models from the model catalog in Microsoft Foundry portal",
+    "url": "https://learn.microsoft.com/en-us/training/modules/explore-models-azure-ai-studio/",
+    "credential": "Not stated",
+    "type": "module"
+  },
+  {
+    "index": 49,
+    "course": "Introduction to computer vision concepts",
+    "url": "https://learn.microsoft.com/en-us/training/modules/introduction-computer-vision/",
+    "credential": "Not stated",
+    "type": "module"
+  },
+  {
+    "index": 50,
+    "course": "Get started with AI in Azure",
+    "url": "https://learn.microsoft.com/en-us/training/modules/get-started-with-ai-in-azure/",
+    "credential": "Not stated",
+    "type": "module"
+  },
+  {
+    "index": 51,
+    "course": "Implement advanced search features in Azure AI Search",
+    "url": "https://learn.microsoft.com/en-us/training/modules/implement-advanced-search-features-azure-cognitive-search/",
+    "credential": "Not stated",
+    "type": "module"
+  },
+  {
+    "index": 52,
+    "course": "Extract data from forms with Azure Document intelligence",
+    "url": "https://learn.microsoft.com/en-us/training/modules/work-form-recognizer/",
+    "credential": "Not stated",
+    "type": "module"
+  },
+  {
+    "index": 53,
+    "course": "Optimize and fine-tune AI agents for production",
+    "url": "https://learn.microsoft.com/en-us/training/modules/optimize-finetune-agents/",
+    "credential": "Not stated",
+    "type": "module"
+  },
+  {
+    "index": 54,
+    "course": "Create custom text classification solutions",
+    "url": "https://learn.microsoft.com/en-us/training/modules/custom-text-classification/",
+    "credential": "Not stated",
+    "type": "module"
+  },
+  {
+    "index": 55,
+    "course": "Develop a vision-enabled generative AI application",
+    "url": "https://learn.microsoft.com/en-us/training/modules/develop-generative-ai-vision-apps/",
+    "credential": "Not stated",
+    "type": "module"
+  },
+  {
+    "index": 56,
+    "course": "Protect and govern AI ready infrastructure with Azure",
+    "url": "https://learn.microsoft.com/en-us/training/modules/protect-govern-ai-ready-infrastructure-azure/",
+    "credential": "Not stated",
+    "type": "module"
+  },
+  {
+    "index": 57,
+    "course": "Develop a speech-capable generative AI application",
+    "url": "https://learn.microsoft.com/en-us/training/modules/develop-generative-ai-audio-apps/",
+    "credential": "Not stated",
+    "type": "module"
+  },
+  {
+    "index": 58,
+    "course": "Automate AI evaluations with Microsoft Foundry and GitHub Actions",
+    "url": "https://learn.microsoft.com/en-us/training/modules/automated-evaluation-genaiops/",
+    "credential": "Not stated",
+    "type": "module"
+  },
+  {
+    "index": 59,
+    "course": "Get started with speech in Azure",
+    "url": "https://learn.microsoft.com/en-us/training/modules/get-started-speech-azure/",
+    "credential": "Not stated",
+    "type": "module"
+  },
+  {
+    "index": 60,
+    "course": "Develop AI agents with the Microsoft Foundry extension in Visual Studio Code",
+    "url": "https://learn.microsoft.com/en-us/training/modules/develop-ai-agents-vs-code/",
+    "credential": "Not stated",
+    "type": "module"
+  },
+  {
+    "index": 61,
+    "course": "Introduction to AI-powered information extraction concepts",
+    "url": "https://learn.microsoft.com/en-us/training/modules/introduction-information-extraction/",
+    "credential": "Not stated",
+    "type": "module"
+  },
+  {
+    "index": 62,
+    "course": "Boost your productivity with Microsoft Copilot",
+    "url": "https://learn.microsoft.com/en-us/training/modules/boost-productivity-with-copilot/",
+    "credential": "Not stated",
+    "type": "module"
+  },
+  {
+    "index": 63,
+    "course": "Develop a speech agent with the Azure Speech MCP server",
+    "url": "https://learn.microsoft.com/en-us/training/modules/develop-speech-agent-speech-mcp/",
+    "credential": "Not stated",
+    "type": "module"
+  },
+  {
+    "index": 64,
+    "course": "Select, deploy, and evaluate models from the catalog in Microsoft Foundry portal",
+    "url": "https://learn.microsoft.com/en-us/training/modules/model-catalog-evaluate/",
+    "credential": "Not stated",
+    "type": "module"
+  },
+  {
+    "index": 65,
+    "course": "Optimize costs by using Azure Hybrid Benefit",
+    "url": "https://learn.microsoft.com/en-us/training/modules/optimize-costs-using-azure-hybrid-benefit/",
+    "credential": "Not stated",
+    "type": "module"
+  },
+  {
+    "index": 66,
+    "course": "Introduction to building copilots for startups",
+    "url": "https://learn.microsoft.com/en-us/training/modules/intro-to-copilots-for-startups/",
+    "credential": "Not stated",
+    "type": "module"
+  },
+  {
+    "index": 67,
+    "course": "Search data outside the Azure platform in Azure AI Search using Azure Data Factory",
+    "url": "https://learn.microsoft.com/en-us/training/modules/search-data-outside-azure-platform-cognitive-search/",
+    "credential": "Not stated",
+    "type": "module"
+  },
+  {
+    "index": 68,
+    "course": "Get started with AI-powered information extraction in Azure",
+    "url": "https://learn.microsoft.com/en-us/training/modules/get-started-information-extraction/",
+    "credential": "Not stated",
+    "type": "module"
+  },
+  {
+    "index": 69,
+    "course": "Get started with machine learning in Azure",
+    "url": "https://learn.microsoft.com/en-us/training/modules/design-machine-learning-model-training-solution/",
+    "credential": "Not stated",
+    "type": "module"
+  },
+  {
+    "index": 70,
+    "course": "Monitor your generative AI application",
+    "url": "https://learn.microsoft.com/en-us/training/modules/monitor-generative-ai-app/",
+    "credential": "Not stated",
+    "type": "module"
+  },
+  {
+    "index": 71,
+    "course": "Get started with AI agent development on Azure",
+    "url": "https://learn.microsoft.com/en-us/training/modules/ai-agent-fundamentals/",
+    "credential": "Not stated",
+    "type": "module"
+  },
+  {
+    "index": 72,
+    "course": "Get started with text analysis in Azure",
+    "url": "https://learn.microsoft.com/en-us/training/modules/get-started-text-analysis-azure/",
+    "credential": "Not stated",
+    "type": "module"
+  },
+  {
+    "index": 73,
+    "course": "Analyze and debug your generative AI app with tracing",
+    "url": "https://learn.microsoft.com/en-us/training/modules/tracing-generative-ai-app/",
+    "credential": "Not stated",
+    "type": "module"
+  },
+  {
+    "index": 74,
+    "course": "Get started with generative AI and agents in Azure",
+    "url": "https://learn.microsoft.com/en-us/training/modules/get-started-with-generative-ai-and-agents/",
+    "credential": "Not stated",
+    "type": "module"
+  },
+  {
+    "index": 75,
+    "course": "Create question answering solutions with Azure Language",
+    "url": "https://learn.microsoft.com/en-us/training/modules/create-question-answer-solution-ai-language/",
+    "credential": "Not stated",
+    "type": "module"
+  },
+  {
+    "index": 76,
+    "course": "Implement a responsible generative AI solution in Microsoft Foundry",
+    "url": "https://learn.microsoft.com/en-us/training/modules/responsible-ai-studio/",
+    "credential": "Not stated",
+    "type": "module"
+  },
+  {
+    "index": 77,
+    "course": "Detect objects in images",
+    "url": "https://learn.microsoft.com/en-us/training/modules/detect-objects-images/",
+    "credential": "Not stated",
+    "type": "module"
+  },
+  {
+    "index": 78,
+    "course": "Get started with FinOps",
+    "url": "https://learn.microsoft.com/en-us/training/modules/get-started-with-finops/",
+    "credential": "Not stated",
+    "type": "module"
+  },
+  {
+    "index": 79,
+    "course": "Detect, analyze, and recognize faces",
+    "url": "https://learn.microsoft.com/en-us/training/modules/detect-analyze-recognize-faces/",
+    "credential": "Not stated",
+    "type": "module"
+  },
+  {
+    "index": 80,
+    "course": "Perform search reranking with semantic ranking in Azure AI Search",
+    "url": "https://learn.microsoft.com/en-us/training/modules/use-semantic-search/",
+    "credential": "Not stated",
+    "type": "module"
+  },
+  {
+    "index": 81,
+    "course": "Analyze text with Azure Language in Foundry Tools",
+    "url": "https://learn.microsoft.com/en-us/training/modules/analyze-text-ai-language/",
+    "credential": "Not stated",
+    "type": "module"
+  },
+  {
+    "index": 82,
+    "course": "Create a knowledge mining solution with Azure AI Search",
+    "url": "https://learn.microsoft.com/en-us/training/modules/ai-knowldge-mining/",
+    "credential": "Not stated",
+    "type": "module"
+  },
+  {
+    "index": 83,
+    "course": "Introduction to generative AI and agents",
+    "url": "https://learn.microsoft.com/en-us/training/modules/fundamentals-generative-ai/",
+    "credential": "Not stated",
+    "type": "module"
+  },
+  {
+    "index": 84,
+    "course": "Design processes to automate application analytics",
+    "url": "https://learn.microsoft.com/en-us/training/modules/design-processes-automate-application-analytics/",
+    "credential": "Not stated",
+    "type": "module"
+  },
+  {
+    "index": 85,
+    "course": "Orchestrate a multi-agent solution using the Microsoft Agent Framework",
+    "url": "https://learn.microsoft.com/en-us/training/modules/orchestrate-semantic-kernel-multi-agent-solution/",
+    "credential": "Not stated",
+    "type": "module"
+  },
+  {
+    "index": 86,
+    "course": "Develop a multi-agent solution with Microsoft Foundry Agent Service",
+    "url": "https://learn.microsoft.com/en-us/training/modules/develop-multi-agent-azure-ai-foundry/",
+    "credential": "Not stated",
+    "type": "module"
+  },
+  {
+    "index": 87,
+    "course": "Introduction to AI concepts",
+    "url": "https://learn.microsoft.com/en-us/training/modules/get-started-ai-fundamentals/",
+    "credential": "Not stated",
+    "type": "module"
+  },
+  {
+    "index": 88,
+    "course": "Analyze video",
+    "url": "https://learn.microsoft.com/en-us/training/modules/analyze-video/",
+    "credential": "Not stated",
+    "type": "module"
+  },
+  {
+    "index": 89,
+    "course": "Get started with prompt flow to develop language model apps in the Microsoft Foundry",
+    "url": "https://learn.microsoft.com/en-us/training/modules/get-started-prompt-flow-ai-studio/",
+    "credential": "Not stated",
+    "type": "module"
+  },
+  {
+    "index": 90,
+    "course": "Read text in images",
+    "url": "https://learn.microsoft.com/en-us/training/modules/read-text-images-documents-with-computer-vision-service/",
+    "credential": "Not stated",
+    "type": "module"
+  },
+  {
+    "index": 91,
+    "course": "Optimize generative AI model performance with Microsoft Foundry",
+    "url": "https://learn.microsoft.com/en-us/training/modules/optimize-generative-ai-model-performance/",
+    "credential": "Not stated",
+    "type": "module"
+  },
+  {
+    "index": 92,
+    "course": "Introduction to AI speech concepts",
+    "url": "https://learn.microsoft.com/en-us/training/modules/introduction-ai-speech/",
+    "credential": "Not stated",
+    "type": "module"
+  },
+  {
+    "index": 93,
+    "course": "Run governed AI workloads with Microsoft Foundry",
+    "url": "https://learn.microsoft.com/en-us/training/modules/run-governed-ai-workloads-microsoft-foundry/",
+    "credential": "Not stated",
+    "type": "module"
+  },
+  {
+    "index": 94,
+    "course": "Classify images",
+    "url": "https://learn.microsoft.com/en-us/training/modules/classify-images/",
+    "credential": "Not stated",
+    "type": "module"
+  },
+  {
+    "index": 95,
+    "course": "Build agent-driven workflows using Microsoft Foundry",
+    "url": "https://learn.microsoft.com/en-us/training/modules/build-agent-workflows-microsoft-foundry/",
+    "credential": "Not stated",
+    "type": "module"
+  },
+  {
+    "index": 96,
+    "course": "Get started with computer vision in Azure",
+    "url": "https://learn.microsoft.com/en-us/training/modules/get-started-vision-azure/",
+    "credential": "Not stated",
+    "type": "module"
+  },
+  {
+    "index": 97,
+    "course": "Explore Generative AI",
+    "url": "https://learn.microsoft.com/en-us/training/modules/explore-generative-ai/",
+    "credential": "Not stated",
+    "type": "module"
+  },
+  {
+    "index": 98,
+    "course": "Discover Azure AI Agents with A2A",
+    "url": "https://learn.microsoft.com/en-us/training/modules/discover-agents-with-a2a/",
+    "credential": "Not stated",
+    "type": "module"
+  },
+  {
+    "index": 99,
+    "course": "Translate text and speech with Microsoft Foundry Tools",
+    "url": "https://learn.microsoft.com/en-us/training/modules/translate-text-speech/",
+    "credential": "Not stated",
+    "type": "module"
+  },
+  {
+    "index": 100,
+    "course": "Adopt FinOps on Azure",
+    "url": "https://learn.microsoft.com/en-us/training/modules/adopt-finops-on-azure/",
+    "credential": "Not stated",
+    "type": "module"
+  },
+  {
+    "index": 101,
+    "course": "Develop computer vision solutions with Microsoft Foundry",
+    "url": "https://learn.microsoft.com/en-us/training/paths/develop-computer-vision-with-foundry/",
+    "credential": "Not stated",
+    "type": "learning-path"
+  },
+  {
+    "index": 102,
+    "course": "Implement knowledge mining with Azure AI Search",
+    "url": "https://learn.microsoft.com/en-us/training/paths/implement-knowledge-mining-azure-cognitive-search/",
+    "credential": "Not stated",
+    "type": "learning-path"
+  },
+  {
+    "index": 103,
+    "course": "Create machine learning models",
+    "url": "https://learn.microsoft.com/en-us/training/paths/create-machine-learn-models/",
+    "credential": "Not stated",
+    "type": "learning-path"
+  },
+  {
+    "index": 104,
+    "course": "Develop generative AI apps in Azure",
+    "url": "https://learn.microsoft.com/en-us/training/paths/develop-generative-ai-apps/",
+    "credential": "Not stated",
+    "type": "learning-path"
+  },
+  {
+    "index": 105,
+    "course": "Extract insights from visual data on Azure",
+    "url": "https://learn.microsoft.com/en-us/training/paths/insight-visual-data/",
+    "credential": "Not stated",
+    "type": "learning-path"
+  },
+  {
+    "index": 106,
+    "course": "AI concepts for developers and technology professionals",
+    "url": "https://learn.microsoft.com/en-us/training/paths/ai-concepts/",
+    "credential": "Not stated",
+    "type": "learning-path"
+  },
+  {
+    "index": 107,
+    "course": "AI Fluency",
+    "url": "https://learn.microsoft.com/en-us/training/paths/ai-fluency/",
+    "credential": "Not stated",
+    "type": "learning-path"
+  },
+  {
+    "index": 108,
+    "course": "Develop AI information extraction solutions in Azure",
+    "url": "https://learn.microsoft.com/en-us/training/paths/ai-extract-information/",
+    "credential": "Not stated",
+    "type": "learning-path"
+  },
+  {
+    "index": 109,
+    "course": "Develop computer vision solutions in Azure",
+    "url": "https://learn.microsoft.com/en-us/training/paths/create-computer-vision-solutions-azure-ai/",
+    "credential": "Not stated",
+    "type": "learning-path"
+  },
+  {
+    "index": 110,
+    "course": "Copilot Foundations",
+    "url": "https://learn.microsoft.com/en-us/training/paths/copilot-foundations/",
+    "credential": "Not stated",
+    "type": "learning-path"
+  },
+  {
+    "index": 111,
+    "course": "Maximize the Cost Efficiency of AI Agents on Azure",
+    "url": "https://learn.microsoft.com/en-us/training/paths/maximize-cost-efficiency-ai-agents/",
+    "credential": "Not stated",
+    "type": "learning-path"
+  },
+  {
+    "index": 112,
+    "course": "Develop natural language solutions in Azure",
+    "url": "https://learn.microsoft.com/en-us/training/paths/develop-language-solutions-azure-ai/",
+    "credential": "Not stated",
+    "type": "learning-path"
+  },
+  {
+    "index": 113,
+    "course": "Operationalize generative AI applications (GenAIOps)",
+    "url": "https://learn.microsoft.com/en-us/training/paths/operationalize-gen-ai-apps/",
+    "credential": "Not stated",
+    "type": "learning-path"
+  },
+  {
+    "index": 114,
+    "course": "Protect Microsoft Foundry solutions by using Microsoft Defender for Cloud",
+    "url": "https://learn.microsoft.com/en-us/training/paths/defender-for-cloud-ai-foundry-protect/",
+    "credential": "Not stated",
+    "type": "learning-path"
+  },
+  {
+    "index": 115,
+    "course": "Create vision models with Azure AI Custom Vision",
+    "url": "https://learn.microsoft.com/en-us/training/paths/create-models-custom-vision/",
+    "credential": "Not stated",
+    "type": "learning-path"
+  },
+  {
+    "index": 116,
+    "course": "Implement Generative AI engineering with Azure Databricks",
+    "url": "https://learn.microsoft.com/en-us/training/paths/implement-generative-ai-engineering-azure-databricks/",
+    "credential": "Not stated",
+    "type": "learning-path"
+  },
+  {
+    "index": 117,
+    "course": "Get started with AI applications and agents on Azure",
+    "url": "https://learn.microsoft.com/en-us/training/paths/get-started-ai-apps-agents/",
+    "credential": "Not stated",
+    "type": "learning-path"
+  },
+  {
+    "index": 118,
+    "course": "Develop AI agents on Azure",
+    "url": "https://learn.microsoft.com/en-us/training/paths/develop-ai-agents-azure/",
+    "credential": "Not stated",
+    "type": "learning-path"
+  },
+  {
+    "index": 119,
+    "course": "Prepare for Microsoft 365 Copilot extensibility",
+    "url": "https://learn.microsoft.com/en-us/training/paths/prepare-microsoft-365-copilot-extensibility/",
+    "credential": "Not stated",
+    "type": "learning-path"
+  }
+]

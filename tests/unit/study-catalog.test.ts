@@ -1,10 +1,18 @@
+import microsoftLearnAiEngineerEntriesJson from "@/data/microsoft-learn-ai-engineer-entries.json";
+import studyCatalogEntriesJson from "@/data/study-catalog-entries.json";
 import { describe, expect, it } from "vitest";
 import { getCatalogCourses, getCatalogProviders } from "@/lib/db/demo-data";
 import { studyCourses, studyLearningPaths, studyProviders } from "@/lib/db/study-catalog";
 
 describe("study catalog import", () => {
-  it("imports all 250 course rows from both study guides", () => {
-    expect(studyCourses).toHaveLength(250);
+  it("imports the study guides plus the Microsoft Learn AI engineer catalog", () => {
+    const baseNonMicrosoftCount = (studyCatalogEntriesJson as Array<[number, string]>).filter(
+      (entry) => entry[1] !== "Microsoft Learn",
+    ).length;
+
+    expect(studyCourses).toHaveLength(
+      baseNonMicrosoftCount + (microsoftLearnAiEngineerEntriesJson as Array<unknown>).length,
+    );
   });
 
   it("includes key providers from the study guide", () => {
@@ -52,6 +60,27 @@ describe("study catalog import", () => {
         (course) =>
           course.canonicalUrl === "https://skillsbuild.org/students/course-catalog/artificial-intelligence" &&
           course.enrollmentUrl === "https://skillsbuild.org/students/course-catalog/artificial-intelligence",
+      ),
+    ).toBe(true);
+  });
+
+  it("replaces legacy Microsoft browse placeholders with concrete Microsoft Learn course pages", () => {
+    const microsoftCourses = studyCourses.filter((course) => course.providerId === "provider-microsoft");
+
+    expect(microsoftCourses).toHaveLength(
+      (microsoftLearnAiEngineerEntriesJson as Array<unknown>).length,
+    );
+    expect(
+      microsoftCourses.every((course) =>
+        /^https:\/\/learn\.microsoft\.com\/en-us\/training\/(modules|paths)\//.test(course.canonicalUrl),
+      ),
+    ).toBe(true);
+    expect(
+      microsoftCourses.some(
+        (course) =>
+          course.title === "Develop generative AI apps in Azure" &&
+          course.canonicalUrl ===
+            "https://learn.microsoft.com/en-us/training/paths/develop-generative-ai-apps/",
       ),
     ).toBe(true);
   });

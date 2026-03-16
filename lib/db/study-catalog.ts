@@ -1,4 +1,5 @@
 import studyCatalogEntriesJson from "@/data/study-catalog-entries.json";
+import microsoftLearnAiEngineerEntriesJson from "@/data/microsoft-learn-ai-engineer-entries.json";
 import { slugify } from "@/lib/utils";
 import type { Course, CourseLevel, LearningPath, Provider } from "@/lib/types";
 
@@ -20,6 +21,14 @@ type StudyEntry = {
   sourceFile: string;
 };
 
+type MicrosoftLearnEntry = {
+  index: number;
+  course: string;
+  url: string;
+  credential: string;
+  type: "module" | "learning-path";
+};
+
 type StudyCatalogData = {
   entries: StudyEntry[];
   providers: Provider[];
@@ -29,7 +38,7 @@ type StudyCatalogData = {
 
 const verifiedAt = "2026-03-15T09:00:00.000Z";
 const ibmSkillsBuildCatalogUrl = "https://skillsbuild.org/students/course-catalog/artificial-intelligence";
-const studyEntries = (studyCatalogEntriesJson as StudyEntryRow[]).map(
+const baseStudyEntries = (studyCatalogEntriesJson as StudyEntryRow[]).map(
   ([index, provider, course, url, credential, sourceFile]) => ({
     index,
     provider,
@@ -39,6 +48,22 @@ const studyEntries = (studyCatalogEntriesJson as StudyEntryRow[]).map(
     sourceFile,
   }),
 );
+
+const microsoftLearnEntries = (microsoftLearnAiEngineerEntriesJson as MicrosoftLearnEntry[]).map(
+  ({ index, course, url, credential }) => ({
+    index,
+    provider: "Microsoft Learn",
+    course,
+    url,
+    credential,
+    sourceFile: "microsoft-learn-ai-engineer-api",
+  }),
+);
+
+const studyEntries = [
+  ...baseStudyEntries.filter((entry) => entry.provider !== "Microsoft Learn"),
+  ...microsoftLearnEntries,
+];
 
 const providerAliases: Record<
   string,
@@ -397,6 +422,7 @@ function getCertificateFlags(credential: string) {
 
 const sourceOrder = new Map<string, number>([
   ["study.md", 0],
+  ["microsoft-learn-ai-engineer-api", 0.5],
   ["study_150_courses.md", 1],
 ]);
 
