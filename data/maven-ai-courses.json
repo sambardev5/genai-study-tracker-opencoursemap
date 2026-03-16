@@ -1,0 +1,6800 @@
+[
+  {
+    "id": 12829,
+    "title": " AI Career Residency: From Skills to Impact",
+    "schoolSlug": "decodingdatascience",
+    "courseSlug": "airesidency",
+    "canonicalUrl": "https://maven.com/decodingdatascience/airesidency",
+    "instructors": [
+      "Mohammad Arshad Ahmad"
+    ],
+    "nextLiveCohort": "2026-04-11T08:00:00Z",
+    "ratingCount": 0,
+    "sourceUrls": [
+      "https://maven.com/courses/for-engineers/ml"
+    ],
+    "tags": [
+      {
+        "type": "persona",
+        "slug": "for-engineers",
+        "label": "For Engineers"
+      },
+      {
+        "type": "persona",
+        "slug": "for-data-scientists",
+        "label": "For Data Scientists"
+      },
+      {
+        "type": "topic",
+        "slug": "model-development",
+        "label": "Developing AI Models"
+      },
+      {
+        "type": "topic",
+        "slug": "ml",
+        "label": "Machine Learning"
+      },
+      {
+        "type": "topic",
+        "slug": "ai",
+        "label": "AI"
+      }
+    ]
+  },
+  {
+    "id": 19214,
+    "title": "14 Days to Building AI Systems & Agents",
+    "schoolSlug": "the-school-of-ai",
+    "courseSlug": "days-to-building-ai-systems-agents",
+    "canonicalUrl": "https://maven.com/the-school-of-ai/days-to-building-ai-systems-agents",
+    "instructors": [
+      "Vivian Aranha"
+    ],
+    "nextLiveCohort": "2026-03-23T13:00:00Z",
+    "ratingCount": 0,
+    "sourceUrls": [
+      "https://maven.com/courses/for-engineers/agentic-ai",
+      "https://maven.com/courses/for-product-managers/agentic-ai",
+      "https://maven.com/courses/for-product-managers/ai"
+    ],
+    "tags": [
+      {
+        "type": "internal_collection",
+        "slug": "hide-clp-live-sessions-item",
+        "label": "Hide \"What's Included\" live sessions item"
+      },
+      {
+        "type": "topic",
+        "slug": "rag",
+        "label": "RAG"
+      },
+      {
+        "type": "persona",
+        "slug": "for-product-managers",
+        "label": "For Product Managers"
+      },
+      {
+        "type": "persona",
+        "slug": "for-engineers",
+        "label": "For Engineers"
+      },
+      {
+        "type": "topic",
+        "slug": "agentic-ai",
+        "label": "Agentic AI"
+      },
+      {
+        "type": "topic",
+        "slug": "ai",
+        "label": "AI"
+      }
+    ]
+  },
+  {
+    "id": 19335,
+    "title": "3-Day AI Product Management Bootcamp",
+    "schoolSlug": "the-school-of-ai",
+    "courseSlug": "ai-product-management-bootcamp",
+    "canonicalUrl": "https://maven.com/the-school-of-ai/ai-product-management-bootcamp",
+    "instructors": [
+      "Melina Chen",
+      "Vivian Aranha"
+    ],
+    "nextLiveCohort": "2026-03-20T13:00:00Z",
+    "ratingCount": 0,
+    "sourceUrls": [
+      "https://maven.com/courses/for-product-managers/ai"
+    ],
+    "tags": [
+      {
+        "type": "internal_collection",
+        "slug": "hide-clp-live-sessions-item",
+        "label": "Hide \"What's Included\" live sessions item"
+      },
+      {
+        "type": "persona",
+        "slug": "for-product-managers",
+        "label": "For Product Managers"
+      },
+      {
+        "type": "topic",
+        "slug": "bootcamp",
+        "label": "Bootcamp"
+      },
+      {
+        "type": "persona",
+        "slug": "for-founders",
+        "label": "For Founders"
+      },
+      {
+        "type": "topic",
+        "slug": "product-strategy",
+        "label": "Product Strategy"
+      },
+      {
+        "type": "topic",
+        "slug": "ai",
+        "label": "AI"
+      }
+    ]
+  },
+  {
+    "id": 19404,
+    "title": "5-Day Agentic AI Bootcamp",
+    "schoolSlug": "the-school-of-ai",
+    "courseSlug": "an-agentic-ai-bootcamp",
+    "canonicalUrl": "https://maven.com/the-school-of-ai/an-agentic-ai-bootcamp",
+    "instructors": [
+      "Vivian Aranha"
+    ],
+    "nextLiveCohort": "2026-03-23T13:00:00Z",
+    "ratingCount": 0,
+    "sourceUrls": [
+      "https://maven.com/courses/for-engineers/agentic-ai",
+      "https://maven.com/courses/for-engineers/ai-coding",
+      "https://maven.com/courses/for-product-managers/agentic-ai",
+      "https://maven.com/courses/for-product-managers/ai"
+    ],
+    "tags": [
+      {
+        "type": "persona",
+        "slug": "for-product-managers",
+        "label": "For Product Managers"
+      },
+      {
+        "type": "persona",
+        "slug": "for-engineers",
+        "label": "For Engineers"
+      },
+      {
+        "type": "topic",
+        "slug": "agentic-ai",
+        "label": "Agentic AI"
+      },
+      {
+        "type": "topic",
+        "slug": "ai-coding",
+        "label": "Coding with AI"
+      },
+      {
+        "type": "topic",
+        "slug": "ai",
+        "label": "AI"
+      }
+    ]
+  },
+  {
+    "id": 6474,
+    "title": "Advanced AI Product Leadership Certification",
+    "schoolSlug": "marily-nika",
+    "courseSlug": "advanced-ai-product-management",
+    "canonicalUrl": "https://maven.com/marily-nika/advanced-ai-product-management",
+    "instructors": [
+      "Dr. Marily Nika",
+      "Constantinos",
+      "George",
+      "Mark"
+    ],
+    "nextLiveCohort": "2026-04-13T09:00:00Z",
+    "ratingCount": 453,
+    "sourceUrls": [
+      "https://maven.com/courses/for-product-managers/ai"
+    ],
+    "tags": [
+      {
+        "type": "category",
+        "slug": "product-ll",
+        "label": "Product"
+      },
+      {
+        "type": "public_collection",
+        "slug": "maven-100-product",
+        "label": "Maven 100 - Product"
+      },
+      {
+        "type": "public_collection",
+        "slug": "maven-100-ai",
+        "label": "Maven 100 - AI"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "legacy-instructor-owned-clc",
+        "label": "[LEGACY] Instructor Owned CLC Opt-in"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "ai-affiliates-nov-24",
+        "label": "AI Affiliates"
+      },
+      {
+        "type": "public_collection",
+        "slug": "fast-track-2024",
+        "label": "Fast Track 2024"
+      },
+      {
+        "type": "category",
+        "slug": "ai-ll",
+        "label": "AI"
+      },
+      {
+        "type": "public_collection",
+        "slug": "maven-monday-2023",
+        "label": "Maven Monday 2023"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "maven-selects",
+        "label": "Maven Selects"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "analytics-beta",
+        "label": "Analytics Beta"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "courses-filtered-for-recommendations",
+        "label": "Courses filtered for recommendations"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "affiliate-aakash-gupta",
+        "label": "Affiliate Aakash Gupta"
+      },
+      {
+        "type": "persona",
+        "slug": "for-product-managers",
+        "label": "For Product Managers"
+      },
+      {
+        "type": "topic",
+        "slug": "pm-certification",
+        "label": "Product Management Certifications"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-ai-business-strategy",
+        "label": "AI business strategy"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-ai-product-management",
+        "label": "AI product management"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-product-for-ai",
+        "label": "Product for AI"
+      },
+      {
+        "type": "topic",
+        "slug": "ai",
+        "label": "AI"
+      }
+    ]
+  },
+  {
+    "id": 10144,
+    "title": "Agent Engineering Bootcamp: Developers Edition",
+    "schoolSlug": "boring-bot",
+    "courseSlug": "advanced-llm",
+    "canonicalUrl": "https://maven.com/boring-bot/advanced-llm",
+    "instructors": [
+      "Hamza Farooq",
+      "Zain Hasan"
+    ],
+    "nextLiveCohort": "2026-04-08T19:00:00Z",
+    "ratingCount": 96,
+    "sourceUrls": [
+      "https://maven.com/courses/for-engineers/agentic-ai"
+    ],
+    "tags": [
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-build-with-ai",
+        "label": "Build with AI"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "legacy-instructor-owned-clc",
+        "label": "[LEGACY] Instructor Owned CLC Opt-in"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "ai-affiliates-nov-24",
+        "label": "AI Affiliates"
+      },
+      {
+        "type": "category",
+        "slug": "engineering-ll",
+        "label": "Data & engineering"
+      },
+      {
+        "type": "public_collection",
+        "slug": "fast-track-2024",
+        "label": "Fast Track 2024"
+      },
+      {
+        "type": "category",
+        "slug": "ai-ll",
+        "label": "AI"
+      },
+      {
+        "type": "public_collection",
+        "slug": "maven-100-engineering-2025",
+        "label": "Maven 100 - Engineering 2025"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "maven-selects",
+        "label": "Maven Selects"
+      },
+      {
+        "type": "public_collection",
+        "slug": "maven-100-ai-2025",
+        "label": "Maven 100 - AI 2025"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "courses-filtered-for-recommendations",
+        "label": "Courses filtered for recommendations"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "maven-100-2025",
+        "label": "maven-100-2025"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "ai-powered-super-ic",
+        "label": "The AI-Powered Super IC"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "maven-ads",
+        "label": "Maven Ads"
+      },
+      {
+        "type": "persona",
+        "slug": "for-engineers",
+        "label": "For Engineers"
+      },
+      {
+        "type": "topic",
+        "slug": "agentic-ai",
+        "label": "Agentic AI"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-ai-ml-engineering",
+        "label": "AI/ML engineering"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-ai-ml-engineering-1",
+        "label": "AI/ML engineering"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-software-engineering",
+        "label": "Software engineering"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-eng-infrastructure",
+        "label": "Infrastructure and systems"
+      },
+      {
+        "type": "topic",
+        "slug": "ai",
+        "label": "AI"
+      }
+    ]
+  },
+  {
+    "id": 18508,
+    "title": "Agent Teams Workflow Design and Context Engineering: Build Agents with Claude",
+    "schoolSlug": "mike-wheeler",
+    "courseSlug": "agent-teams",
+    "canonicalUrl": "https://maven.com/mike-wheeler/agent-teams",
+    "instructors": [
+      "Mike Wheeler"
+    ],
+    "nextLiveCohort": "2026-05-06T19:00:00Z",
+    "ratingCount": 0,
+    "sourceUrls": [
+      "https://maven.com/courses/for-product-managers/agentic-ai",
+      "https://maven.com/courses/for-product-managers/ai"
+    ],
+    "tags": [
+      {
+        "type": "persona",
+        "slug": "for-product-managers",
+        "label": "For Product Managers"
+      },
+      {
+        "type": "persona",
+        "slug": "for-operators",
+        "label": "For Operators"
+      },
+      {
+        "type": "topic",
+        "slug": "agentic-ai",
+        "label": "Agentic AI"
+      },
+      {
+        "type": "topic",
+        "slug": "strategy",
+        "label": "Strategy"
+      },
+      {
+        "type": "topic",
+        "slug": "ai",
+        "label": "AI"
+      }
+    ]
+  },
+  {
+    "id": 16711,
+    "title": "Agent-First Software Engineering",
+    "schoolSlug": "nila",
+    "courseSlug": "agent-first-software-engineering",
+    "canonicalUrl": "https://maven.com/nila/agent-first-software-engineering",
+    "instructors": [
+      "Vignesh Mohankumar"
+    ],
+    "nextLiveCohort": "2026-03-25T16:00:00Z",
+    "ratingCount": 124,
+    "sourceUrls": [
+      "https://maven.com/courses/for-engineers/agentic-ai",
+      "https://maven.com/courses/for-engineers/ai-coding"
+    ],
+    "tags": [
+      {
+        "type": "internal_collection",
+        "slug": "ai-affiliates-nov-24",
+        "label": "AI Affiliates"
+      },
+      {
+        "type": "category",
+        "slug": "engineering-ll",
+        "label": "Data & engineering"
+      },
+      {
+        "type": "category",
+        "slug": "ai-ll",
+        "label": "AI"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "courses-filtered-for-recommendations",
+        "label": "Courses filtered for recommendations"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "maven-ads",
+        "label": "Maven Ads"
+      },
+      {
+        "type": "persona",
+        "slug": "for-engineers",
+        "label": "For Engineers"
+      },
+      {
+        "type": "topic",
+        "slug": "agentic-ai",
+        "label": "Agentic AI"
+      },
+      {
+        "type": "topic",
+        "slug": "ai-coding",
+        "label": "Coding with AI"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-ai-ml-engineering",
+        "label": "AI/ML engineering"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-ai-ml-engineering-1",
+        "label": "AI/ML engineering"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-software-engineering",
+        "label": "Software engineering"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-engineering-leadership",
+        "label": "Engineering leadership"
+      },
+      {
+        "type": "topic",
+        "slug": "ai",
+        "label": "AI"
+      }
+    ]
+  },
+  {
+    "id": 14694,
+    "title": "Agentic AI Bootcamp: Build Powerful GenAI Apps & Multimodal AI Agents",
+    "schoolSlug": "nitinai",
+    "courseSlug": "agentic-ai-bootcamp",
+    "canonicalUrl": "https://maven.com/nitinai/agentic-ai-bootcamp",
+    "instructors": [
+      "Nitin Monga"
+    ],
+    "nextLiveCohort": "2026-04-04T15:00:00Z",
+    "ratingCount": 3,
+    "sourceUrls": [
+      "https://maven.com/courses/for-engineers/agentic-ai"
+    ],
+    "tags": [
+      {
+        "type": "category",
+        "slug": "ai-ll",
+        "label": "AI"
+      },
+      {
+        "type": "persona",
+        "slug": "for-engineers",
+        "label": "For Engineers"
+      },
+      {
+        "type": "topic",
+        "slug": "agentic-ai",
+        "label": "Agentic AI"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-ai-ml-engineering",
+        "label": "AI/ML engineering"
+      },
+      {
+        "type": "topic",
+        "slug": "ai",
+        "label": "AI"
+      }
+    ]
+  },
+  {
+    "id": 18354,
+    "title": "Agentic AI for Research: Build Custom Workflows & Synthetic Users",
+    "schoolSlug": "john-whalen",
+    "courseSlug": "agentic-ai-for-research",
+    "canonicalUrl": "https://maven.com/john-whalen/agentic-ai-for-research",
+    "instructors": [
+      "John Whalen"
+    ],
+    "nextLiveCohort": "2026-04-16T17:00:00Z",
+    "ratingCount": 15,
+    "sourceUrls": [
+      "https://maven.com/courses/for-designers/ai",
+      "https://maven.com/courses/for-product-managers/agentic-ai",
+      "https://maven.com/courses/for-product-managers/ai"
+    ],
+    "tags": [
+      {
+        "type": "internal_collection",
+        "slug": "courses-filtered-for-recommendations",
+        "label": "Courses filtered for recommendations"
+      },
+      {
+        "type": "persona",
+        "slug": "for-product-managers",
+        "label": "For Product Managers"
+      },
+      {
+        "type": "persona",
+        "slug": "for-designers",
+        "label": "For Designers"
+      },
+      {
+        "type": "topic",
+        "slug": "agentic-ai",
+        "label": "Agentic AI"
+      },
+      {
+        "type": "topic",
+        "slug": "ux",
+        "label": "UX"
+      },
+      {
+        "type": "topic",
+        "slug": "user-research",
+        "label": "User Research"
+      },
+      {
+        "type": "topic",
+        "slug": "ai",
+        "label": "AI"
+      }
+    ]
+  },
+  {
+    "id": 19206,
+    "title": "Agentic AI Mastery: Claude Code, Clawdbot & Beyond",
+    "schoolSlug": "the-school-of-ai",
+    "courseSlug": "agentic-ai-mastery-claude-code-clawdbot-beyond",
+    "canonicalUrl": "https://maven.com/the-school-of-ai/agentic-ai-mastery-claude-code-clawdbot-beyond",
+    "instructors": [
+      "Vivian Aranha"
+    ],
+    "nextLiveCohort": "2026-03-23T13:00:00Z",
+    "ratingCount": 0,
+    "sourceUrls": [
+      "https://maven.com/courses/for-engineers/agentic-ai",
+      "https://maven.com/courses/for-product-managers/agentic-ai",
+      "https://maven.com/courses/for-product-managers/ai"
+    ],
+    "tags": [
+      {
+        "type": "internal_collection",
+        "slug": "hide-clp-live-sessions-item",
+        "label": "Hide \"What's Included\" live sessions item"
+      },
+      {
+        "type": "persona",
+        "slug": "for-product-managers",
+        "label": "For Product Managers"
+      },
+      {
+        "type": "persona",
+        "slug": "for-engineers",
+        "label": "For Engineers"
+      },
+      {
+        "type": "topic",
+        "slug": "agentic-ai",
+        "label": "Agentic AI"
+      },
+      {
+        "type": "topic",
+        "slug": "llms",
+        "label": "Working with LLMs"
+      },
+      {
+        "type": "topic",
+        "slug": "ai",
+        "label": "AI"
+      }
+    ]
+  },
+  {
+    "id": 11227,
+    "title": "Agentic AI Product Management Certification",
+    "schoolSlug": "mahesh-yadav",
+    "courseSlug": "genaipm",
+    "canonicalUrl": "https://maven.com/mahesh-yadav/genaipm",
+    "instructors": [
+      "Mahesh Yadav"
+    ],
+    "nextLiveCohort": "2026-05-09T06:30:00Z",
+    "ratingCount": 316,
+    "sourceUrls": [
+      "https://maven.com/courses/for-product-managers/agentic-ai",
+      "https://maven.com/courses/for-product-managers/ai"
+    ],
+    "tags": [
+      {
+        "type": "category",
+        "slug": "product-ll",
+        "label": "Product"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-build-with-ai",
+        "label": "Build with AI"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "free-lesson-beta",
+        "label": "Free lesson beta"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "legacy-instructor-owned-clc",
+        "label": "[LEGACY] Instructor Owned CLC Opt-in"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "ai-affiliates-nov-24",
+        "label": "AI Affiliates"
+      },
+      {
+        "type": "public_collection",
+        "slug": "fast-track-2024",
+        "label": "Fast Track 2024"
+      },
+      {
+        "type": "public_collection",
+        "slug": "maven-100-product-2025",
+        "label": "Maven 100 - Product 2025"
+      },
+      {
+        "type": "category",
+        "slug": "ai-ll",
+        "label": "AI"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "maven-selects",
+        "label": "Maven Selects"
+      },
+      {
+        "type": "public_collection",
+        "slug": "maven-100-ai-2025",
+        "label": "Maven 100 - AI 2025"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "courses-filtered-for-recommendations",
+        "label": "Courses filtered for recommendations"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "maven-100-2025",
+        "label": "maven-100-2025"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "affiliate-aakash-gupta",
+        "label": "Affiliate Aakash Gupta"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "ai-powered-super-ic",
+        "label": "The AI-Powered Super IC"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "maven-ads",
+        "label": "Maven Ads"
+      },
+      {
+        "type": "persona",
+        "slug": "for-product-managers",
+        "label": "For Product Managers"
+      },
+      {
+        "type": "topic",
+        "slug": "agentic-ai",
+        "label": "Agentic AI"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-ai-product-management",
+        "label": "AI product management"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-product-for-ai",
+        "label": "Product for AI"
+      },
+      {
+        "type": "topic",
+        "slug": "ai",
+        "label": "AI"
+      }
+    ]
+  },
+  {
+    "id": 3847,
+    "title": "Agentic AI System Design for PMs",
+    "schoolSlug": "boring-bot",
+    "courseSlug": "ml-system-design",
+    "canonicalUrl": "https://maven.com/boring-bot/ml-system-design",
+    "instructors": [
+      "Hamza Farooq",
+      " Gabriela de Queiroz"
+    ],
+    "nextLiveCohort": "2026-04-25T19:00:00Z",
+    "ratingCount": 120,
+    "sourceUrls": [
+      "https://maven.com/courses/for-engineers/agentic-ai",
+      "https://maven.com/courses/for-product-managers/agentic-ai",
+      "https://maven.com/courses/for-product-managers/ai"
+    ],
+    "tags": [
+      {
+        "type": "category",
+        "slug": "product-ll",
+        "label": "Product"
+      },
+      {
+        "type": "public_collection",
+        "slug": "maven-100-ai",
+        "label": "Maven 100 - AI"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "legacy-instructor-owned-clc",
+        "label": "[LEGACY] Instructor Owned CLC Opt-in"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "ai-affiliates-nov-24",
+        "label": "AI Affiliates"
+      },
+      {
+        "type": "public_collection",
+        "slug": "lennys-list-product",
+        "label": "Lennys List Product"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "building-ai-native-products",
+        "label": "Building AI-Native Products"
+      },
+      {
+        "type": "public_collection",
+        "slug": "fast-track-2024",
+        "label": "Fast Track 2024"
+      },
+      {
+        "type": "category",
+        "slug": "ai-ll",
+        "label": "AI"
+      },
+      {
+        "type": "public_collection",
+        "slug": "maven-monday-2023",
+        "label": "Maven Monday 2023"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "maven-selects",
+        "label": "Maven Selects"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "courses-filtered-for-recommendations",
+        "label": "Courses filtered for recommendations"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "affiliate-aakash-gupta",
+        "label": "Affiliate Aakash Gupta"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "maven-ads",
+        "label": "Maven Ads"
+      },
+      {
+        "type": "persona",
+        "slug": "for-product-managers",
+        "label": "For Product Managers"
+      },
+      {
+        "type": "persona",
+        "slug": "for-engineers",
+        "label": "For Engineers"
+      },
+      {
+        "type": "topic",
+        "slug": "agentic-ai",
+        "label": "Agentic AI"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-ai-product-management",
+        "label": "AI product management"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-product-for-ai",
+        "label": "Product for AI"
+      },
+      {
+        "type": "topic",
+        "slug": "ai",
+        "label": "AI"
+      }
+    ]
+  },
+  {
+    "id": 19277,
+    "title": "Agentic Architect 101",
+    "schoolSlug": "carmelo-iaria",
+    "courseSlug": "agentic-architect-one-o-one",
+    "canonicalUrl": "https://maven.com/carmelo-iaria/agentic-architect-one-o-one",
+    "instructors": [
+      "Carmelo Iaria "
+    ],
+    "nextLiveCohort": "2026-03-21T03:00:00Z",
+    "ratingCount": 0,
+    "sourceUrls": [
+      "https://maven.com/courses/for-engineers/agentic-ai",
+      "https://maven.com/courses/for-engineers/ai-coding"
+    ],
+    "tags": [
+      {
+        "type": "internal_collection",
+        "slug": "courses-filtered-for-recommendations",
+        "label": "Courses filtered for recommendations"
+      },
+      {
+        "type": "persona",
+        "slug": "for-engineers",
+        "label": "For Engineers"
+      },
+      {
+        "type": "topic",
+        "slug": "agentic-ai",
+        "label": "Agentic AI"
+      },
+      {
+        "type": "topic",
+        "slug": "ai-coding",
+        "label": "Coding with AI"
+      },
+      {
+        "type": "topic",
+        "slug": "ai",
+        "label": "AI"
+      }
+    ]
+  },
+  {
+    "id": 18200,
+    "title": "AI Accelerator for Enterprise Product Managers & Leaders",
+    "schoolSlug": "enterprise-pm",
+    "courseSlug": "ai-pm-accelerator",
+    "canonicalUrl": "https://maven.com/enterprise-pm/ai-pm-accelerator",
+    "instructors": [
+      "Gaurav Nukala"
+    ],
+    "nextLiveCohort": "2026-04-26T19:00:00Z",
+    "ratingCount": 4,
+    "sourceUrls": [
+      "https://maven.com/courses/for-product-managers/ai"
+    ],
+    "tags": [
+      {
+        "type": "category",
+        "slug": "product-ll",
+        "label": "Product"
+      },
+      {
+        "type": "category",
+        "slug": "leadership-ll",
+        "label": "Leadership & career"
+      },
+      {
+        "type": "category",
+        "slug": "ai-ll",
+        "label": "AI"
+      },
+      {
+        "type": "persona",
+        "slug": "for-product-managers",
+        "label": "For Product Managers"
+      },
+      {
+        "type": "persona",
+        "slug": "for-leaders",
+        "label": "For Leaders"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-ai-for-productivity",
+        "label": "AI for productivity"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-ai-product-management",
+        "label": "AI product management"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-product-leadership",
+        "label": "Product leadership"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-product-for-ai",
+        "label": "Product for AI"
+      },
+      {
+        "type": "topic",
+        "slug": "ai",
+        "label": "AI"
+      }
+    ]
+  },
+  {
+    "id": 15277,
+    "title": "AI Agent Builder Bootcamp",
+    "schoolSlug": "no-code-ai",
+    "courseSlug": "ai-agents-bootcamp",
+    "canonicalUrl": "https://maven.com/no-code-ai/ai-agents-bootcamp",
+    "instructors": [
+      "Harold Dijkstra",
+      "Ciara Wearen"
+    ],
+    "nextLiveCohort": "2026-05-04T16:30:00Z",
+    "ratingCount": 80,
+    "sourceUrls": [
+      "https://maven.com/courses/for-product-managers/agentic-ai",
+      "https://maven.com/courses/for-product-managers/ai",
+      "https://maven.com/courses/for-product-managers/prototyping"
+    ],
+    "tags": [
+      {
+        "type": "category",
+        "slug": "product-ll",
+        "label": "Product"
+      },
+      {
+        "type": "category",
+        "slug": "ai-ll",
+        "label": "AI"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "courses-filtered-for-recommendations",
+        "label": "Courses filtered for recommendations"
+      },
+      {
+        "type": "persona",
+        "slug": "for-product-managers",
+        "label": "For Product Managers"
+      },
+      {
+        "type": "persona",
+        "slug": "for-leaders",
+        "label": "For Leaders"
+      },
+      {
+        "type": "persona",
+        "slug": "for-everyone",
+        "label": "For Everyone"
+      },
+      {
+        "type": "persona",
+        "slug": "for-generalists",
+        "label": "For Generalists"
+      },
+      {
+        "type": "topic",
+        "slug": "agentic-ai",
+        "label": "Agentic AI"
+      },
+      {
+        "type": "topic",
+        "slug": "prototyping",
+        "label": "Prototyping"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-ai-for-productivity",
+        "label": "AI for productivity"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-product-for-ai",
+        "label": "Product for AI"
+      },
+      {
+        "type": "topic",
+        "slug": "ai",
+        "label": "AI"
+      }
+    ]
+  },
+  {
+    "id": 19263,
+    "title": "AI Agent Economy: Build Autonomous AI Businesses",
+    "schoolSlug": "the-school-of-ai",
+    "courseSlug": "ai-agent-economy-build-autonomous-ai-businesses",
+    "canonicalUrl": "https://maven.com/the-school-of-ai/ai-agent-economy-build-autonomous-ai-businesses",
+    "instructors": [
+      "Vivian Aranha"
+    ],
+    "nextLiveCohort": "2026-03-23T13:00:00Z",
+    "ratingCount": 0,
+    "sourceUrls": [
+      "https://maven.com/courses/for-engineers/agentic-ai",
+      "https://maven.com/courses/for-engineers/ai-coding"
+    ],
+    "tags": [
+      {
+        "type": "internal_collection",
+        "slug": "hide-clp-live-sessions-item",
+        "label": "Hide \"What's Included\" live sessions item"
+      },
+      {
+        "type": "persona",
+        "slug": "for-engineers",
+        "label": "For Engineers"
+      },
+      {
+        "type": "persona",
+        "slug": "for-entrepreneurs",
+        "label": "For Entrepreneurs"
+      },
+      {
+        "type": "topic",
+        "slug": "agentic-ai",
+        "label": "Agentic AI"
+      },
+      {
+        "type": "topic",
+        "slug": "ai-coding",
+        "label": "Coding with AI"
+      },
+      {
+        "type": "topic",
+        "slug": "ai",
+        "label": "AI"
+      }
+    ]
+  },
+  {
+    "id": 18572,
+    "title": "AI Analytics for Builders",
+    "schoolSlug": "dataneighbor",
+    "courseSlug": "ai-analytics-for-builders",
+    "canonicalUrl": "https://maven.com/dataneighbor/ai-analytics-for-builders",
+    "instructors": [
+      "Shane Butler",
+      "Sravya Madipalli",
+      "Hai Guan"
+    ],
+    "nextLiveCohort": "2026-04-20T15:00:00Z",
+    "ratingCount": 0,
+    "sourceUrls": [
+      "https://maven.com/courses/for-engineers/agentic-ai",
+      "https://maven.com/courses/for-engineers/ai-coding",
+      "https://maven.com/courses/for-product-managers/agentic-ai",
+      "https://maven.com/courses/for-product-managers/ai"
+    ],
+    "tags": [
+      {
+        "type": "internal_collection",
+        "slug": "courses-filtered-for-recommendations",
+        "label": "Courses filtered for recommendations"
+      },
+      {
+        "type": "persona",
+        "slug": "for-product-managers",
+        "label": "For Product Managers"
+      },
+      {
+        "type": "persona",
+        "slug": "for-engineers",
+        "label": "For Engineers"
+      },
+      {
+        "type": "persona",
+        "slug": "for-data-scientists",
+        "label": "For Data Scientists"
+      },
+      {
+        "type": "topic",
+        "slug": "agentic-ai",
+        "label": "Agentic AI"
+      },
+      {
+        "type": "topic",
+        "slug": "experimentation",
+        "label": "Experimentation"
+      },
+      {
+        "type": "topic",
+        "slug": "ab-testing",
+        "label": "A/B Testing"
+      },
+      {
+        "type": "topic",
+        "slug": "ai-coding",
+        "label": "Coding with AI"
+      },
+      {
+        "type": "topic",
+        "slug": "data-analysis",
+        "label": "Data Analysis"
+      },
+      {
+        "type": "topic",
+        "slug": "ai",
+        "label": "AI"
+      }
+    ]
+  },
+  {
+    "id": 12504,
+    "title": "AI and Excellent Research for Conversion, Retention, Growth, and PMF",
+    "schoolSlug": "deltacx",
+    "courseSlug": "ai-research-pmf",
+    "canonicalUrl": "https://maven.com/deltacx/ai-research-pmf",
+    "instructors": [
+      "Debbie Levitt, MBA, CPIC, ACC"
+    ],
+    "nextLiveCohort": "2026-04-11T09:00:00Z",
+    "ratingCount": 0,
+    "sourceUrls": [
+      "https://maven.com/courses/for-product-managers/ai"
+    ],
+    "tags": [
+      {
+        "type": "internal_collection",
+        "slug": "legacy-instructor-owned-clc",
+        "label": "[LEGACY] Instructor Owned CLC Opt-in"
+      },
+      {
+        "type": "persona",
+        "slug": "for-product-managers",
+        "label": "For Product Managers"
+      },
+      {
+        "type": "persona",
+        "slug": "for-user-researchers",
+        "label": "For User Researchers"
+      },
+      {
+        "type": "topic",
+        "slug": "llms",
+        "label": "Working with LLMs"
+      },
+      {
+        "type": "topic",
+        "slug": "user-research",
+        "label": "User Research"
+      },
+      {
+        "type": "topic",
+        "slug": "ai",
+        "label": "AI"
+      }
+    ]
+  },
+  {
+    "id": 18603,
+    "title": "AI Coding for Product Managers: Build Real Products in 6 Weeks",
+    "schoolSlug": "rajeshpeko",
+    "courseSlug": "idea2prod",
+    "canonicalUrl": "https://maven.com/rajeshpeko/idea2prod",
+    "instructors": [
+      "Rajesh Pentakota"
+    ],
+    "nextLiveCohort": "2026-03-26T18:30:00Z",
+    "ratingCount": 0,
+    "sourceUrls": [
+      "https://maven.com/courses/for-product-managers/ai",
+      "https://maven.com/courses/for-product-managers/prototyping"
+    ],
+    "tags": [
+      {
+        "type": "persona",
+        "slug": "for-product-managers",
+        "label": "For Product Managers"
+      },
+      {
+        "type": "topic",
+        "slug": "prototyping",
+        "label": "Prototyping"
+      },
+      {
+        "type": "topic",
+        "slug": "ai-coding",
+        "label": "Coding with AI"
+      },
+      {
+        "type": "persona",
+        "slug": "for-founders",
+        "label": "For Founders"
+      },
+      {
+        "type": "topic",
+        "slug": "ai",
+        "label": "AI"
+      }
+    ]
+  },
+  {
+    "id": 8324,
+    "title": "AI Customer Research Analysis for Designers, Researchers and PMs",
+    "schoolSlug": "caitlin",
+    "courseSlug": "aianalysis",
+    "canonicalUrl": "https://maven.com/caitlin/aianalysis",
+    "instructors": [
+      "Caitlin Sullivan"
+    ],
+    "nextLiveCohort": "2026-06-08T10:00:00Z",
+    "ratingCount": 55,
+    "sourceUrls": [
+      "https://maven.com/courses/for-designers/ai",
+      "https://maven.com/courses/for-product-managers/ai"
+    ],
+    "tags": [
+      {
+        "type": "internal_collection",
+        "slug": "legacy-instructor-owned-clc",
+        "label": "[LEGACY] Instructor Owned CLC Opt-in"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "ai-affiliates-nov-24",
+        "label": "AI Affiliates"
+      },
+      {
+        "type": "public_collection",
+        "slug": "lennys-list-product",
+        "label": "Lennys List Product"
+      },
+      {
+        "type": "category",
+        "slug": "design-ll",
+        "label": "Design"
+      },
+      {
+        "type": "category",
+        "slug": "ai-ll",
+        "label": "AI"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "courses-filtered-for-recommendations",
+        "label": "Courses filtered for recommendations"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "affiliate-aakash-gupta",
+        "label": "Affiliate Aakash Gupta"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "ai-powered-super-ic",
+        "label": "The AI-Powered Super IC"
+      },
+      {
+        "type": "persona",
+        "slug": "for-product-managers",
+        "label": "For Product Managers"
+      },
+      {
+        "type": "persona",
+        "slug": "for-designers",
+        "label": "For Designers"
+      },
+      {
+        "type": "persona",
+        "slug": "for-user-researchers",
+        "label": "For User Researchers"
+      },
+      {
+        "type": "topic",
+        "slug": "user-research",
+        "label": "User Research"
+      },
+      {
+        "type": "topic",
+        "slug": "data-analysis",
+        "label": "Data Analysis"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-ai-product-management",
+        "label": "AI product management"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-ai-and-design",
+        "label": "AI and design"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-ux-research",
+        "label": "UX research"
+      },
+      {
+        "type": "topic",
+        "slug": "ai",
+        "label": "AI"
+      }
+    ]
+  },
+  {
+    "id": 19156,
+    "title": "AI Discovery Bootcamp: Get Started with Claude Code and Replit",
+    "schoolSlug": "anshumani",
+    "courseSlug": "ai-discovery-bootcamp",
+    "canonicalUrl": "https://maven.com/anshumani/ai-discovery-bootcamp",
+    "instructors": [
+      "Anshumani Ruddra"
+    ],
+    "nextLiveCohort": "2026-03-28T22:00:00Z",
+    "ratingCount": 0,
+    "sourceUrls": [
+      "https://maven.com/courses/for-product-managers/ai",
+      "https://maven.com/courses/for-product-managers/prototyping"
+    ],
+    "tags": [
+      {
+        "type": "internal_collection",
+        "slug": "courses-filtered-for-recommendations",
+        "label": "Courses filtered for recommendations"
+      },
+      {
+        "type": "persona",
+        "slug": "for-product-managers",
+        "label": "For Product Managers"
+      },
+      {
+        "type": "persona",
+        "slug": "for-entrepreneurs",
+        "label": "For Entrepreneurs"
+      },
+      {
+        "type": "topic",
+        "slug": "prototyping",
+        "label": "Prototyping"
+      },
+      {
+        "type": "topic",
+        "slug": "ai-coding",
+        "label": "Coding with AI"
+      },
+      {
+        "type": "topic",
+        "slug": "ai",
+        "label": "AI"
+      }
+    ]
+  },
+  {
+    "id": 18849,
+    "title": "AI Engineer Complete Bootcamp",
+    "schoolSlug": "the-school-of-ai",
+    "courseSlug": "ai-2026-engineering-bootcamp",
+    "canonicalUrl": "https://maven.com/the-school-of-ai/ai-2026-engineering-bootcamp",
+    "instructors": [
+      "Vivian Aranha"
+    ],
+    "nextLiveCohort": "2026-03-23T13:00:00Z",
+    "ratingCount": 0,
+    "sourceUrls": [
+      "https://maven.com/courses/for-engineers/ml"
+    ],
+    "tags": [
+      {
+        "type": "internal_collection",
+        "slug": "hide-clp-live-sessions-item",
+        "label": "Hide \"What's Included\" live sessions item"
+      },
+      {
+        "type": "persona",
+        "slug": "for-engineers",
+        "label": "For Engineers"
+      },
+      {
+        "type": "persona",
+        "slug": "for-data-scientists",
+        "label": "For Data Scientists"
+      },
+      {
+        "type": "topic",
+        "slug": "model-development",
+        "label": "Developing AI Models"
+      },
+      {
+        "type": "topic",
+        "slug": "ml",
+        "label": "Machine Learning"
+      },
+      {
+        "type": "topic",
+        "slug": "ai",
+        "label": "AI"
+      }
+    ]
+  },
+  {
+    "id": 16984,
+    "title": "AI Engineering Buildcamp: From RAG to Agents",
+    "schoolSlug": "alexey-grigorev",
+    "courseSlug": "from-rag-to-agents",
+    "canonicalUrl": "https://maven.com/alexey-grigorev/from-rag-to-agents",
+    "instructors": [
+      "Alexey Grigorev "
+    ],
+    "nextLiveCohort": "2026-04-13T15:00:00Z",
+    "ratingCount": 15,
+    "sourceUrls": [
+      "https://maven.com/courses/for-engineers/agentic-ai"
+    ],
+    "tags": [
+      {
+        "type": "category",
+        "slug": "engineering-ll",
+        "label": "Data & engineering"
+      },
+      {
+        "type": "category",
+        "slug": "ai-ll",
+        "label": "AI"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "courses-filtered-for-recommendations",
+        "label": "Courses filtered for recommendations"
+      },
+      {
+        "type": "topic",
+        "slug": "rag",
+        "label": "RAG"
+      },
+      {
+        "type": "persona",
+        "slug": "for-engineers",
+        "label": "For Engineers"
+      },
+      {
+        "type": "persona",
+        "slug": "for-data-scientists",
+        "label": "For Data Scientists"
+      },
+      {
+        "type": "topic",
+        "slug": "agentic-ai",
+        "label": "Agentic AI"
+      },
+      {
+        "type": "topic",
+        "slug": "bootcamp",
+        "label": "Bootcamp"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-data-science-and-engineering",
+        "label": "Data science and engineering"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-ai-ml-engineering",
+        "label": "AI/ML engineering"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-ai-ml-engineering-1",
+        "label": "AI/ML engineering"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-software-engineering",
+        "label": "Software engineering"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-engineering-career-growth",
+        "label": "Engineering career growth"
+      }
+    ]
+  },
+  {
+    "id": 17883,
+    "title": "AI Evals and Analytics Playbook",
+    "schoolSlug": "ai-evals-and-analytics",
+    "courseSlug": "ai-evals-analytics-playbook",
+    "canonicalUrl": "https://maven.com/ai-evals-and-analytics/ai-evals-analytics-playbook",
+    "instructors": [
+      "Stella Liu",
+      "Amy Chen"
+    ],
+    "nextLiveCohort": "2026-04-20T07:00:00Z",
+    "ratingCount": 8,
+    "sourceUrls": [
+      "https://maven.com/courses/for-product-managers/ai",
+      "https://maven.com/courses/for-product-managers/evals"
+    ],
+    "tags": [
+      {
+        "type": "category",
+        "slug": "product-ll",
+        "label": "Product"
+      },
+      {
+        "type": "category",
+        "slug": "engineering-ll",
+        "label": "Data & engineering"
+      },
+      {
+        "type": "category",
+        "slug": "ai-ll",
+        "label": "AI"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "courses-filtered-for-recommendations",
+        "label": "Courses filtered for recommendations"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "maven-ads",
+        "label": "Maven Ads"
+      },
+      {
+        "type": "persona",
+        "slug": "for-product-managers",
+        "label": "For Product Managers"
+      },
+      {
+        "type": "persona",
+        "slug": "for-data-scientists",
+        "label": "For Data Scientists"
+      },
+      {
+        "type": "topic",
+        "slug": "evals",
+        "label": "AI Evals"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-data-science-and-engineering",
+        "label": "Data science and engineering"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-ai-product-management",
+        "label": "AI product management"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-product-for-ai",
+        "label": "Product for AI"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-ai-ml-engineering-1",
+        "label": "AI/ML engineering"
+      },
+      {
+        "type": "topic",
+        "slug": "ai",
+        "label": "AI"
+      }
+    ]
+  },
+  {
+    "id": 14937,
+    "title": "AI Evals For Engineers & PMs",
+    "schoolSlug": "parlance-labs",
+    "courseSlug": "evals",
+    "canonicalUrl": "https://maven.com/parlance-labs/evals",
+    "instructors": [
+      "Hamel Husain",
+      "Shreya Shankar"
+    ],
+    "nextLiveCohort": "2026-03-16T13:00:00Z",
+    "ratingCount": 772,
+    "sourceUrls": [
+      "https://maven.com/courses/for-product-managers/ai",
+      "https://maven.com/courses/for-product-managers/evals"
+    ],
+    "tags": [
+      {
+        "type": "category",
+        "slug": "product-ll",
+        "label": "Product"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "legacy-instructor-owned-clc",
+        "label": "[LEGACY] Instructor Owned CLC Opt-in"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "ai-affiliates-nov-24",
+        "label": "AI Affiliates"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "building-ai-native-products",
+        "label": "Building AI-Native Products"
+      },
+      {
+        "type": "category",
+        "slug": "engineering-ll",
+        "label": "Data & engineering"
+      },
+      {
+        "type": "public_collection",
+        "slug": "maven-100-product-2025",
+        "label": "Maven 100 - Product 2025"
+      },
+      {
+        "type": "category",
+        "slug": "ai-ll",
+        "label": "AI"
+      },
+      {
+        "type": "public_collection",
+        "slug": "maven-100-engineering-2025",
+        "label": "Maven 100 - Engineering 2025"
+      },
+      {
+        "type": "public_collection",
+        "slug": "maven-100-ai-2025",
+        "label": "Maven 100 - AI 2025"
+      },
+      {
+        "type": "public_collection",
+        "slug": "lennys-list-ai",
+        "label": "Lenny's List AI"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "courses-filtered-for-recommendations",
+        "label": "Courses filtered for recommendations"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "maven-100-2025",
+        "label": "maven-100-2025"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "growth-affiliates",
+        "label": "Growth Affiliates 2025"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "affiliate-hamel-husain",
+        "label": "Affiliate Hamel Husain"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "affiliate-jason-liu",
+        "label": "Affiliate Jason Liu"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "ai-powered-super-ic",
+        "label": "The AI-Powered Super IC"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "maven-ads",
+        "label": "Maven Ads"
+      },
+      {
+        "type": "persona",
+        "slug": "for-product-managers",
+        "label": "For Product Managers"
+      },
+      {
+        "type": "persona",
+        "slug": "for-engineers",
+        "label": "For Engineers"
+      },
+      {
+        "type": "topic",
+        "slug": "evals",
+        "label": "AI Evals"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-ai-business-strategy",
+        "label": "AI business strategy"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-data-science-and-engineering",
+        "label": "Data science and engineering"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-ai-ml-engineering",
+        "label": "AI/ML engineering"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-product-for-ai",
+        "label": "Product for AI"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-ai-ml-engineering-1",
+        "label": "AI/ML engineering"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-data-science-and-engineering-1",
+        "label": "Data science and engineering"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-software-engineering",
+        "label": "Software engineering"
+      },
+      {
+        "type": "topic",
+        "slug": "ai",
+        "label": "AI"
+      }
+    ]
+  },
+  {
+    "id": 18421,
+    "title": "AI Evals for Product Development",
+    "schoolSlug": "dataneighbor",
+    "courseSlug": "ai-evals",
+    "canonicalUrl": "https://maven.com/dataneighbor/ai-evals",
+    "instructors": [
+      "Shane Butler"
+    ],
+    "nextLiveCohort": "2026-04-06T15:00:00Z",
+    "ratingCount": 0,
+    "sourceUrls": [
+      "https://maven.com/courses/for-product-managers/ai",
+      "https://maven.com/courses/for-product-managers/evals"
+    ],
+    "tags": [
+      {
+        "type": "internal_collection",
+        "slug": "courses-filtered-for-recommendations",
+        "label": "Courses filtered for recommendations"
+      },
+      {
+        "type": "persona",
+        "slug": "for-product-managers",
+        "label": "For Product Managers"
+      },
+      {
+        "type": "persona",
+        "slug": "for-data-scientists",
+        "label": "For Data Scientists"
+      },
+      {
+        "type": "topic",
+        "slug": "evals",
+        "label": "AI Evals"
+      },
+      {
+        "type": "topic",
+        "slug": "data-analysis",
+        "label": "Data Analysis"
+      },
+      {
+        "type": "topic",
+        "slug": "product-strategy",
+        "label": "Product Strategy"
+      },
+      {
+        "type": "topic",
+        "slug": "ai",
+        "label": "AI"
+      }
+    ]
+  },
+  {
+    "id": 18710,
+    "title": "AI Evaluations for Product Managers",
+    "schoolSlug": "theaiinternship",
+    "courseSlug": "ai-evals-for-pms",
+    "canonicalUrl": "https://maven.com/theaiinternship/ai-evals-for-pms",
+    "instructors": [
+      "Aki Wijesundara, PhD",
+      "Manu Jayawardana"
+    ],
+    "nextLiveCohort": "2026-03-28T18:00:00Z",
+    "ratingCount": 10,
+    "sourceUrls": [
+      "https://maven.com/courses/for-product-managers/ai",
+      "https://maven.com/courses/for-product-managers/evals"
+    ],
+    "tags": [
+      {
+        "type": "internal_collection",
+        "slug": "courses-filtered-for-recommendations",
+        "label": "Courses filtered for recommendations"
+      },
+      {
+        "type": "persona",
+        "slug": "for-product-managers",
+        "label": "For Product Managers"
+      },
+      {
+        "type": "persona",
+        "slug": "for-engineers",
+        "label": "For Engineers"
+      },
+      {
+        "type": "topic",
+        "slug": "evals",
+        "label": "AI Evals"
+      },
+      {
+        "type": "topic",
+        "slug": "product-strategy",
+        "label": "Product Strategy"
+      },
+      {
+        "type": "topic",
+        "slug": "ai",
+        "label": "AI"
+      }
+    ]
+  },
+  {
+    "id": 14289,
+    "title": "AI for Customer Research: Future-Proof Your UX & Product Skills",
+    "schoolSlug": "john-whalen",
+    "courseSlug": "ai-skills-for-research",
+    "canonicalUrl": "https://maven.com/john-whalen/ai-skills-for-research",
+    "instructors": [
+      "John Whalen, PhD"
+    ],
+    "nextLiveCohort": "2026-04-14T23:00:00Z",
+    "ratingCount": 121,
+    "sourceUrls": [
+      "https://maven.com/courses/for-designers/ai",
+      "https://maven.com/courses/for-product-managers/ai"
+    ],
+    "tags": [
+      {
+        "type": "category",
+        "slug": "product-ll",
+        "label": "Product"
+      },
+      {
+        "type": "category",
+        "slug": "marketing-ll",
+        "label": "Marketing & sales"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "legacy-instructor-owned-clc",
+        "label": "[LEGACY] Instructor Owned CLC Opt-in"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "ai-affiliates-nov-24",
+        "label": "AI Affiliates"
+      },
+      {
+        "type": "category",
+        "slug": "design-ll",
+        "label": "Design"
+      },
+      {
+        "type": "category",
+        "slug": "ai-ll",
+        "label": "AI"
+      },
+      {
+        "type": "public_collection",
+        "slug": "maven-100-ai-2025",
+        "label": "Maven 100 - AI 2025"
+      },
+      {
+        "type": "public_collection",
+        "slug": "maven-100-design-2025",
+        "label": "Maven 100 - Design 2025"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "courses-filtered-for-recommendations",
+        "label": "Courses filtered for recommendations"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "maven-100-2025",
+        "label": "maven-100-2025"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "ai-powered-super-ic",
+        "label": "The AI-Powered Super IC"
+      },
+      {
+        "type": "persona",
+        "slug": "for-product-managers",
+        "label": "For Product Managers"
+      },
+      {
+        "type": "persona",
+        "slug": "for-designers",
+        "label": "For Designers"
+      },
+      {
+        "type": "persona",
+        "slug": "for-marketers",
+        "label": "For Marketers"
+      },
+      {
+        "type": "topic",
+        "slug": "user-research",
+        "label": "User Research"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-ai-product-management",
+        "label": "AI product management"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-product-discovery",
+        "label": "Product discovery"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-ux-research",
+        "label": "UX research"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-product-marketing",
+        "label": "Product marketing"
+      },
+      {
+        "type": "topic",
+        "slug": "ai",
+        "label": "AI"
+      }
+    ]
+  },
+  {
+    "id": 17090,
+    "title": "AI for Developers: From Vibe Coding to Multi-Agent Systems",
+    "schoolSlug": "goman-ai",
+    "courseSlug": "ai-for-developers-from-assistant-to-core",
+    "canonicalUrl": "https://maven.com/goman-ai/ai-for-developers-from-assistant-to-core",
+    "instructors": [
+      "Valentine Zavadskiy",
+      "Olga Lavrentieva"
+    ],
+    "nextLiveCohort": "2026-04-25T16:00:00Z",
+    "ratingCount": 25,
+    "sourceUrls": [
+      "https://maven.com/courses/for-engineers/ai-coding"
+    ],
+    "tags": [
+      {
+        "type": "category",
+        "slug": "engineering-ll",
+        "label": "Data & engineering"
+      },
+      {
+        "type": "category",
+        "slug": "ai-ll",
+        "label": "AI"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "courses-filtered-for-recommendations",
+        "label": "Courses filtered for recommendations"
+      },
+      {
+        "type": "persona",
+        "slug": "for-engineers",
+        "label": "For Engineers"
+      },
+      {
+        "type": "topic",
+        "slug": "ai-coding",
+        "label": "Coding with AI"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-data-science-and-engineering",
+        "label": "Data science and engineering"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-ai-ml-engineering",
+        "label": "AI/ML engineering"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-ai-ml-engineering-1",
+        "label": "AI/ML engineering"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-data-science-and-engineering-1",
+        "label": "Data science and engineering"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-software-engineering",
+        "label": "Software engineering"
+      },
+      {
+        "type": "topic",
+        "slug": "ai",
+        "label": "AI"
+      }
+    ]
+  },
+  {
+    "id": 17840,
+    "title": "AI Governance Professional - AIGP Certification Bootcamp",
+    "schoolSlug": "cyberedx",
+    "courseSlug": "aigp",
+    "canonicalUrl": "https://maven.com/cyberedx/aigp",
+    "instructors": [
+      "Niharika Srivastav",
+      "Sanjay Saxena"
+    ],
+    "nextLiveCohort": "2026-04-04T18:00:00Z",
+    "ratingCount": 1,
+    "sourceUrls": [
+      "https://maven.com/courses/for-product-managers/ai"
+    ],
+    "tags": [
+      {
+        "type": "internal_collection",
+        "slug": "courses-filtered-for-recommendations",
+        "label": "Courses filtered for recommendations"
+      },
+      {
+        "type": "persona",
+        "slug": "for-product-managers",
+        "label": "For Product Managers"
+      },
+      {
+        "type": "persona",
+        "slug": "for-lawyers",
+        "label": "For Lawyers"
+      },
+      {
+        "type": "topic",
+        "slug": "security",
+        "label": "Security"
+      },
+      {
+        "type": "topic",
+        "slug": "ai",
+        "label": "AI"
+      },
+      {
+        "type": "topic",
+        "slug": "leadership",
+        "label": "Leadership"
+      }
+    ]
+  },
+  {
+    "id": 18664,
+    "title": "AI Problem Framing for AI Practitioners",
+    "schoolSlug": "rajistics",
+    "courseSlug": "ai-problem-framing",
+    "canonicalUrl": "https://maven.com/rajistics/ai-problem-framing",
+    "instructors": [
+      "Rajiv Shah"
+    ],
+    "nextLiveCohort": "2026-06-02T17:00:00Z",
+    "ratingCount": 0,
+    "sourceUrls": [
+      "https://maven.com/courses/for-engineers/ml"
+    ],
+    "tags": [
+      {
+        "type": "persona",
+        "slug": "for-engineers",
+        "label": "For Engineers"
+      },
+      {
+        "type": "persona",
+        "slug": "for-data-scientists",
+        "label": "For Data Scientists"
+      },
+      {
+        "type": "topic",
+        "slug": "model-development",
+        "label": "Developing AI Models"
+      },
+      {
+        "type": "topic",
+        "slug": "ml",
+        "label": "Machine Learning"
+      },
+      {
+        "type": "topic",
+        "slug": "system-design",
+        "label": "System Design"
+      },
+      {
+        "type": "topic",
+        "slug": "ai",
+        "label": "AI"
+      }
+    ]
+  },
+  {
+    "id": 18409,
+    "title": "AI Product Certificate - skills that C suite want from AI PM's",
+    "schoolSlug": "rockyrunz",
+    "courseSlug": "aiproductcertificationaiframeworksaligncsuite",
+    "canonicalUrl": "https://maven.com/rockyrunz/aiproductcertificationaiframeworksaligncsuite",
+    "instructors": [
+      "Rocky: $1.3B P&L at Home Depot"
+    ],
+    "nextLiveCohort": "2026-03-28T13:00:00Z",
+    "ratingCount": 0,
+    "sourceUrls": [
+      "https://maven.com/courses/for-product-managers/ai"
+    ],
+    "tags": [
+      {
+        "type": "persona",
+        "slug": "for-product-managers",
+        "label": "For Product Managers"
+      },
+      {
+        "type": "persona",
+        "slug": "for-leaders",
+        "label": "For Leaders"
+      },
+      {
+        "type": "topic",
+        "slug": "pm-certification",
+        "label": "Product Management Certifications"
+      },
+      {
+        "type": "topic",
+        "slug": "bootcamp",
+        "label": "Bootcamp"
+      },
+      {
+        "type": "topic",
+        "slug": "management",
+        "label": "Management"
+      },
+      {
+        "type": "topic",
+        "slug": "product-strategy",
+        "label": "Product Strategy"
+      },
+      {
+        "type": "topic",
+        "slug": "ai",
+        "label": "AI"
+      }
+    ]
+  },
+  {
+    "id": 18576,
+    "title": "AI Product DataOps & Program Management Certification",
+    "schoolSlug": "marily-nika",
+    "courseSlug": "ai-dataops-certification",
+    "canonicalUrl": "https://maven.com/marily-nika/ai-dataops-certification",
+    "instructors": [
+      "Jeanne Williams"
+    ],
+    "nextLiveCohort": "2026-03-24T07:00:00Z",
+    "ratingCount": 0,
+    "sourceUrls": [
+      "https://maven.com/courses/for-product-managers/ai"
+    ],
+    "tags": [
+      {
+        "type": "internal_collection",
+        "slug": "courses-filtered-for-recommendations",
+        "label": "Courses filtered for recommendations"
+      },
+      {
+        "type": "persona",
+        "slug": "for-product-managers",
+        "label": "For Product Managers"
+      },
+      {
+        "type": "persona",
+        "slug": "for-operators",
+        "label": "For Operators"
+      },
+      {
+        "type": "persona",
+        "slug": "for-data-scientists",
+        "label": "For Data Scientists"
+      },
+      {
+        "type": "topic",
+        "slug": "process",
+        "label": "Process"
+      },
+      {
+        "type": "topic",
+        "slug": "data-analysis",
+        "label": "Data Analysis"
+      },
+      {
+        "type": "topic",
+        "slug": "ai",
+        "label": "AI"
+      }
+    ]
+  },
+  {
+    "id": 296,
+    "title": "AI Product Management 101 & Certification - Building AI Products end-to-end",
+    "schoolSlug": "marily-nika",
+    "courseSlug": "ai-product-management",
+    "canonicalUrl": "https://maven.com/marily-nika/ai-product-management",
+    "instructors": [
+      "Dr. Marily Nika"
+    ],
+    "nextLiveCohort": "2026-03-23T10:00:00Z",
+    "ratingCount": 705,
+    "sourceUrls": [
+      "https://maven.com/courses/for-product-managers/ai"
+    ],
+    "tags": [
+      {
+        "type": "category",
+        "slug": "product-ll",
+        "label": "Product"
+      },
+      {
+        "type": "public_collection",
+        "slug": "maven-100-product",
+        "label": "Maven 100 - Product"
+      },
+      {
+        "type": "public_collection",
+        "slug": "maven-100-ai",
+        "label": "Maven 100 - AI"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "ai-affiliates-nov-24",
+        "label": "AI Affiliates"
+      },
+      {
+        "type": "public_collection",
+        "slug": "fast-track-2024",
+        "label": "Fast Track 2024"
+      },
+      {
+        "type": "category",
+        "slug": "ai-ll",
+        "label": "AI"
+      },
+      {
+        "type": "public_collection",
+        "slug": "maven-monday-2023",
+        "label": "Maven Monday 2023"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "maven-selects",
+        "label": "Maven Selects"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "analytics-beta",
+        "label": "Analytics Beta"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "courses-filtered-for-recommendations",
+        "label": "Courses filtered for recommendations"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "affiliate-aakash-gupta",
+        "label": "Affiliate Aakash Gupta"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-deprecated-career",
+        "label": "Career"
+      },
+      {
+        "type": "persona",
+        "slug": "for-product-managers",
+        "label": "For Product Managers"
+      },
+      {
+        "type": "topic",
+        "slug": "pm-certification",
+        "label": "Product Management Certifications"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-ai-product-management",
+        "label": "AI product management"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-product-for-ai",
+        "label": "Product for AI"
+      },
+      {
+        "type": "topic",
+        "slug": "ai",
+        "label": "AI"
+      }
+    ]
+  },
+  {
+    "id": 8071,
+    "title": "AI Product Management Bootcamp & Certification by AI Product Academy",
+    "schoolSlug": "marily-nika",
+    "courseSlug": "ai-pm-bootcamp",
+    "canonicalUrl": "https://maven.com/marily-nika/ai-pm-bootcamp",
+    "instructors": [
+      "Dr. Marily Nika, AI @ Google"
+    ],
+    "nextLiveCohort": "2026-03-23T16:00:00Z",
+    "ratingCount": 369,
+    "sourceUrls": [
+      "https://maven.com/courses/for-product-managers/ai"
+    ],
+    "tags": [
+      {
+        "type": "category",
+        "slug": "product-ll",
+        "label": "Product"
+      },
+      {
+        "type": "public_collection",
+        "slug": "maven-100-product",
+        "label": "Maven 100 - Product"
+      },
+      {
+        "type": "public_collection",
+        "slug": "maven-100-ai",
+        "label": "Maven 100 - AI"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "ai-affiliates-nov-24",
+        "label": "AI Affiliates"
+      },
+      {
+        "type": "public_collection",
+        "slug": "lennys-list-product",
+        "label": "Lennys List Product"
+      },
+      {
+        "type": "public_collection",
+        "slug": "fast-track-2024",
+        "label": "Fast Track 2024"
+      },
+      {
+        "type": "public_collection",
+        "slug": "maven-100-product-2025",
+        "label": "Maven 100 - Product 2025"
+      },
+      {
+        "type": "category",
+        "slug": "ai-ll",
+        "label": "AI"
+      },
+      {
+        "type": "public_collection",
+        "slug": "maven-monday-2023",
+        "label": "Maven Monday 2023"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "maven-selects",
+        "label": "Maven Selects"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "analytics-beta",
+        "label": "Analytics Beta"
+      },
+      {
+        "type": "public_collection",
+        "slug": "maven-100-ai-2025",
+        "label": "Maven 100 - AI 2025"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "courses-filtered-for-recommendations",
+        "label": "Courses filtered for recommendations"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "maven-100-2025",
+        "label": "maven-100-2025"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "affiliate-aakash-gupta",
+        "label": "Affiliate Aakash Gupta"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "ai-powered-super-ic",
+        "label": "The AI-Powered Super IC"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "maven-ads",
+        "label": "Maven Ads"
+      },
+      {
+        "type": "persona",
+        "slug": "for-product-managers",
+        "label": "For Product Managers"
+      },
+      {
+        "type": "topic",
+        "slug": "pm-certification",
+        "label": "Product Management Certifications"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-ai-product-management",
+        "label": "AI product management"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-product-for-ai",
+        "label": "Product for AI"
+      },
+      {
+        "type": "topic",
+        "slug": "ai",
+        "label": "AI"
+      }
+    ]
+  },
+  {
+    "id": 16104,
+    "title": "AI Product Management Certificate",
+    "schoolSlug": "theaiinternship",
+    "courseSlug": "ai-pm-cert",
+    "canonicalUrl": "https://maven.com/theaiinternship/ai-pm-cert",
+    "instructors": [
+      "Aki Wijesundara, PhD",
+      "Manu Jayawardana"
+    ],
+    "nextLiveCohort": "2026-04-02T06:30:00Z",
+    "ratingCount": 32,
+    "sourceUrls": [
+      "https://maven.com/courses/for-product-managers/ai"
+    ],
+    "tags": [
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-build-with-ai",
+        "label": "Build with AI"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "ai-affiliates-nov-24",
+        "label": "AI Affiliates"
+      },
+      {
+        "type": "category",
+        "slug": "engineering-ll",
+        "label": "Data & engineering"
+      },
+      {
+        "type": "category",
+        "slug": "ai-ll",
+        "label": "AI"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "courses-filtered-for-recommendations",
+        "label": "Courses filtered for recommendations"
+      },
+      {
+        "type": "persona",
+        "slug": "for-product-managers",
+        "label": "For Product Managers"
+      },
+      {
+        "type": "topic",
+        "slug": "bootcamp",
+        "label": "Bootcamp"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-ai-ml-engineering-1",
+        "label": "AI/ML engineering"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-software-engineering",
+        "label": "Software engineering"
+      },
+      {
+        "type": "topic",
+        "slug": "ai",
+        "label": "AI"
+      }
+    ]
+  },
+  {
+    "id": 11252,
+    "title": "AI Product Management Certification",
+    "schoolSlug": "product-faculty",
+    "courseSlug": "ai-product-management-certification",
+    "canonicalUrl": "https://maven.com/product-faculty/ai-product-management-certification",
+    "instructors": [
+      "Rohan Varma",
+      "Henry Shi"
+    ],
+    "nextLiveCohort": "2026-04-20T16:00:00Z",
+    "ratingCount": 1123,
+    "sourceUrls": [
+      "https://maven.com/courses/for-product-managers/ai"
+    ],
+    "tags": [
+      {
+        "type": "category",
+        "slug": "product-ll",
+        "label": "Product"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-build-with-ai",
+        "label": "Build with AI"
+      },
+      {
+        "type": "public_collection",
+        "slug": "maven-100-product",
+        "label": "Maven 100 - Product"
+      },
+      {
+        "type": "public_collection",
+        "slug": "maven-100-ai",
+        "label": "Maven 100 - AI"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "ai-affiliates-nov-24",
+        "label": "AI Affiliates"
+      },
+      {
+        "type": "public_collection",
+        "slug": "lennys-list-product",
+        "label": "Lennys List Product"
+      },
+      {
+        "type": "public_collection",
+        "slug": "fast-track-2024",
+        "label": "Fast Track 2024"
+      },
+      {
+        "type": "public_collection",
+        "slug": "maven-100-product-2025",
+        "label": "Maven 100 - Product 2025"
+      },
+      {
+        "type": "category",
+        "slug": "ai-ll",
+        "label": "AI"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "maven-selects",
+        "label": "Maven Selects"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "vip",
+        "label": "VIP"
+      },
+      {
+        "type": "public_collection",
+        "slug": "maven-100-ai-2025",
+        "label": "Maven 100 - AI 2025"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "courses-filtered-for-recommendations",
+        "label": "Courses filtered for recommendations"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "maven-100-2025",
+        "label": "maven-100-2025"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "growth-affiliates",
+        "label": "Growth Affiliates 2025"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "affiliate-aakash-gupta",
+        "label": "Affiliate Aakash Gupta"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "ai-powered-super-ic",
+        "label": "The AI-Powered Super IC"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "maven-ads",
+        "label": "Maven Ads"
+      },
+      {
+        "type": "persona",
+        "slug": "for-product-managers",
+        "label": "For Product Managers"
+      },
+      {
+        "type": "topic",
+        "slug": "pm-certification",
+        "label": "Product Management Certifications"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-ai-product-management",
+        "label": "AI product management"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-product-for-ai",
+        "label": "Product for AI"
+      },
+      {
+        "type": "topic",
+        "slug": "ai",
+        "label": "AI"
+      }
+    ]
+  },
+  {
+    "id": 1511,
+    "title": "AI Product Sense & AI PM Interview Lab",
+    "schoolSlug": "marily-nika",
+    "courseSlug": "ace-ai-pm-interview",
+    "canonicalUrl": "https://maven.com/marily-nika/ace-ai-pm-interview",
+    "instructors": [
+      "Dr. Marily Nika"
+    ],
+    "nextLiveCohort": "2026-03-23T10:00:00Z",
+    "ratingCount": 88,
+    "sourceUrls": [
+      "https://maven.com/courses/for-product-managers/ai"
+    ],
+    "tags": [
+      {
+        "type": "category",
+        "slug": "product-ll",
+        "label": "Product"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "analytics-beta",
+        "label": "Analytics Beta"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "courses-filtered-for-recommendations",
+        "label": "Courses filtered for recommendations"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "affiliate-aakash-gupta",
+        "label": "Affiliate Aakash Gupta"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-deprecated-career",
+        "label": "Career"
+      },
+      {
+        "type": "persona",
+        "slug": "for-product-managers",
+        "label": "For Product Managers"
+      },
+      {
+        "type": "topic",
+        "slug": "interviewing",
+        "label": "Interviewing"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-product-for-ai",
+        "label": "Product for AI"
+      },
+      {
+        "type": "topic",
+        "slug": "product-strategy",
+        "label": "Product Strategy"
+      },
+      {
+        "type": "topic",
+        "slug": "ai",
+        "label": "AI"
+      }
+    ]
+  },
+  {
+    "id": 16845,
+    "title": "AI Product Strategy Certificate for Leaders",
+    "schoolSlug": "product-faculty",
+    "courseSlug": "ai-product-strategy-certificate",
+    "canonicalUrl": "https://maven.com/product-faculty/ai-product-strategy-certificate",
+    "instructors": [
+      "Satyajeet Salgar",
+      "Henry Shi"
+    ],
+    "nextLiveCohort": "2026-04-20T16:00:00Z",
+    "ratingCount": 71,
+    "sourceUrls": [
+      "https://maven.com/courses/for-product-managers/ai"
+    ],
+    "tags": [
+      {
+        "type": "category",
+        "slug": "product-ll",
+        "label": "Product"
+      },
+      {
+        "type": "category",
+        "slug": "ai-ll",
+        "label": "AI"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "courses-filtered-for-recommendations",
+        "label": "Courses filtered for recommendations"
+      },
+      {
+        "type": "persona",
+        "slug": "for-product-managers",
+        "label": "For Product Managers"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-ai-product-management",
+        "label": "AI product management"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-product-for-ai",
+        "label": "Product for AI"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-product-strategy",
+        "label": "Product strategy"
+      },
+      {
+        "type": "topic",
+        "slug": "product-strategy",
+        "label": "Product Strategy"
+      },
+      {
+        "type": "topic",
+        "slug": "ai",
+        "label": "AI"
+      }
+    ]
+  },
+  {
+    "id": 17381,
+    "title": "AI Prototyping for Product Designers",
+    "schoolSlug": "anna-arteeva",
+    "courseSlug": "prototyping-for-designers",
+    "canonicalUrl": "https://maven.com/anna-arteeva/prototyping-for-designers",
+    "instructors": [
+      "Anna Arteeva",
+      "Kevin Cannon",
+      "Jan Six"
+    ],
+    "nextLiveCohort": "2026-03-23T15:00:00Z",
+    "ratingCount": 12,
+    "sourceUrls": [
+      "https://maven.com/courses/for-designers/ai",
+      "https://maven.com/courses/for-designers/prototyping",
+      "https://maven.com/courses/for-product-managers/ai",
+      "https://maven.com/courses/for-product-managers/prototyping"
+    ],
+    "tags": [
+      {
+        "type": "internal_collection",
+        "slug": "courses-filtered-for-recommendations",
+        "label": "Courses filtered for recommendations"
+      },
+      {
+        "type": "persona",
+        "slug": "for-product-managers",
+        "label": "For Product Managers"
+      },
+      {
+        "type": "persona",
+        "slug": "for-designers",
+        "label": "For Designers"
+      },
+      {
+        "type": "topic",
+        "slug": "prototyping",
+        "label": "Prototyping"
+      },
+      {
+        "type": "topic",
+        "slug": "ai-coding",
+        "label": "Coding with AI"
+      },
+      {
+        "type": "topic",
+        "slug": "ai",
+        "label": "AI"
+      }
+    ]
+  },
+  {
+    "id": 18598,
+    "title": "AI Prototyping for Product People",
+    "schoolSlug": "anna-arteeva",
+    "courseSlug": "ai-prototyping-for-product-people",
+    "canonicalUrl": "https://maven.com/anna-arteeva/ai-prototyping-for-product-people",
+    "instructors": [
+      "Anna Arteeva",
+      "Julia Bastian",
+      "Vlad Daskalov"
+    ],
+    "nextLiveCohort": "2026-04-21T14:00:00Z",
+    "ratingCount": 0,
+    "sourceUrls": [
+      "https://maven.com/courses/for-designers/ai",
+      "https://maven.com/courses/for-designers/prototyping",
+      "https://maven.com/courses/for-product-managers/ai",
+      "https://maven.com/courses/for-product-managers/prototyping"
+    ],
+    "tags": [
+      {
+        "type": "internal_collection",
+        "slug": "courses-filtered-for-recommendations",
+        "label": "Courses filtered for recommendations"
+      },
+      {
+        "type": "persona",
+        "slug": "for-product-managers",
+        "label": "For Product Managers"
+      },
+      {
+        "type": "persona",
+        "slug": "for-designers",
+        "label": "For Designers"
+      },
+      {
+        "type": "topic",
+        "slug": "prototyping",
+        "label": "Prototyping"
+      },
+      {
+        "type": "topic",
+        "slug": "ai-coding",
+        "label": "Coding with AI"
+      },
+      {
+        "type": "topic",
+        "slug": "ai",
+        "label": "AI"
+      },
+      {
+        "type": "topic",
+        "slug": "design",
+        "label": "Design"
+      }
+    ]
+  },
+  {
+    "id": 18103,
+    "title": "AI Software Development: From First Prompt to Production Code",
+    "schoolSlug": "the-modern-software-developer",
+    "courseSlug": "ai-course",
+    "canonicalUrl": "https://maven.com/the-modern-software-developer/ai-course",
+    "instructors": [
+      "Mihail Eric"
+    ],
+    "nextLiveCohort": "2026-04-06T15:00:00Z",
+    "ratingCount": 13,
+    "sourceUrls": [
+      "https://maven.com/courses/for-engineers/ai-coding"
+    ],
+    "tags": [
+      {
+        "type": "internal_collection",
+        "slug": "courses-filtered-for-recommendations",
+        "label": "Courses filtered for recommendations"
+      },
+      {
+        "type": "persona",
+        "slug": "for-engineers",
+        "label": "For Engineers"
+      },
+      {
+        "type": "topic",
+        "slug": "ai-coding",
+        "label": "Coding with AI"
+      },
+      {
+        "type": "topic",
+        "slug": "ai",
+        "label": "AI"
+      }
+    ]
+  },
+  {
+    "id": 17830,
+    "title": "AI Superpower: Vibe Code Your AI Agent in 3 Weeks",
+    "schoolSlug": "ai-nate",
+    "courseSlug": "ai-superpower",
+    "canonicalUrl": "https://maven.com/ai-nate/ai-superpower",
+    "instructors": [
+      "Nathan Wang"
+    ],
+    "nextLiveCohort": "2026-05-04T19:00:00Z",
+    "ratingCount": 3,
+    "sourceUrls": [
+      "https://maven.com/courses/for-product-managers/agentic-ai",
+      "https://maven.com/courses/for-product-managers/ai"
+    ],
+    "tags": [
+      {
+        "type": "category",
+        "slug": "product-ll",
+        "label": "Product"
+      },
+      {
+        "type": "category",
+        "slug": "engineering-ll",
+        "label": "Data & engineering"
+      },
+      {
+        "type": "category",
+        "slug": "business-ll",
+        "label": "Business & finance"
+      },
+      {
+        "type": "category",
+        "slug": "ai-ll",
+        "label": "AI"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "courses-filtered-for-recommendations",
+        "label": "Courses filtered for recommendations"
+      },
+      {
+        "type": "persona",
+        "slug": "for-product-managers",
+        "label": "For Product Managers"
+      },
+      {
+        "type": "topic",
+        "slug": "agentic-ai",
+        "label": "Agentic AI"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-ai-business-strategy",
+        "label": "AI business strategy"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-product-for-ai",
+        "label": "Product for AI"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-software-engineering",
+        "label": "Software engineering"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-entrepreneurship",
+        "label": "Entrepreneurship"
+      },
+      {
+        "type": "topic",
+        "slug": "ai",
+        "label": "AI"
+      }
+    ]
+  },
+  {
+    "id": 19266,
+    "title": "AI x Influence for Design Researchers",
+    "schoolSlug": "aardvark",
+    "courseSlug": "ia-x-influence-for-design-researchers",
+    "canonicalUrl": "https://maven.com/aardvark/ia-x-influence-for-design-researchers",
+    "instructors": [
+      "Bobby Hughes",
+      "Eli Woolery"
+    ],
+    "nextLiveCohort": "2026-03-24T16:30:00Z",
+    "ratingCount": 0,
+    "sourceUrls": [
+      "https://maven.com/courses/for-designers/ai"
+    ],
+    "tags": [
+      {
+        "type": "persona",
+        "slug": "for-designers",
+        "label": "For Designers"
+      },
+      {
+        "type": "topic",
+        "slug": "ai",
+        "label": "AI"
+      },
+      {
+        "type": "topic",
+        "slug": "design",
+        "label": "Design"
+      }
+    ]
+  },
+  {
+    "id": 19064,
+    "title": "Align Before You Automate: Vetting High-ROI Enterprise AI Workflows",
+    "schoolSlug": "paulbryan",
+    "courseSlug": "enterprise-ai-collaboration",
+    "canonicalUrl": "https://maven.com/paulbryan/enterprise-ai-collaboration",
+    "instructors": [
+      "Paul Bryan"
+    ],
+    "nextLiveCohort": "2026-04-09T16:00:00Z",
+    "ratingCount": 0,
+    "sourceUrls": [
+      "https://maven.com/courses/for-product-managers/agentic-ai",
+      "https://maven.com/courses/for-product-managers/ai"
+    ],
+    "tags": [
+      {
+        "type": "persona",
+        "slug": "for-product-managers",
+        "label": "For Product Managers"
+      },
+      {
+        "type": "persona",
+        "slug": "for-leaders",
+        "label": "For Leaders"
+      },
+      {
+        "type": "topic",
+        "slug": "agentic-ai",
+        "label": "Agentic AI"
+      },
+      {
+        "type": "topic",
+        "slug": "strategy",
+        "label": "Strategy"
+      },
+      {
+        "type": "topic",
+        "slug": "ai",
+        "label": "AI"
+      }
+    ]
+  },
+  {
+    "id": 11285,
+    "title": "Applied Conformal Prediction",
+    "schoolSlug": "valeriy-manokhin",
+    "courseSlug": "applied-conformal-prediction",
+    "canonicalUrl": "https://maven.com/valeriy-manokhin/applied-conformal-prediction",
+    "instructors": [
+      "Valeriy Manokhin"
+    ],
+    "nextLiveCohort": "2026-05-10T11:00:00Z",
+    "ratingCount": 37,
+    "sourceUrls": [
+      "https://maven.com/courses/for-engineers/ml"
+    ],
+    "tags": [
+      {
+        "type": "internal_collection",
+        "slug": "legacy-instructor-owned-clc",
+        "label": "[LEGACY] Instructor Owned CLC Opt-in"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "ai-affiliates-nov-24",
+        "label": "AI Affiliates"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-deprecated-data",
+        "label": "Data"
+      },
+      {
+        "type": "category",
+        "slug": "engineering-ll",
+        "label": "Data & engineering"
+      },
+      {
+        "type": "public_collection",
+        "slug": "fast-track-2024",
+        "label": "Fast Track 2024"
+      },
+      {
+        "type": "category",
+        "slug": "ai-ll",
+        "label": "AI"
+      },
+      {
+        "type": "public_collection",
+        "slug": "maven-100-engineering-2025",
+        "label": "Maven 100 - Engineering 2025"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "courses-filtered-for-recommendations",
+        "label": "Courses filtered for recommendations"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "maven-100-2025",
+        "label": "maven-100-2025"
+      },
+      {
+        "type": "persona",
+        "slug": "for-engineers",
+        "label": "For Engineers"
+      },
+      {
+        "type": "persona",
+        "slug": "for-data-scientists",
+        "label": "For Data Scientists"
+      },
+      {
+        "type": "topic",
+        "slug": "ml",
+        "label": "Machine Learning"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-ai-ml-engineering",
+        "label": "AI/ML engineering"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-ai-ml-engineering-1",
+        "label": "AI/ML engineering"
+      },
+      {
+        "type": "topic",
+        "slug": "ai",
+        "label": "AI"
+      }
+    ]
+  },
+  {
+    "id": 16876,
+    "title": "Become an Agentic Architect",
+    "schoolSlug": "carmelo-iaria",
+    "courseSlug": "agentic-architect",
+    "canonicalUrl": "https://maven.com/carmelo-iaria/agentic-architect",
+    "instructors": [
+      "Carmelo Iaria"
+    ],
+    "nextLiveCohort": "2026-04-13T15:00:00Z",
+    "ratingCount": 4,
+    "sourceUrls": [
+      "https://maven.com/courses/for-engineers/agentic-ai"
+    ],
+    "tags": [
+      {
+        "type": "internal_collection",
+        "slug": "mcl-instructor",
+        "label": "MCL instructor"
+      },
+      {
+        "type": "category",
+        "slug": "engineering-ll",
+        "label": "Data & engineering"
+      },
+      {
+        "type": "category",
+        "slug": "ai-ll",
+        "label": "AI"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "courses-filtered-for-recommendations",
+        "label": "Courses filtered for recommendations"
+      },
+      {
+        "type": "persona",
+        "slug": "for-engineers",
+        "label": "For Engineers"
+      },
+      {
+        "type": "topic",
+        "slug": "agentic-ai",
+        "label": "Agentic AI"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-ai-for-productivity",
+        "label": "AI for productivity"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-ai-product-management",
+        "label": "AI product management"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-software-engineering",
+        "label": "Software engineering"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-engineering-career-growth",
+        "label": "Engineering career growth"
+      },
+      {
+        "type": "topic",
+        "slug": "ai",
+        "label": "AI"
+      }
+    ]
+  },
+  {
+    "id": 12242,
+    "title": "Become an AI Product Designer",
+    "schoolSlug": "maheensohail",
+    "courseSlug": "aidesign",
+    "canonicalUrl": "https://maven.com/maheensohail/aidesign",
+    "instructors": [
+      "Maheen Sohail"
+    ],
+    "nextLiveCohort": "2026-08-18T03:00:00Z",
+    "ratingCount": 163,
+    "sourceUrls": [
+      "https://maven.com/courses/for-designers/ai",
+      "https://maven.com/courses/for-product-managers/ai"
+    ],
+    "tags": [
+      {
+        "type": "category",
+        "slug": "product-ll",
+        "label": "Product"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "future-of-design-2024",
+        "label": "The future of design 2024"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "legacy-instructor-owned-clc",
+        "label": "[LEGACY] Instructor Owned CLC Opt-in"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "ai-affiliates-nov-24",
+        "label": "AI Affiliates"
+      },
+      {
+        "type": "public_collection",
+        "slug": "fast-track-2024",
+        "label": "Fast Track 2024"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "affiliate-dive-club",
+        "label": "Affiliate Dive Club"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "affiliate-tommy-geoco",
+        "label": "Affiliate Tommy Geoco"
+      },
+      {
+        "type": "category",
+        "slug": "design-ll",
+        "label": "Design"
+      },
+      {
+        "type": "category",
+        "slug": "ai-ll",
+        "label": "AI"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "maven-selects",
+        "label": "Maven Selects"
+      },
+      {
+        "type": "public_collection",
+        "slug": "maven-100-ai-2025",
+        "label": "Maven 100 - AI 2025"
+      },
+      {
+        "type": "public_collection",
+        "slug": "maven-100-design-2025",
+        "label": "Maven 100 - Design 2025"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "courses-filtered-for-recommendations",
+        "label": "Courses filtered for recommendations"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "future-of-design",
+        "label": "The Future of Design"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "maven-100-2025",
+        "label": "maven-100-2025"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "affiliates-future-of-design-2025",
+        "label": "Future of Design 2025 Affiliates"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "ai-powered-super-ic",
+        "label": "The AI-Powered Super IC"
+      },
+      {
+        "type": "persona",
+        "slug": "for-product-managers",
+        "label": "For Product Managers"
+      },
+      {
+        "type": "persona",
+        "slug": "for-designers",
+        "label": "For Designers"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-ai-product-management",
+        "label": "AI product management"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-product-for-ai",
+        "label": "Product for AI"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-ai-and-design",
+        "label": "AI and design"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-design-career-growth",
+        "label": "Design career growth"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-design-fundamentals",
+        "label": "Design fundamentals"
+      },
+      {
+        "type": "topic",
+        "slug": "ai",
+        "label": "AI"
+      },
+      {
+        "type": "topic",
+        "slug": "design",
+        "label": "Design"
+      }
+    ]
+  },
+  {
+    "id": 18719,
+    "title": "Beyond Evals: Designing Improvement Flywheels for AI Products",
+    "schoolSlug": "aishwarya-kiriti",
+    "courseSlug": "evals-problem-first",
+    "canonicalUrl": "https://maven.com/aishwarya-kiriti/evals-problem-first",
+    "instructors": [
+      "Aishwarya Naresh Reganti"
+    ],
+    "nextLiveCohort": "2026-06-06T17:00:00Z",
+    "ratingCount": 0,
+    "sourceUrls": [
+      "https://maven.com/courses/for-product-managers/ai",
+      "https://maven.com/courses/for-product-managers/evals"
+    ],
+    "tags": [
+      {
+        "type": "internal_collection",
+        "slug": "courses-filtered-for-recommendations",
+        "label": "Courses filtered for recommendations"
+      },
+      {
+        "type": "persona",
+        "slug": "for-product-managers",
+        "label": "For Product Managers"
+      },
+      {
+        "type": "persona",
+        "slug": "for-engineers",
+        "label": "For Engineers"
+      },
+      {
+        "type": "topic",
+        "slug": "model-development",
+        "label": "Developing AI Models"
+      },
+      {
+        "type": "topic",
+        "slug": "evals",
+        "label": "AI Evals"
+      },
+      {
+        "type": "topic",
+        "slug": "product-strategy",
+        "label": "Product Strategy"
+      },
+      {
+        "type": "topic",
+        "slug": "ai",
+        "label": "AI"
+      }
+    ]
+  },
+  {
+    "id": 18247,
+    "title": "Build AI Agents with n8n",
+    "schoolSlug": "theaiinternship",
+    "courseSlug": "build-ai-agents-with-n8n",
+    "canonicalUrl": "https://maven.com/theaiinternship/build-ai-agents-with-n8n",
+    "instructors": [
+      "Aki Wijesundara, PhD",
+      "Manu Jayawardana"
+    ],
+    "nextLiveCohort": "2026-04-11T06:30:00Z",
+    "ratingCount": 48,
+    "sourceUrls": [
+      "https://maven.com/courses/for-engineers/agentic-ai"
+    ],
+    "tags": [
+      {
+        "type": "category",
+        "slug": "leadership-ll",
+        "label": "Leadership & career"
+      },
+      {
+        "type": "category",
+        "slug": "engineering-ll",
+        "label": "Data & engineering"
+      },
+      {
+        "type": "category",
+        "slug": "ai-ll",
+        "label": "AI"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "courses-filtered-for-recommendations",
+        "label": "Courses filtered for recommendations"
+      },
+      {
+        "type": "persona",
+        "slug": "for-engineers",
+        "label": "For Engineers"
+      },
+      {
+        "type": "topic",
+        "slug": "agentic-ai",
+        "label": "Agentic AI"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-ai-ml-engineering",
+        "label": "AI/ML engineering"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-ai-ml-engineering-1",
+        "label": "AI/ML engineering"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-founders",
+        "label": "Founders"
+      }
+    ]
+  },
+  {
+    "id": 19124,
+    "title": "Build AI Analysts in Claude Code",
+    "schoolSlug": "dataneighbor",
+    "courseSlug": "build-ai-analysts-in-claude-code",
+    "canonicalUrl": "https://maven.com/dataneighbor/build-ai-analysts-in-claude-code",
+    "instructors": [
+      "Shane Butler",
+      "Sravya Madipalli",
+      "Hai Guan"
+    ],
+    "nextLiveCohort": "2026-04-04T15:00:00Z",
+    "ratingCount": 0,
+    "sourceUrls": [
+      "https://maven.com/courses/for-engineers/agentic-ai",
+      "https://maven.com/courses/for-product-managers/agentic-ai",
+      "https://maven.com/courses/for-product-managers/ai"
+    ],
+    "tags": [
+      {
+        "type": "internal_collection",
+        "slug": "courses-filtered-for-recommendations",
+        "label": "Courses filtered for recommendations"
+      },
+      {
+        "type": "persona",
+        "slug": "for-product-managers",
+        "label": "For Product Managers"
+      },
+      {
+        "type": "persona",
+        "slug": "for-engineers",
+        "label": "For Engineers"
+      },
+      {
+        "type": "persona",
+        "slug": "for-data-scientists",
+        "label": "For Data Scientists"
+      },
+      {
+        "type": "topic",
+        "slug": "agentic-ai",
+        "label": "Agentic AI"
+      },
+      {
+        "type": "topic",
+        "slug": "data-analysis",
+        "label": "Data Analysis"
+      },
+      {
+        "type": "topic",
+        "slug": "ai",
+        "label": "AI"
+      }
+    ]
+  },
+  {
+    "id": 18044,
+    "title": "Build AI Product Sense",
+    "schoolSlug": "aman-khan",
+    "courseSlug": "build-ai-product-sense",
+    "canonicalUrl": "https://maven.com/aman-khan/build-ai-product-sense",
+    "instructors": [
+      "Aman Khan",
+      "Tal Raviv"
+    ],
+    "nextLiveCohort": "2026-04-18T16:00:00Z",
+    "ratingCount": 86,
+    "sourceUrls": [
+      "https://maven.com/courses/for-product-managers/ai"
+    ],
+    "tags": [
+      {
+        "type": "category",
+        "slug": "product-ll",
+        "label": "Product"
+      },
+      {
+        "type": "public_collection",
+        "slug": "lennys-list-product",
+        "label": "Lennys List Product"
+      },
+      {
+        "type": "category",
+        "slug": "ai-ll",
+        "label": "AI"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "courses-filtered-for-recommendations",
+        "label": "Courses filtered for recommendations"
+      },
+      {
+        "type": "persona",
+        "slug": "for-product-managers",
+        "label": "For Product Managers"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-ai-product-management",
+        "label": "AI product management"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-product-for-ai",
+        "label": "Product for AI"
+      },
+      {
+        "type": "topic",
+        "slug": "product-strategy",
+        "label": "Product Strategy"
+      },
+      {
+        "type": "topic",
+        "slug": "ai",
+        "label": "AI"
+      }
+    ]
+  },
+  {
+    "id": 18547,
+    "title": "Build and evaluate your first AI feature",
+    "schoolSlug": "madalina-turlea",
+    "courseSlug": "ship-ai-features-with-confidence-for-pms",
+    "canonicalUrl": "https://maven.com/madalina-turlea/ship-ai-features-with-confidence-for-pms",
+    "instructors": [
+      "Madalina Turlea",
+      "Catalina Turlea"
+    ],
+    "nextLiveCohort": "2026-03-29T10:00:00Z",
+    "ratingCount": 4,
+    "sourceUrls": [
+      "https://maven.com/courses/for-product-managers/ai"
+    ],
+    "tags": [
+      {
+        "type": "persona",
+        "slug": "for-product-managers",
+        "label": "For Product Managers"
+      },
+      {
+        "type": "persona",
+        "slug": "for-engineers",
+        "label": "For Engineers"
+      },
+      {
+        "type": "topic",
+        "slug": "experimentation",
+        "label": "Experimentation"
+      },
+      {
+        "type": "topic",
+        "slug": "model-development",
+        "label": "Developing AI Models"
+      },
+      {
+        "type": "topic",
+        "slug": "product-strategy",
+        "label": "Product Strategy"
+      },
+      {
+        "type": "topic",
+        "slug": "ai",
+        "label": "AI"
+      }
+    ]
+  },
+  {
+    "id": 16063,
+    "title": "Build and launch a real AI MVP with product managers and AI designers in 4 weeks",
+    "schoolSlug": "product-manager-accelerator",
+    "courseSlug": "applied-ai-product-management-development-with-real-teams-phase-one",
+    "canonicalUrl": "https://maven.com/product-manager-accelerator/applied-ai-product-management-development-with-real-teams-phase-one",
+    "instructors": [
+      "Dr. Nancy Li"
+    ],
+    "nextLiveCohort": "2026-04-06T04:00:00Z",
+    "ratingCount": 4,
+    "sourceUrls": [
+      "https://maven.com/courses/for-product-managers/ai",
+      "https://maven.com/courses/for-product-managers/prototyping"
+    ],
+    "tags": [
+      {
+        "type": "category",
+        "slug": "product-ll",
+        "label": "Product"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "legacy-instructor-owned-clc",
+        "label": "[LEGACY] Instructor Owned CLC Opt-in"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "ai-affiliates-nov-24",
+        "label": "AI Affiliates"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "building-ai-native-products",
+        "label": "Building AI-Native Products"
+      },
+      {
+        "type": "category",
+        "slug": "ai-ll",
+        "label": "AI"
+      },
+      {
+        "type": "persona",
+        "slug": "for-product-managers",
+        "label": "For Product Managers"
+      },
+      {
+        "type": "topic",
+        "slug": "prototyping",
+        "label": "Prototyping"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-ai-product-management",
+        "label": "AI product management"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-product-leadership",
+        "label": "Product leadership"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-product-for-ai",
+        "label": "Product for AI"
+      },
+      {
+        "type": "topic",
+        "slug": "ai",
+        "label": "AI"
+      }
+    ]
+  },
+  {
+    "id": 15745,
+    "title": "Build and launch a real AI product with engineers & data scientists in 11 weeks",
+    "schoolSlug": "product-manager-accelerator",
+    "courseSlug": "applied-ai-product-management-development-with-real-teams-end-to-end",
+    "canonicalUrl": "https://maven.com/product-manager-accelerator/applied-ai-product-management-development-with-real-teams-end-to-end",
+    "instructors": [
+      "Dr. Nancy Li"
+    ],
+    "nextLiveCohort": "2026-04-06T04:00:00Z",
+    "ratingCount": 6,
+    "sourceUrls": [
+      "https://maven.com/courses/for-product-managers/prototyping"
+    ],
+    "tags": [
+      {
+        "type": "category",
+        "slug": "product-ll",
+        "label": "Product"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "legacy-instructor-owned-clc",
+        "label": "[LEGACY] Instructor Owned CLC Opt-in"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "ai-affiliates-nov-24",
+        "label": "AI Affiliates"
+      },
+      {
+        "type": "category",
+        "slug": "ai-ll",
+        "label": "AI"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "hide-satisfaction-guarantee",
+        "label": "Hide Satisfaction Guarantee"
+      },
+      {
+        "type": "persona",
+        "slug": "for-product-managers",
+        "label": "For Product Managers"
+      },
+      {
+        "type": "topic",
+        "slug": "prototyping",
+        "label": "Prototyping"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-ai-business-strategy",
+        "label": "AI business strategy"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-ai-product-management",
+        "label": "AI product management"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-product-leadership",
+        "label": "Product leadership"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-product-for-ai",
+        "label": "Product for AI"
+      }
+    ]
+  },
+  {
+    "id": 14506,
+    "title": "Build Real AI Solutions : From Workflow Automations to Usable Products",
+    "schoolSlug": "touch-infinity-consulting-inc",
+    "courseSlug": "build-ai-solutions-both-automations-and-products",
+    "canonicalUrl": "https://maven.com/touch-infinity-consulting-inc/build-ai-solutions-both-automations-and-products",
+    "instructors": [
+      "Deepa Krishnamurthy",
+      "Avinash Mahalingam"
+    ],
+    "nextLiveCohort": "2026-03-28T15:00:00Z",
+    "ratingCount": 11,
+    "sourceUrls": [
+      "https://maven.com/courses/for-product-managers/ai"
+    ],
+    "tags": [
+      {
+        "type": "category",
+        "slug": "product-ll",
+        "label": "Product"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "legacy-instructor-owned-clc",
+        "label": "[LEGACY] Instructor Owned CLC Opt-in"
+      },
+      {
+        "type": "category",
+        "slug": "ai-ll",
+        "label": "AI"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "courses-filtered-for-recommendations",
+        "label": "Courses filtered for recommendations"
+      },
+      {
+        "type": "persona",
+        "slug": "for-product-managers",
+        "label": "For Product Managers"
+      },
+      {
+        "type": "persona",
+        "slug": "for-engineers",
+        "label": "For Engineers"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-ai-product-management",
+        "label": "AI product management"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-product-leadership",
+        "label": "Product leadership"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-product-for-ai",
+        "label": "Product for AI"
+      },
+      {
+        "type": "topic",
+        "slug": "ai",
+        "label": "AI"
+      }
+    ]
+  },
+  {
+    "id": 17080,
+    "title": "Build Scalable UI in Figma — for Designers Ready for AI",
+    "schoolSlug": "moonlearning",
+    "courseSlug": "figma",
+    "canonicalUrl": "https://maven.com/moonlearning/figma",
+    "instructors": [
+      "Christine Vallaure"
+    ],
+    "nextLiveCohort": "2026-05-04T09:00:00Z",
+    "ratingCount": 0,
+    "sourceUrls": [
+      "https://maven.com/courses/for-designers/ai"
+    ],
+    "tags": [
+      {
+        "type": "persona",
+        "slug": "for-engineers",
+        "label": "For Engineers"
+      },
+      {
+        "type": "persona",
+        "slug": "for-designers",
+        "label": "For Designers"
+      },
+      {
+        "type": "topic",
+        "slug": "design-systems",
+        "label": "Design Systems"
+      },
+      {
+        "type": "topic",
+        "slug": "figma",
+        "label": "Figma"
+      },
+      {
+        "type": "topic",
+        "slug": "ai",
+        "label": "AI"
+      }
+    ]
+  },
+  {
+    "id": 18264,
+    "title": "Build the AI Copilot that makes others ask: 'How did you do that?'",
+    "schoolSlug": "myles-sutholt",
+    "courseSlug": "build-the-ai-copilot-that-makes-others-ask-how-did-you-do-that",
+    "canonicalUrl": "https://maven.com/myles-sutholt/build-the-ai-copilot-that-makes-others-ask-how-did-you-do-that",
+    "instructors": [
+      "Myles Sutholt"
+    ],
+    "nextLiveCohort": "2026-03-30T10:00:00Z",
+    "ratingCount": 12,
+    "sourceUrls": [
+      "https://maven.com/courses/for-product-managers/ai"
+    ],
+    "tags": [
+      {
+        "type": "internal_collection",
+        "slug": "courses-filtered-for-recommendations",
+        "label": "Courses filtered for recommendations"
+      },
+      {
+        "type": "persona",
+        "slug": "for-product-managers",
+        "label": "For Product Managers"
+      },
+      {
+        "type": "topic",
+        "slug": "productivity",
+        "label": "Productivity"
+      },
+      {
+        "type": "topic",
+        "slug": "llms",
+        "label": "Working with LLMs"
+      },
+      {
+        "type": "topic",
+        "slug": "ai",
+        "label": "AI"
+      }
+    ]
+  },
+  {
+    "id": 14554,
+    "title": "Building Agentic AI Applications with a Problem-First Approach",
+    "schoolSlug": "aishwarya-kiriti",
+    "courseSlug": "genai-system-design",
+    "canonicalUrl": "https://maven.com/aishwarya-kiriti/genai-system-design",
+    "instructors": [
+      "Aishwarya Naresh Reganti",
+      "Kiriti Badam"
+    ],
+    "nextLiveCohort": "2026-04-25T16:00:00Z",
+    "ratingCount": 563,
+    "sourceUrls": [
+      "https://maven.com/courses/for-engineers/agentic-ai",
+      "https://maven.com/courses/for-product-managers/agentic-ai",
+      "https://maven.com/courses/for-product-managers/ai"
+    ],
+    "tags": [
+      {
+        "type": "category",
+        "slug": "product-ll",
+        "label": "Product"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "legacy-instructor-owned-clc",
+        "label": "[LEGACY] Instructor Owned CLC Opt-in"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "ai-affiliates-nov-24",
+        "label": "AI Affiliates"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "building-ai-native-products",
+        "label": "Building AI-Native Products"
+      },
+      {
+        "type": "category",
+        "slug": "engineering-ll",
+        "label": "Data & engineering"
+      },
+      {
+        "type": "category",
+        "slug": "ai-ll",
+        "label": "AI"
+      },
+      {
+        "type": "public_collection",
+        "slug": "maven-100-engineering-2025",
+        "label": "Maven 100 - Engineering 2025"
+      },
+      {
+        "type": "public_collection",
+        "slug": "maven-100-ai-2025",
+        "label": "Maven 100 - AI 2025"
+      },
+      {
+        "type": "public_collection",
+        "slug": "lennys-list-ai",
+        "label": "Lenny's List AI"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "courses-filtered-for-recommendations",
+        "label": "Courses filtered for recommendations"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "maven-100-2025",
+        "label": "maven-100-2025"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "growth-affiliates",
+        "label": "Growth Affiliates 2025"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "ai-powered-super-ic",
+        "label": "The AI-Powered Super IC"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "maven-ads",
+        "label": "Maven Ads"
+      },
+      {
+        "type": "persona",
+        "slug": "for-product-managers",
+        "label": "For Product Managers"
+      },
+      {
+        "type": "persona",
+        "slug": "for-engineers",
+        "label": "For Engineers"
+      },
+      {
+        "type": "topic",
+        "slug": "agentic-ai",
+        "label": "Agentic AI"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-ai-business-strategy",
+        "label": "AI business strategy"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-data-science-and-engineering",
+        "label": "Data science and engineering"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-ai-product-management",
+        "label": "AI product management"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-ai-ml-engineering",
+        "label": "AI/ML engineering"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-product-for-ai",
+        "label": "Product for AI"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-ai-ml-engineering-1",
+        "label": "AI/ML engineering"
+      },
+      {
+        "type": "topic",
+        "slug": "ai",
+        "label": "AI"
+      }
+    ]
+  },
+  {
+    "id": 13822,
+    "title": "Building AI Applications for Data Scientists and Software Engineers",
+    "schoolSlug": "hugo-stefan",
+    "courseSlug": "building-ai-apps-ds-and-swe-from-first-principles",
+    "canonicalUrl": "https://maven.com/hugo-stefan/building-ai-apps-ds-and-swe-from-first-principles",
+    "instructors": [
+      "Hugo Bowne-Anderson",
+      "Stefan Krawczyk"
+    ],
+    "nextLiveCohort": "2026-03-09T23:00:00Z",
+    "ratingCount": 95,
+    "sourceUrls": [
+      "https://maven.com/courses/for-engineers/agentic-ai"
+    ],
+    "tags": [
+      {
+        "type": "internal_collection",
+        "slug": "legacy-instructor-owned-clc",
+        "label": "[LEGACY] Instructor Owned CLC Opt-in"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "ai-affiliates-nov-24",
+        "label": "AI Affiliates"
+      },
+      {
+        "type": "category",
+        "slug": "engineering-ll",
+        "label": "Data & engineering"
+      },
+      {
+        "type": "public_collection",
+        "slug": "ai-powered-professional",
+        "label": "AI-Powered Professional"
+      },
+      {
+        "type": "public_collection",
+        "slug": "fast-track-2024",
+        "label": "Fast Track 2024"
+      },
+      {
+        "type": "category",
+        "slug": "ai-ll",
+        "label": "AI"
+      },
+      {
+        "type": "public_collection",
+        "slug": "maven-100-engineering-2025",
+        "label": "Maven 100 - Engineering 2025"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "maven-selects",
+        "label": "Maven Selects"
+      },
+      {
+        "type": "public_collection",
+        "slug": "maven-100-ai-2025",
+        "label": "Maven 100 - AI 2025"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "courses-filtered-for-recommendations",
+        "label": "Courses filtered for recommendations"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "maven-100-2025",
+        "label": "maven-100-2025"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "affiliate-hamel-husain",
+        "label": "Affiliate Hamel Husain"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "ai-powered-super-ic",
+        "label": "The AI-Powered Super IC"
+      },
+      {
+        "type": "persona",
+        "slug": "for-engineers",
+        "label": "For Engineers"
+      },
+      {
+        "type": "persona",
+        "slug": "for-data-scientists",
+        "label": "For Data Scientists"
+      },
+      {
+        "type": "topic",
+        "slug": "agentic-ai",
+        "label": "Agentic AI"
+      },
+      {
+        "type": "topic",
+        "slug": "llms",
+        "label": "Working with LLMs"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-data-science-and-engineering",
+        "label": "Data science and engineering"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-ai-ml-engineering",
+        "label": "AI/ML engineering"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-ai-ml-engineering-1",
+        "label": "AI/ML engineering"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-data-science-and-engineering-1",
+        "label": "Data science and engineering"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-software-engineering",
+        "label": "Software engineering"
+      },
+      {
+        "type": "topic",
+        "slug": "ai",
+        "label": "AI"
+      }
+    ]
+  },
+  {
+    "id": 18739,
+    "title": "Claude Code & CoWork for Product Managers and Leaders",
+    "schoolSlug": "theaiinternship",
+    "courseSlug": "claude-code",
+    "canonicalUrl": "https://maven.com/theaiinternship/claude-code",
+    "instructors": [
+      "Aki Wijesundara, PhD",
+      "Manu Jayawardana"
+    ],
+    "nextLiveCohort": "2026-04-01T17:00:00Z",
+    "ratingCount": 5,
+    "sourceUrls": [
+      "https://maven.com/courses/for-engineers/ai-coding"
+    ],
+    "tags": [
+      {
+        "type": "internal_collection",
+        "slug": "courses-filtered-for-recommendations",
+        "label": "Courses filtered for recommendations"
+      },
+      {
+        "type": "persona",
+        "slug": "for-engineers",
+        "label": "For Engineers"
+      },
+      {
+        "type": "persona",
+        "slug": "for-operators",
+        "label": "For Operators"
+      },
+      {
+        "type": "topic",
+        "slug": "productivity",
+        "label": "Productivity"
+      },
+      {
+        "type": "topic",
+        "slug": "ai-coding",
+        "label": "Coding with AI"
+      },
+      {
+        "type": "topic",
+        "slug": "ai",
+        "label": "AI"
+      }
+    ]
+  },
+  {
+    "id": 19112,
+    "title": "Claude Code for Beginners: 2 Day Launchpad",
+    "schoolSlug": "alpha-clarity",
+    "courseSlug": "claude-code-for-beginners",
+    "canonicalUrl": "https://maven.com/alpha-clarity/claude-code-for-beginners",
+    "instructors": [
+      "Avthar Sewrathan"
+    ],
+    "nextLiveCohort": "2026-05-02T16:00:00Z",
+    "ratingCount": 8,
+    "sourceUrls": [
+      "https://maven.com/courses/for-engineers/ai-coding"
+    ],
+    "tags": [
+      {
+        "type": "internal_collection",
+        "slug": "courses-filtered-for-recommendations",
+        "label": "Courses filtered for recommendations"
+      },
+      {
+        "type": "persona",
+        "slug": "for-engineers",
+        "label": "For Engineers"
+      },
+      {
+        "type": "persona",
+        "slug": "for-entrepreneurs",
+        "label": "For Entrepreneurs"
+      },
+      {
+        "type": "topic",
+        "slug": "ai-coding",
+        "label": "Coding with AI"
+      },
+      {
+        "type": "topic",
+        "slug": "ai",
+        "label": "AI"
+      }
+    ]
+  },
+  {
+    "id": 18894,
+    "title": "Claude Code for Customer Insights",
+    "schoolSlug": "caitlin",
+    "courseSlug": "claude-code-insights",
+    "canonicalUrl": "https://maven.com/caitlin/claude-code-insights",
+    "instructors": [
+      "Caitlin Sullivan"
+    ],
+    "nextLiveCohort": "2026-03-30T07:00:00Z",
+    "ratingCount": 0,
+    "sourceUrls": [
+      "https://maven.com/courses/for-designers/ai",
+      "https://maven.com/courses/for-product-managers/ai"
+    ],
+    "tags": [
+      {
+        "type": "internal_collection",
+        "slug": "ai-affiliates-nov-24",
+        "label": "AI Affiliates"
+      },
+      {
+        "type": "public_collection",
+        "slug": "lennys-list-product",
+        "label": "Lennys List Product"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "courses-filtered-for-recommendations",
+        "label": "Courses filtered for recommendations"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "affiliate-aakash-gupta",
+        "label": "Affiliate Aakash Gupta"
+      },
+      {
+        "type": "persona",
+        "slug": "for-product-managers",
+        "label": "For Product Managers"
+      },
+      {
+        "type": "persona",
+        "slug": "for-designers",
+        "label": "For Designers"
+      },
+      {
+        "type": "persona",
+        "slug": "for-user-researchers",
+        "label": "For User Researchers"
+      },
+      {
+        "type": "topic",
+        "slug": "user-research",
+        "label": "User Research"
+      },
+      {
+        "type": "topic",
+        "slug": "data-analysis",
+        "label": "Data Analysis"
+      },
+      {
+        "type": "topic",
+        "slug": "ai",
+        "label": "AI"
+      }
+    ]
+  },
+  {
+    "id": 17772,
+    "title": "Claude Code for Designers",
+    "schoolSlug": "hcaiinstitute",
+    "courseSlug": "claude-code-for-designers",
+    "canonicalUrl": "https://maven.com/hcaiinstitute/claude-code-for-designers",
+    "instructors": [
+      "Rupa Chaturvedi"
+    ],
+    "nextLiveCohort": "2026-03-23T07:00:00Z",
+    "ratingCount": 0,
+    "sourceUrls": [
+      "https://maven.com/courses/for-designers/ai"
+    ],
+    "tags": [
+      {
+        "type": "internal_collection",
+        "slug": "courses-filtered-for-recommendations",
+        "label": "Courses filtered for recommendations"
+      },
+      {
+        "type": "persona",
+        "slug": "for-designers",
+        "label": "For Designers"
+      },
+      {
+        "type": "topic",
+        "slug": "ai-coding",
+        "label": "Coding with AI"
+      },
+      {
+        "type": "topic",
+        "slug": "ai",
+        "label": "AI"
+      }
+    ]
+  },
+  {
+    "id": 18065,
+    "title": "Claude Code for Product Managers",
+    "schoolSlug": "aman-khan",
+    "courseSlug": "claude-code-for-product-managers",
+    "canonicalUrl": "https://maven.com/aman-khan/claude-code-for-product-managers",
+    "instructors": [
+      "Aman Khan",
+      "Eric Xiao"
+    ],
+    "nextLiveCohort": "2026-03-16T22:00:00Z",
+    "ratingCount": 7,
+    "sourceUrls": [
+      "https://maven.com/courses/for-designers/ai",
+      "https://maven.com/courses/for-product-managers/ai"
+    ],
+    "tags": [
+      {
+        "type": "internal_collection",
+        "slug": "ai-affiliates-nov-24",
+        "label": "AI Affiliates"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "courses-filtered-for-recommendations",
+        "label": "Courses filtered for recommendations"
+      },
+      {
+        "type": "persona",
+        "slug": "for-product-managers",
+        "label": "For Product Managers"
+      },
+      {
+        "type": "persona",
+        "slug": "for-designers",
+        "label": "For Designers"
+      },
+      {
+        "type": "topic",
+        "slug": "ai-coding",
+        "label": "Coding with AI"
+      },
+      {
+        "type": "topic",
+        "slug": "product-strategy",
+        "label": "Product Strategy"
+      },
+      {
+        "type": "topic",
+        "slug": "ai",
+        "label": "AI"
+      }
+    ]
+  },
+  {
+    "id": 19384,
+    "title": "Claude Code with Garry Tan's 'gstack' Masterclass [4h]",
+    "schoolSlug": "aiproducthub",
+    "courseSlug": "claude-code-with-garry-tans-gstackmasterclass",
+    "canonicalUrl": "https://maven.com/aiproducthub/claude-code-with-garry-tans-gstackmasterclass",
+    "instructors": [
+      "Dmitry Shapiro"
+    ],
+    "nextLiveCohort": "2026-04-04T16:00:00Z",
+    "ratingCount": 0,
+    "sourceUrls": [
+      "https://maven.com/courses/for-engineers/ai-coding",
+      "https://maven.com/courses/for-product-managers/ai"
+    ],
+    "tags": [
+      {
+        "type": "internal_collection",
+        "slug": "courses-filtered-for-recommendations",
+        "label": "Courses filtered for recommendations"
+      },
+      {
+        "type": "persona",
+        "slug": "for-product-managers",
+        "label": "For Product Managers"
+      },
+      {
+        "type": "persona",
+        "slug": "for-engineers",
+        "label": "For Engineers"
+      },
+      {
+        "type": "topic",
+        "slug": "ai-coding",
+        "label": "Coding with AI"
+      },
+      {
+        "type": "topic",
+        "slug": "ai",
+        "label": "AI"
+      }
+    ]
+  },
+  {
+    "id": 18801,
+    "title": "Creating AI Products Users Love",
+    "schoolSlug": "delightpath",
+    "courseSlug": "creating-ai-products-users-love",
+    "canonicalUrl": "https://maven.com/delightpath/creating-ai-products-users-love",
+    "instructors": [
+      "Ramli John",
+      "C. Todd Lombardo"
+    ],
+    "nextLiveCohort": "2026-04-07T16:00:00Z",
+    "ratingCount": 0,
+    "sourceUrls": [
+      "https://maven.com/courses/for-designers/ai",
+      "https://maven.com/courses/for-product-managers/ai"
+    ],
+    "tags": [
+      {
+        "type": "persona",
+        "slug": "for-product-managers",
+        "label": "For Product Managers"
+      },
+      {
+        "type": "persona",
+        "slug": "for-designers",
+        "label": "For Designers"
+      },
+      {
+        "type": "topic",
+        "slug": "ux",
+        "label": "UX"
+      },
+      {
+        "type": "topic",
+        "slug": "product-strategy",
+        "label": "Product Strategy"
+      },
+      {
+        "type": "topic",
+        "slug": "ai",
+        "label": "AI"
+      }
+    ]
+  },
+  {
+    "id": 16972,
+    "title": "Design Patterns For AI Products In 2026",
+    "schoolSlug": "web-adventures",
+    "courseSlug": "design-patterns-ai-interfaces",
+    "canonicalUrl": "https://maven.com/web-adventures/design-patterns-ai-interfaces",
+    "instructors": [
+      "Vitaly Friedman"
+    ],
+    "nextLiveCohort": "2026-05-26T05:00:00Z",
+    "ratingCount": 18,
+    "sourceUrls": [
+      "https://maven.com/courses/for-designers/ai",
+      "https://maven.com/courses/for-product-managers/ai"
+    ],
+    "tags": [
+      {
+        "type": "category",
+        "slug": "product-ll",
+        "label": "Product"
+      },
+      {
+        "type": "category",
+        "slug": "design-ll",
+        "label": "Design"
+      },
+      {
+        "type": "category",
+        "slug": "ai-ll",
+        "label": "AI"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "courses-filtered-for-recommendations",
+        "label": "Courses filtered for recommendations"
+      },
+      {
+        "type": "persona",
+        "slug": "for-product-managers",
+        "label": "For Product Managers"
+      },
+      {
+        "type": "persona",
+        "slug": "for-designers",
+        "label": "For Designers"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-ai-for-creativity",
+        "label": "AI for creativity"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-product-fundamentals",
+        "label": "Product fundamentals"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-product-for-ai",
+        "label": "Product for AI"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-ai-and-design",
+        "label": "AI and design"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-design-tools",
+        "label": "Design tools"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-ux-research",
+        "label": "UX research"
+      },
+      {
+        "type": "topic",
+        "slug": "ai",
+        "label": "AI"
+      }
+    ]
+  },
+  {
+    "id": 19210,
+    "title": "Design x Ai: Human-Centered Design with Ai Workshops",
+    "schoolSlug": "superunknown-studios",
+    "courseSlug": "human-centered-design-with-ai",
+    "canonicalUrl": "https://maven.com/superunknown-studios/human-centered-design-with-ai",
+    "instructors": [
+      "Greg Aper"
+    ],
+    "nextLiveCohort": "2026-03-17T16:00:00Z",
+    "ratingCount": 0,
+    "sourceUrls": [
+      "https://maven.com/courses/for-designers/ai"
+    ],
+    "tags": [
+      {
+        "type": "persona",
+        "slug": "for-designers",
+        "label": "For Designers"
+      },
+      {
+        "type": "topic",
+        "slug": "llms",
+        "label": "Working with LLMs"
+      },
+      {
+        "type": "topic",
+        "slug": "ai",
+        "label": "AI"
+      },
+      {
+        "type": "topic",
+        "slug": "design",
+        "label": "Design"
+      }
+    ]
+  },
+  {
+    "id": 17014,
+    "title": "Elite AI Assisted Coding",
+    "schoolSlug": "agentic-ventures",
+    "courseSlug": "ai-coding",
+    "canonicalUrl": "https://maven.com/agentic-ventures/ai-coding",
+    "instructors": [
+      "Eleanor Berger",
+      "Mitja Martini"
+    ],
+    "nextLiveCohort": "2026-04-20T10:00:00Z",
+    "ratingCount": 75,
+    "sourceUrls": [
+      "https://maven.com/courses/for-engineers/ai-coding"
+    ],
+    "tags": [
+      {
+        "type": "internal_collection",
+        "slug": "ai-affiliates-nov-24",
+        "label": "AI Affiliates"
+      },
+      {
+        "type": "category",
+        "slug": "engineering-ll",
+        "label": "Data & engineering"
+      },
+      {
+        "type": "category",
+        "slug": "ai-ll",
+        "label": "AI"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "courses-filtered-for-recommendations",
+        "label": "Courses filtered for recommendations"
+      },
+      {
+        "type": "persona",
+        "slug": "for-engineers",
+        "label": "For Engineers"
+      },
+      {
+        "type": "topic",
+        "slug": "ai-coding",
+        "label": "Coding with AI"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-ai-ml-engineering",
+        "label": "AI/ML engineering"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-software-engineering",
+        "label": "Software engineering"
+      },
+      {
+        "type": "topic",
+        "slug": "ai",
+        "label": "AI"
+      }
+    ]
+  },
+  {
+    "id": 15766,
+    "title": "End-to-End AI Engineering Bootcamp",
+    "schoolSlug": "swirl-ai",
+    "courseSlug": "end-to-end-ai-engineering",
+    "canonicalUrl": "https://maven.com/swirl-ai/end-to-end-ai-engineering",
+    "instructors": [
+      "Aurimas Griciunas"
+    ],
+    "nextLiveCohort": "2026-03-23T10:00:00Z",
+    "ratingCount": 46,
+    "sourceUrls": [
+      "https://maven.com/courses/for-engineers/agentic-ai",
+      "https://maven.com/courses/for-engineers/ml"
+    ],
+    "tags": [
+      {
+        "type": "internal_collection",
+        "slug": "ai-affiliates-nov-24",
+        "label": "AI Affiliates"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "building-ai-native-products",
+        "label": "Building AI-Native Products"
+      },
+      {
+        "type": "category",
+        "slug": "engineering-ll",
+        "label": "Data & engineering"
+      },
+      {
+        "type": "category",
+        "slug": "ai-ll",
+        "label": "AI"
+      },
+      {
+        "type": "public_collection",
+        "slug": "lennys-list-ai",
+        "label": "Lenny's List AI"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "courses-filtered-for-recommendations",
+        "label": "Courses filtered for recommendations"
+      },
+      {
+        "type": "persona",
+        "slug": "for-engineers",
+        "label": "For Engineers"
+      },
+      {
+        "type": "persona",
+        "slug": "for-data-scientists",
+        "label": "For Data Scientists"
+      },
+      {
+        "type": "topic",
+        "slug": "agentic-ai",
+        "label": "Agentic AI"
+      },
+      {
+        "type": "topic",
+        "slug": "ml",
+        "label": "Machine Learning"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-ai-ml-engineering",
+        "label": "AI/ML engineering"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-ai-ml-engineering-1",
+        "label": "AI/ML engineering"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-software-engineering",
+        "label": "Software engineering"
+      },
+      {
+        "type": "topic",
+        "slug": "ai",
+        "label": "AI"
+      }
+    ]
+  },
+  {
+    "id": 17019,
+    "title": "Escape Velocity: The 100K AI Product Fast Track",
+    "schoolSlug": "aiafterhours",
+    "courseSlug": "escape-velocity-the-100k-fasttrack",
+    "canonicalUrl": "https://maven.com/aiafterhours/escape-velocity-the-100k-fasttrack",
+    "instructors": [
+      "Yuying Chen-Wynn",
+      "Polly Allen"
+    ],
+    "nextLiveCohort": "2026-03-24T16:00:00Z",
+    "ratingCount": 2,
+    "sourceUrls": [
+      "https://maven.com/courses/for-product-managers/ai",
+      "https://maven.com/courses/for-product-managers/prototyping"
+    ],
+    "tags": [
+      {
+        "type": "category",
+        "slug": "product-ll",
+        "label": "Product"
+      },
+      {
+        "type": "category",
+        "slug": "leadership-ll",
+        "label": "Leadership & career"
+      },
+      {
+        "type": "category",
+        "slug": "ai-ll",
+        "label": "AI"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "courses-filtered-for-recommendations",
+        "label": "Courses filtered for recommendations"
+      },
+      {
+        "type": "persona",
+        "slug": "for-product-managers",
+        "label": "For Product Managers"
+      },
+      {
+        "type": "persona",
+        "slug": "for-entrepreneurs",
+        "label": "For Entrepreneurs"
+      },
+      {
+        "type": "topic",
+        "slug": "prototyping",
+        "label": "Prototyping"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-ai-business-strategy",
+        "label": "AI business strategy"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-ai-product-management",
+        "label": "AI product management"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-product-leadership",
+        "label": "Product leadership"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-product-fundamentals",
+        "label": "Product fundamentals"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-founders",
+        "label": "Founders"
+      },
+      {
+        "type": "topic",
+        "slug": "ai",
+        "label": "AI"
+      }
+    ]
+  },
+  {
+    "id": 19221,
+    "title": "Executive Playbook for AI in Engineering, Product, and Design",
+    "schoolSlug": "clairevo",
+    "courseSlug": "ai-native-epd-org",
+    "canonicalUrl": "https://maven.com/clairevo/ai-native-epd-org",
+    "instructors": [
+      "Claire Vo",
+      "Zach Davis"
+    ],
+    "nextLiveCohort": "2026-04-18T07:00:00Z",
+    "ratingCount": 0,
+    "sourceUrls": [
+      "https://maven.com/courses/for-engineers/agentic-ai",
+      "https://maven.com/courses/for-product-managers/agentic-ai",
+      "https://maven.com/courses/for-product-managers/ai"
+    ],
+    "tags": [
+      {
+        "type": "internal_collection",
+        "slug": "courses-filtered-for-recommendations",
+        "label": "Courses filtered for recommendations"
+      },
+      {
+        "type": "persona",
+        "slug": "for-product-managers",
+        "label": "For Product Managers"
+      },
+      {
+        "type": "persona",
+        "slug": "for-leaders",
+        "label": "For Leaders"
+      },
+      {
+        "type": "persona",
+        "slug": "for-engineers",
+        "label": "For Engineers"
+      },
+      {
+        "type": "topic",
+        "slug": "agentic-ai",
+        "label": "Agentic AI"
+      },
+      {
+        "type": "topic",
+        "slug": "management",
+        "label": "Management"
+      },
+      {
+        "type": "topic",
+        "slug": "ai",
+        "label": "AI"
+      }
+    ]
+  },
+  {
+    "id": 13765,
+    "title": "Figma Crash Course: From Basics to Pro in 4 Days",
+    "schoolSlug": "erinessex",
+    "courseSlug": "figmacrashcourse",
+    "canonicalUrl": "https://maven.com/erinessex/figmacrashcourse",
+    "instructors": [
+      "Erin Essex"
+    ],
+    "nextLiveCohort": "2026-08-17T22:30:00Z",
+    "ratingCount": 3,
+    "sourceUrls": [
+      "https://maven.com/courses/for-designers/prototyping"
+    ],
+    "tags": [
+      {
+        "type": "persona",
+        "slug": "for-designers",
+        "label": "For Designers"
+      },
+      {
+        "type": "persona",
+        "slug": "for-entrepreneurs",
+        "label": "For Entrepreneurs"
+      },
+      {
+        "type": "topic",
+        "slug": "prototyping",
+        "label": "Prototyping"
+      },
+      {
+        "type": "topic",
+        "slug": "figma",
+        "label": "Figma"
+      },
+      {
+        "type": "topic",
+        "slug": "ux",
+        "label": "UX"
+      }
+    ]
+  },
+  {
+    "id": 18841,
+    "title": "From Idea to Live Product with AI",
+    "schoolSlug": "build-together",
+    "courseSlug": "design-to-product-launch",
+    "canonicalUrl": "https://maven.com/build-together/design-to-product-launch",
+    "instructors": [
+      "Nima Tahami"
+    ],
+    "nextLiveCohort": "2026-05-11T16:00:00Z",
+    "ratingCount": 0,
+    "sourceUrls": [
+      "https://maven.com/courses/for-designers/ai"
+    ],
+    "tags": [
+      {
+        "type": "internal_collection",
+        "slug": "courses-filtered-for-recommendations",
+        "label": "Courses filtered for recommendations"
+      },
+      {
+        "type": "persona",
+        "slug": "for-designers",
+        "label": "For Designers"
+      },
+      {
+        "type": "persona",
+        "slug": "for-entrepreneurs",
+        "label": "For Entrepreneurs"
+      },
+      {
+        "type": "topic",
+        "slug": "product-strategy",
+        "label": "Product Strategy"
+      },
+      {
+        "type": "topic",
+        "slug": "ai",
+        "label": "AI"
+      },
+      {
+        "type": "topic",
+        "slug": "design",
+        "label": "Design"
+      },
+      {
+        "type": "topic",
+        "slug": "entrepreneurship",
+        "label": "Entrepreneurship"
+      }
+    ]
+  },
+  {
+    "id": 18824,
+    "title": "From Zero to Full-Stack AI Engineer: 21 Hands-On Projects",
+    "schoolSlug": "the-school-of-ai",
+    "courseSlug": "from-zero-to-full-stack-ai-engineer",
+    "canonicalUrl": "https://maven.com/the-school-of-ai/from-zero-to-full-stack-ai-engineer",
+    "instructors": [
+      "Vivian Aranha"
+    ],
+    "nextLiveCohort": "2026-04-02T01:30:00Z",
+    "ratingCount": 0,
+    "sourceUrls": [
+      "https://maven.com/courses/for-engineers/ai-coding"
+    ],
+    "tags": [
+      {
+        "type": "persona",
+        "slug": "for-engineers",
+        "label": "For Engineers"
+      },
+      {
+        "type": "persona",
+        "slug": "for-entrepreneurs",
+        "label": "For Entrepreneurs"
+      },
+      {
+        "type": "topic",
+        "slug": "ai-coding",
+        "label": "Coding with AI"
+      },
+      {
+        "type": "topic",
+        "slug": "programming",
+        "label": "Programming"
+      },
+      {
+        "type": "topic",
+        "slug": "ai",
+        "label": "AI"
+      }
+    ]
+  },
+  {
+    "id": 18715,
+    "title": "GTM for Product Managers & Leaders",
+    "schoolSlug": "theaiinternship",
+    "courseSlug": "gtm-pms-leaders",
+    "canonicalUrl": "https://maven.com/theaiinternship/gtm-pms-leaders",
+    "instructors": [
+      "Manu Jayawardana",
+      "Aki Wijesundara, PhD"
+    ],
+    "nextLiveCohort": "2026-04-19T06:30:00Z",
+    "ratingCount": 11,
+    "sourceUrls": [
+      "https://maven.com/courses/for-product-managers/agentic-ai",
+      "https://maven.com/courses/for-product-managers/ai"
+    ],
+    "tags": [
+      {
+        "type": "internal_collection",
+        "slug": "courses-filtered-for-recommendations",
+        "label": "Courses filtered for recommendations"
+      },
+      {
+        "type": "persona",
+        "slug": "for-product-managers",
+        "label": "For Product Managers"
+      },
+      {
+        "type": "persona",
+        "slug": "for-entrepreneurs",
+        "label": "For Entrepreneurs"
+      },
+      {
+        "type": "topic",
+        "slug": "agentic-ai",
+        "label": "Agentic AI"
+      },
+      {
+        "type": "persona",
+        "slug": "for-founders",
+        "label": "For Founders"
+      },
+      {
+        "type": "topic",
+        "slug": "product-strategy",
+        "label": "Product Strategy"
+      },
+      {
+        "type": "topic",
+        "slug": "ai",
+        "label": "AI"
+      }
+    ]
+  },
+  {
+    "id": 12532,
+    "title": "How AI & LLMs Work: A Fast-Track Crash Course for Busy Professionals",
+    "schoolSlug": "spreadsheets-are-all-you-need-ai",
+    "courseSlug": "ai-for-everyone-master-ai-with-spreadsheets",
+    "canonicalUrl": "https://maven.com/spreadsheets-are-all-you-need-ai/ai-for-everyone-master-ai-with-spreadsheets",
+    "instructors": [
+      "Ishan Anand"
+    ],
+    "nextLiveCohort": "2025-01-08T19:30:00Z",
+    "ratingCount": 19,
+    "sourceUrls": [
+      "https://maven.com/courses/for-product-managers/ai"
+    ],
+    "tags": [
+      {
+        "type": "internal_collection",
+        "slug": "free-lesson-beta",
+        "label": "Free lesson beta"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "legacy-instructor-owned-clc",
+        "label": "[LEGACY] Instructor Owned CLC Opt-in"
+      },
+      {
+        "type": "category",
+        "slug": "engineering-ll",
+        "label": "Data & engineering"
+      },
+      {
+        "type": "public_collection",
+        "slug": "fast-track-2024",
+        "label": "Fast Track 2024"
+      },
+      {
+        "type": "category",
+        "slug": "ai-ll",
+        "label": "AI"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "courses-filtered-for-recommendations",
+        "label": "Courses filtered for recommendations"
+      },
+      {
+        "type": "persona",
+        "slug": "for-product-managers",
+        "label": "For Product Managers"
+      },
+      {
+        "type": "persona",
+        "slug": "for-leaders",
+        "label": "For Leaders"
+      },
+      {
+        "type": "topic",
+        "slug": "llms",
+        "label": "Working with LLMs"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-ai-ml-engineering",
+        "label": "AI/ML engineering"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-ai-ml-engineering-1",
+        "label": "AI/ML engineering"
+      },
+      {
+        "type": "topic",
+        "slug": "ai",
+        "label": "AI"
+      }
+    ]
+  },
+  {
+    "id": 18842,
+    "title": "Launch Your AI Product Management & Engineering Career",
+    "schoolSlug": "theaiinternship",
+    "courseSlug": "break-into-ai-engineering-or-ai-pm",
+    "canonicalUrl": "https://maven.com/theaiinternship/break-into-ai-engineering-or-ai-pm",
+    "instructors": [
+      "Aki Wijesundara, PhD",
+      "Manu Jayawardana"
+    ],
+    "nextLiveCohort": "2026-03-30T06:30:00Z",
+    "ratingCount": 0,
+    "sourceUrls": [
+      "https://maven.com/courses/for-product-managers/ai"
+    ],
+    "tags": [
+      {
+        "type": "internal_collection",
+        "slug": "courses-filtered-for-recommendations",
+        "label": "Courses filtered for recommendations"
+      },
+      {
+        "type": "persona",
+        "slug": "for-product-managers",
+        "label": "For Product Managers"
+      },
+      {
+        "type": "persona",
+        "slug": "for-engineers",
+        "label": "For Engineers"
+      },
+      {
+        "type": "persona",
+        "slug": "for-job-seekers",
+        "label": "For Job Seekers"
+      },
+      {
+        "type": "topic",
+        "slug": "pm-certification",
+        "label": "Product Management Certifications"
+      },
+      {
+        "type": "topic",
+        "slug": "career-growth",
+        "label": "Career Growth"
+      },
+      {
+        "type": "topic",
+        "slug": "interviewing",
+        "label": "Interviewing"
+      },
+      {
+        "type": "topic",
+        "slug": "ai",
+        "label": "AI"
+      }
+    ]
+  },
+  {
+    "id": 18850,
+    "title": "Lead AI Without the Chaos",
+    "schoolSlug": "elena-luneva",
+    "courseSlug": "leading-high-leverage-ics-in-the-ai-era",
+    "canonicalUrl": "https://maven.com/elena-luneva/leading-high-leverage-ics-in-the-ai-era",
+    "instructors": [
+      "Elena Luneva",
+      "Polly Allen"
+    ],
+    "nextLiveCohort": "2026-03-21T16:00:00Z",
+    "ratingCount": 0,
+    "sourceUrls": [
+      "https://maven.com/courses/for-product-managers/ai"
+    ],
+    "tags": [
+      {
+        "type": "internal_collection",
+        "slug": "courses-filtered-for-recommendations",
+        "label": "Courses filtered for recommendations"
+      },
+      {
+        "type": "persona",
+        "slug": "for-product-managers",
+        "label": "For Product Managers"
+      },
+      {
+        "type": "persona",
+        "slug": "for-leaders",
+        "label": "For Leaders"
+      },
+      {
+        "type": "topic",
+        "slug": "management",
+        "label": "Management"
+      },
+      {
+        "type": "topic",
+        "slug": "ai",
+        "label": "AI"
+      },
+      {
+        "type": "topic",
+        "slug": "leadership",
+        "label": "Leadership"
+      }
+    ]
+  },
+  {
+    "id": 18946,
+    "title": "Learn to Control AI like a Creative Director",
+    "schoolSlug": "buildmyaesthetic",
+    "courseSlug": "the-ai-creative-director",
+    "canonicalUrl": "https://maven.com/buildmyaesthetic/the-ai-creative-director",
+    "instructors": [
+      "Jamey Gannon"
+    ],
+    "nextLiveCohort": "2026-03-13T16:00:00Z",
+    "ratingCount": 14,
+    "sourceUrls": [
+      "https://maven.com/courses/for-designers/ai"
+    ],
+    "tags": [
+      {
+        "type": "internal_collection",
+        "slug": "ai-affiliates-nov-24",
+        "label": "AI Affiliates"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "affiliate-dive-club",
+        "label": "Affiliate Dive Club"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "courses-filtered-for-recommendations",
+        "label": "Courses filtered for recommendations"
+      },
+      {
+        "type": "persona",
+        "slug": "for-designers",
+        "label": "For Designers"
+      },
+      {
+        "type": "persona",
+        "slug": "for-marketers",
+        "label": "For Marketers"
+      },
+      {
+        "type": "topic",
+        "slug": "llms",
+        "label": "Working with LLMs"
+      },
+      {
+        "type": "topic",
+        "slug": "branding",
+        "label": "Branding"
+      },
+      {
+        "type": "topic",
+        "slug": "ai",
+        "label": "AI"
+      },
+      {
+        "type": "topic",
+        "slug": "design",
+        "label": "Design"
+      }
+    ]
+  },
+  {
+    "id": 16252,
+    "title": "Let's Code LLM Chatbots and Agents from Scratch",
+    "schoolSlug": "actualize",
+    "courseSlug": "lets-build-an-llm-app",
+    "canonicalUrl": "https://maven.com/actualize/lets-build-an-llm-app",
+    "instructors": [
+      "Jay Wengrow"
+    ],
+    "nextLiveCohort": "2026-04-21T18:00:00Z",
+    "ratingCount": 6,
+    "sourceUrls": [
+      "https://maven.com/courses/for-engineers/ai-coding",
+      "https://maven.com/courses/for-product-managers/ai"
+    ],
+    "tags": [
+      {
+        "type": "persona",
+        "slug": "for-product-managers",
+        "label": "For Product Managers"
+      },
+      {
+        "type": "persona",
+        "slug": "for-engineers",
+        "label": "For Engineers"
+      },
+      {
+        "type": "topic",
+        "slug": "llms",
+        "label": "Working with LLMs"
+      },
+      {
+        "type": "topic",
+        "slug": "ai-coding",
+        "label": "Coding with AI"
+      },
+      {
+        "type": "topic",
+        "slug": "ai",
+        "label": "AI"
+      }
+    ]
+  },
+  {
+    "id": 18496,
+    "title": "Level Up to Product Super IC with AI",
+    "schoolSlug": "anshumani",
+    "courseSlug": "levelup-to-super-ic",
+    "canonicalUrl": "https://maven.com/anshumani/levelup-to-super-ic",
+    "instructors": [
+      "Anshumani Ruddra"
+    ],
+    "nextLiveCohort": "2026-05-23T15:00:00Z",
+    "ratingCount": 5,
+    "sourceUrls": [
+      "https://maven.com/courses/for-product-managers/ai"
+    ],
+    "tags": [
+      {
+        "type": "internal_collection",
+        "slug": "courses-filtered-for-recommendations",
+        "label": "Courses filtered for recommendations"
+      },
+      {
+        "type": "persona",
+        "slug": "for-product-managers",
+        "label": "For Product Managers"
+      },
+      {
+        "type": "persona",
+        "slug": "for-leaders",
+        "label": "For Leaders"
+      },
+      {
+        "type": "topic",
+        "slug": "productivity",
+        "label": "Productivity"
+      },
+      {
+        "type": "persona",
+        "slug": "for-founders",
+        "label": "For Founders"
+      },
+      {
+        "type": "topic",
+        "slug": "ai",
+        "label": "AI"
+      },
+      {
+        "type": "topic",
+        "slug": "leadership",
+        "label": "Leadership"
+      }
+    ]
+  },
+  {
+    "id": 13866,
+    "title": "Master UX Design for AI",
+    "schoolSlug": "hcaiinstitute",
+    "courseSlug": "mxdai",
+    "canonicalUrl": "https://maven.com/hcaiinstitute/mxdai",
+    "instructors": [
+      "Rupa Chaturvedi"
+    ],
+    "nextLiveCohort": "2026-03-23T07:00:00Z",
+    "ratingCount": 89,
+    "sourceUrls": [
+      "https://maven.com/courses/for-designers/ai"
+    ],
+    "tags": [
+      {
+        "type": "category",
+        "slug": "product-ll",
+        "label": "Product"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "legacy-instructor-owned-clc",
+        "label": "[LEGACY] Instructor Owned CLC Opt-in"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "ai-affiliates-nov-24",
+        "label": "AI Affiliates"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "building-ai-native-products",
+        "label": "Building AI-Native Products"
+      },
+      {
+        "type": "category",
+        "slug": "design-ll",
+        "label": "Design"
+      },
+      {
+        "type": "category",
+        "slug": "ai-ll",
+        "label": "AI"
+      },
+      {
+        "type": "public_collection",
+        "slug": "maven-100-ai-2025",
+        "label": "Maven 100 - AI 2025"
+      },
+      {
+        "type": "public_collection",
+        "slug": "maven-100-design-2025",
+        "label": "Maven 100 - Design 2025"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "courses-filtered-for-recommendations",
+        "label": "Courses filtered for recommendations"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "future-of-design",
+        "label": "The Future of Design"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "maven-100-2025",
+        "label": "maven-100-2025"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "affiliates-future-of-design-2025",
+        "label": "Future of Design 2025 Affiliates"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "ai-powered-super-ic",
+        "label": "The AI-Powered Super IC"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "maven-ads",
+        "label": "Maven Ads"
+      },
+      {
+        "type": "persona",
+        "slug": "for-designers",
+        "label": "For Designers"
+      },
+      {
+        "type": "topic",
+        "slug": "ux",
+        "label": "UX"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-ai-product-management",
+        "label": "AI product management"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-product-leadership",
+        "label": "Product leadership"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-product-for-ai",
+        "label": "Product for AI"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-ai-and-design",
+        "label": "AI and design"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-design-career-growth",
+        "label": "Design career growth"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-design-leadership",
+        "label": "Design leadership"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-ux-research",
+        "label": "UX research"
+      },
+      {
+        "type": "topic",
+        "slug": "ai",
+        "label": "AI"
+      }
+    ]
+  },
+  {
+    "id": 15393,
+    "title": "OpenClaw & Claude Code Certification for AI-Native PMs",
+    "schoolSlug": "marily-nika",
+    "courseSlug": "ai-agent-certification",
+    "canonicalUrl": "https://maven.com/marily-nika/ai-agent-certification",
+    "instructors": [
+      "Dmitry Shapiro",
+      "Dr. Marily Nika"
+    ],
+    "nextLiveCohort": "2026-03-23T19:00:00Z",
+    "ratingCount": 26,
+    "sourceUrls": [
+      "https://maven.com/courses/for-product-managers/agentic-ai",
+      "https://maven.com/courses/for-product-managers/ai"
+    ],
+    "tags": [
+      {
+        "type": "category",
+        "slug": "product-ll",
+        "label": "Product"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "building-ai-native-products",
+        "label": "Building AI-Native Products"
+      },
+      {
+        "type": "category",
+        "slug": "ai-ll",
+        "label": "AI"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "courses-filtered-for-recommendations",
+        "label": "Courses filtered for recommendations"
+      },
+      {
+        "type": "persona",
+        "slug": "for-product-managers",
+        "label": "For Product Managers"
+      },
+      {
+        "type": "topic",
+        "slug": "agentic-ai",
+        "label": "Agentic AI"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-ai-product-management",
+        "label": "AI product management"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-product-for-ai",
+        "label": "Product for AI"
+      },
+      {
+        "type": "topic",
+        "slug": "ai",
+        "label": "AI"
+      }
+    ]
+  },
+  {
+    "id": 16169,
+    "title": "OpenClaw-Claude Code Mastery by Building your AI P.A. & Acing AI PM Interviews",
+    "schoolSlug": "mahesh-yadav",
+    "courseSlug": "ai-pm-interview-prep-bootcamp",
+    "canonicalUrl": "https://maven.com/mahesh-yadav/ai-pm-interview-prep-bootcamp",
+    "instructors": [
+      "Mahesh Yadav"
+    ],
+    "nextLiveCohort": "2026-03-28T06:30:00Z",
+    "ratingCount": 25,
+    "sourceUrls": [
+      "https://maven.com/courses/for-product-managers/agentic-ai"
+    ],
+    "tags": [
+      {
+        "type": "category",
+        "slug": "product-ll",
+        "label": "Product"
+      },
+      {
+        "type": "category",
+        "slug": "leadership-ll",
+        "label": "Leadership & career"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "courses-filtered-for-recommendations",
+        "label": "Courses filtered for recommendations"
+      },
+      {
+        "type": "persona",
+        "slug": "for-product-managers",
+        "label": "For Product Managers"
+      },
+      {
+        "type": "topic",
+        "slug": "agentic-ai",
+        "label": "Agentic AI"
+      },
+      {
+        "type": "topic",
+        "slug": "interviewing",
+        "label": "Interviewing"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-product-leadership",
+        "label": "Product leadership"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-getting-promoted-or-hired",
+        "label": "Getting promoted or hired"
+      }
+    ]
+  },
+  {
+    "id": 19043,
+    "title": "Product Builder: Agentic Skills",
+    "schoolSlug": "agenticaipm",
+    "courseSlug": "product-builder-agents-and-skills",
+    "canonicalUrl": "https://maven.com/agenticaipm/product-builder-agents-and-skills",
+    "instructors": [
+      "Ryan Smith"
+    ],
+    "nextLiveCohort": "2026-04-09T17:00:00Z",
+    "ratingCount": 0,
+    "sourceUrls": [
+      "https://maven.com/courses/for-engineers/agentic-ai",
+      "https://maven.com/courses/for-engineers/ai-coding",
+      "https://maven.com/courses/for-product-managers/agentic-ai",
+      "https://maven.com/courses/for-product-managers/ai"
+    ],
+    "tags": [
+      {
+        "type": "internal_collection",
+        "slug": "courses-filtered-for-recommendations",
+        "label": "Courses filtered for recommendations"
+      },
+      {
+        "type": "persona",
+        "slug": "for-product-managers",
+        "label": "For Product Managers"
+      },
+      {
+        "type": "persona",
+        "slug": "for-engineers",
+        "label": "For Engineers"
+      },
+      {
+        "type": "topic",
+        "slug": "agentic-ai",
+        "label": "Agentic AI"
+      },
+      {
+        "type": "topic",
+        "slug": "ai-coding",
+        "label": "Coding with AI"
+      },
+      {
+        "type": "topic",
+        "slug": "ai",
+        "label": "AI"
+      }
+    ]
+  },
+  {
+    "id": 18416,
+    "title": "Production-Ready Recommenders for Media Products",
+    "schoolSlug": "katerina-zanos",
+    "courseSlug": "production-ready-recommenders-for-media-products",
+    "canonicalUrl": "https://maven.com/katerina-zanos/production-ready-recommenders-for-media-products",
+    "instructors": [
+      "Katerina Zanos"
+    ],
+    "nextLiveCohort": "2026-06-24T15:30:00Z",
+    "ratingCount": 0,
+    "sourceUrls": [
+      "https://maven.com/courses/for-engineers/ml"
+    ],
+    "tags": [
+      {
+        "type": "persona",
+        "slug": "for-engineers",
+        "label": "For Engineers"
+      },
+      {
+        "type": "persona",
+        "slug": "for-data-scientists",
+        "label": "For Data Scientists"
+      },
+      {
+        "type": "topic",
+        "slug": "ml",
+        "label": "Machine Learning"
+      },
+      {
+        "type": "topic",
+        "slug": "system-design",
+        "label": "System Design"
+      },
+      {
+        "type": "topic",
+        "slug": "ai",
+        "label": "AI"
+      }
+    ]
+  },
+  {
+    "id": 13409,
+    "title": "Prototyping with AI Bootcamp",
+    "schoolSlug": "no-code-ai",
+    "courseSlug": "prototyping-with-ai",
+    "canonicalUrl": "https://maven.com/no-code-ai/prototyping-with-ai",
+    "instructors": [
+      "Harold Dijkstra",
+      "Ciara Wearen"
+    ],
+    "nextLiveCohort": "2026-04-06T18:30:00Z",
+    "ratingCount": 196,
+    "sourceUrls": [
+      "https://maven.com/courses/for-product-managers/ai",
+      "https://maven.com/courses/for-product-managers/prototyping"
+    ],
+    "tags": [
+      {
+        "type": "category",
+        "slug": "product-ll",
+        "label": "Product"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-build-with-ai",
+        "label": "Build with AI"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "ai-affiliates-nov-24",
+        "label": "AI Affiliates"
+      },
+      {
+        "type": "public_collection",
+        "slug": "ai-powered-professional",
+        "label": "AI-Powered Professional"
+      },
+      {
+        "type": "public_collection",
+        "slug": "fast-track-2024",
+        "label": "Fast Track 2024"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "affiliate-dive-club",
+        "label": "Affiliate Dive Club"
+      },
+      {
+        "type": "public_collection",
+        "slug": "maven-100-product-2025",
+        "label": "Maven 100 - Product 2025"
+      },
+      {
+        "type": "category",
+        "slug": "ai-ll",
+        "label": "AI"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "maven-selects",
+        "label": "Maven Selects"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "affiliate-next-play",
+        "label": "Affiliate Next Play"
+      },
+      {
+        "type": "public_collection",
+        "slug": "maven-100-ai-2025",
+        "label": "Maven 100 - AI 2025"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "courses-filtered-for-recommendations",
+        "label": "Courses filtered for recommendations"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "maven-100-2025",
+        "label": "maven-100-2025"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "ai-powered-super-ic",
+        "label": "The AI-Powered Super IC"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "maven-ads",
+        "label": "Maven Ads"
+      },
+      {
+        "type": "persona",
+        "slug": "for-product-managers",
+        "label": "For Product Managers"
+      },
+      {
+        "type": "topic",
+        "slug": "prototyping",
+        "label": "Prototyping"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-ai-product-management",
+        "label": "AI product management"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-product-for-ai",
+        "label": "Product for AI"
+      },
+      {
+        "type": "topic",
+        "slug": "ai",
+        "label": "AI"
+      }
+    ]
+  },
+  {
+    "id": 16124,
+    "title": "Python for Data Science with GenAI",
+    "schoolSlug": "baig-academy",
+    "courseSlug": "python-with-genai",
+    "canonicalUrl": "https://maven.com/baig-academy/python-with-genai",
+    "instructors": [
+      "Mirza Rahim Baig"
+    ],
+    "nextLiveCohort": "2026-04-11T08:30:00Z",
+    "ratingCount": 2,
+    "sourceUrls": [
+      "https://maven.com/courses/for-engineers/ml"
+    ],
+    "tags": [
+      {
+        "type": "persona",
+        "slug": "for-engineers",
+        "label": "For Engineers"
+      },
+      {
+        "type": "persona",
+        "slug": "for-data-scientists",
+        "label": "For Data Scientists"
+      },
+      {
+        "type": "topic",
+        "slug": "ml",
+        "label": "Machine Learning"
+      },
+      {
+        "type": "topic",
+        "slug": "llms",
+        "label": "Working with LLMs"
+      },
+      {
+        "type": "topic",
+        "slug": "ai",
+        "label": "AI"
+      }
+    ]
+  },
+  {
+    "id": 19030,
+    "title": "Quantum Machine Learning for ML Engineers",
+    "schoolSlug": "quantum-school",
+    "courseSlug": "quantum-machine-learning-for-ml-engineers",
+    "canonicalUrl": "https://maven.com/quantum-school/quantum-machine-learning-for-ml-engineers",
+    "instructors": [
+      "Dr. Muhammad Faryad"
+    ],
+    "nextLiveCohort": "2026-03-31T16:00:00Z",
+    "ratingCount": 0,
+    "sourceUrls": [
+      "https://maven.com/courses/for-engineers/ml"
+    ],
+    "tags": [
+      {
+        "type": "persona",
+        "slug": "for-engineers",
+        "label": "For Engineers"
+      },
+      {
+        "type": "persona",
+        "slug": "for-data-scientists",
+        "label": "For Data Scientists"
+      },
+      {
+        "type": "topic",
+        "slug": "model-development",
+        "label": "Developing AI Models"
+      },
+      {
+        "type": "topic",
+        "slug": "ml",
+        "label": "Machine Learning"
+      },
+      {
+        "type": "topic",
+        "slug": "programming",
+        "label": "Programming"
+      }
+    ]
+  },
+  {
+    "id": 15428,
+    "title": "Responsible AI for Business Leaders",
+    "schoolSlug": "raibl",
+    "courseSlug": "responsible-ai-for-business-leaders",
+    "canonicalUrl": "https://maven.com/raibl/responsible-ai-for-business-leaders",
+    "instructors": [
+      "Hinda Haned"
+    ],
+    "nextLiveCohort": "2026-06-08T08:30:00Z",
+    "ratingCount": 3,
+    "sourceUrls": [
+      "https://maven.com/courses/for-product-managers/ai"
+    ],
+    "tags": [
+      {
+        "type": "persona",
+        "slug": "for-product-managers",
+        "label": "For Product Managers"
+      },
+      {
+        "type": "persona",
+        "slug": "for-leaders",
+        "label": "For Leaders"
+      },
+      {
+        "type": "topic",
+        "slug": "strategy",
+        "label": "Strategy"
+      },
+      {
+        "type": "topic",
+        "slug": "ai",
+        "label": "AI"
+      },
+      {
+        "type": "topic",
+        "slug": "leadership",
+        "label": "Leadership"
+      }
+    ]
+  },
+  {
+    "id": 18390,
+    "title": "Ship with Claude Code and Replit: 8 Day AI Coding Accelerator",
+    "schoolSlug": "alpha-clarity",
+    "courseSlug": "ship-with-claude-code-replit",
+    "canonicalUrl": "https://maven.com/alpha-clarity/ship-with-claude-code-replit",
+    "instructors": [
+      "Avthar Sewrathan"
+    ],
+    "nextLiveCohort": "2026-04-04T16:00:00Z",
+    "ratingCount": 18,
+    "sourceUrls": [
+      "https://maven.com/courses/for-engineers/ai-coding",
+      "https://maven.com/courses/for-product-managers/ai",
+      "https://maven.com/courses/for-product-managers/prototyping"
+    ],
+    "tags": [
+      {
+        "type": "internal_collection",
+        "slug": "courses-filtered-for-recommendations",
+        "label": "Courses filtered for recommendations"
+      },
+      {
+        "type": "persona",
+        "slug": "for-product-managers",
+        "label": "For Product Managers"
+      },
+      {
+        "type": "persona",
+        "slug": "for-engineers",
+        "label": "For Engineers"
+      },
+      {
+        "type": "topic",
+        "slug": "prototyping",
+        "label": "Prototyping"
+      },
+      {
+        "type": "topic",
+        "slug": "ai-coding",
+        "label": "Coding with AI"
+      },
+      {
+        "type": "topic",
+        "slug": "programming",
+        "label": "Programming"
+      },
+      {
+        "type": "persona",
+        "slug": "for-founders",
+        "label": "For Founders"
+      },
+      {
+        "type": "topic",
+        "slug": "ai",
+        "label": "AI"
+      }
+    ]
+  },
+  {
+    "id": 18988,
+    "title": "Ship Your Ideas: AI Coding for Product Designers",
+    "schoolSlug": "button-school",
+    "courseSlug": "coding-course",
+    "canonicalUrl": "https://maven.com/button-school/coding-course",
+    "instructors": [
+      "Nevan Scott"
+    ],
+    "nextLiveCohort": "2026-04-13T17:00:00Z",
+    "ratingCount": 0,
+    "sourceUrls": [
+      "https://maven.com/courses/for-designers/ai",
+      "https://maven.com/courses/for-designers/prototyping"
+    ],
+    "tags": [
+      {
+        "type": "persona",
+        "slug": "for-designers",
+        "label": "For Designers"
+      },
+      {
+        "type": "topic",
+        "slug": "prototyping",
+        "label": "Prototyping"
+      },
+      {
+        "type": "topic",
+        "slug": "design-systems",
+        "label": "Design Systems"
+      },
+      {
+        "type": "topic",
+        "slug": "ai-coding",
+        "label": "Coding with AI"
+      },
+      {
+        "type": "topic",
+        "slug": "ai",
+        "label": "AI"
+      }
+    ]
+  },
+  {
+    "id": 13392,
+    "title": "Technical Foundations & AI Prototyping for Product Managers",
+    "schoolSlug": "practical-tech-for-pms",
+    "courseSlug": "tech-basics",
+    "canonicalUrl": "https://maven.com/practical-tech-for-pms/tech-basics",
+    "instructors": [
+      "Vladimir Kalmykov "
+    ],
+    "nextLiveCohort": "2026-04-17T15:30:00Z",
+    "ratingCount": 41,
+    "sourceUrls": [
+      "https://maven.com/courses/for-product-managers/ai",
+      "https://maven.com/courses/for-product-managers/prototyping"
+    ],
+    "tags": [
+      {
+        "type": "category",
+        "slug": "product-ll",
+        "label": "Product"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "legacy-instructor-owned-clc",
+        "label": "[LEGACY] Instructor Owned CLC Opt-in"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "courses-filtered-for-recommendations",
+        "label": "Courses filtered for recommendations"
+      },
+      {
+        "type": "persona",
+        "slug": "for-product-managers",
+        "label": "For Product Managers"
+      },
+      {
+        "type": "topic",
+        "slug": "prototyping",
+        "label": "Prototyping"
+      },
+      {
+        "type": "topic",
+        "slug": "apis",
+        "label": "APIs"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-product-leadership",
+        "label": "Product leadership"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-product-fundamentals",
+        "label": "Product fundamentals"
+      },
+      {
+        "type": "topic",
+        "slug": "ai",
+        "label": "AI"
+      }
+    ]
+  },
+  {
+    "id": 18844,
+    "title": "The Claude Code OS for AI-First Product Managers",
+    "schoolSlug": "ron-yang",
+    "courseSlug": "claude-code-os-product-managers",
+    "canonicalUrl": "https://maven.com/ron-yang/claude-code-os-product-managers",
+    "instructors": [
+      "Ron Yang"
+    ],
+    "nextLiveCohort": "2026-05-28T16:00:00Z",
+    "ratingCount": 0,
+    "sourceUrls": [
+      "https://maven.com/courses/for-product-managers/ai"
+    ],
+    "tags": [
+      {
+        "type": "internal_collection",
+        "slug": "courses-filtered-for-recommendations",
+        "label": "Courses filtered for recommendations"
+      },
+      {
+        "type": "persona",
+        "slug": "for-product-managers",
+        "label": "For Product Managers"
+      },
+      {
+        "type": "topic",
+        "slug": "management",
+        "label": "Management"
+      },
+      {
+        "type": "topic",
+        "slug": "ai-coding",
+        "label": "Coding with AI"
+      },
+      {
+        "type": "persona",
+        "slug": "for-founders",
+        "label": "For Founders"
+      },
+      {
+        "type": "topic",
+        "slug": "ai",
+        "label": "AI"
+      }
+    ]
+  },
+  {
+    "id": 16409,
+    "title": "UX & Design for Today's AI Functionality",
+    "schoolSlug": "centercentre",
+    "courseSlug": "uxai",
+    "canonicalUrl": "https://maven.com/centercentre/uxai",
+    "instructors": [
+      "Jared Spool"
+    ],
+    "nextLiveCohort": "2026-03-20T15:00:00Z",
+    "ratingCount": 215,
+    "sourceUrls": [
+      "https://maven.com/courses/for-designers/ai"
+    ],
+    "tags": [
+      {
+        "type": "category",
+        "slug": "design-ll",
+        "label": "Design"
+      },
+      {
+        "type": "category",
+        "slug": "ai-ll",
+        "label": "AI"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "courses-filtered-for-recommendations",
+        "label": "Courses filtered for recommendations"
+      },
+      {
+        "type": "persona",
+        "slug": "for-designers",
+        "label": "For Designers"
+      },
+      {
+        "type": "topic",
+        "slug": "ux",
+        "label": "UX"
+      },
+      {
+        "type": "topic",
+        "slug": "user-research",
+        "label": "User Research"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-ai-business-strategy",
+        "label": "AI business strategy"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-ux-research",
+        "label": "UX research"
+      },
+      {
+        "type": "topic",
+        "slug": "ai",
+        "label": "AI"
+      },
+      {
+        "type": "topic",
+        "slug": "design",
+        "label": "Design"
+      }
+    ]
+  },
+  {
+    "id": 16943,
+    "title": "UX Design for Agentic AI",
+    "schoolSlug": "hcaiinstitute",
+    "courseSlug": "ux-design-for-agentic-ai",
+    "canonicalUrl": "https://maven.com/hcaiinstitute/ux-design-for-agentic-ai",
+    "instructors": [
+      "Rupa Chaturvedi"
+    ],
+    "nextLiveCohort": "2026-04-22T15:00:00Z",
+    "ratingCount": 0,
+    "sourceUrls": [
+      "https://maven.com/courses/for-designers/ai"
+    ],
+    "tags": [
+      {
+        "type": "category",
+        "slug": "design-ll",
+        "label": "Design"
+      },
+      {
+        "type": "category",
+        "slug": "ai-ll",
+        "label": "AI"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "courses-filtered-for-recommendations",
+        "label": "Courses filtered for recommendations"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "maven-ads",
+        "label": "Maven Ads"
+      },
+      {
+        "type": "persona",
+        "slug": "for-designers",
+        "label": "For Designers"
+      },
+      {
+        "type": "topic",
+        "slug": "ux",
+        "label": "UX"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-ai-product-management",
+        "label": "AI product management"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-ai-and-design",
+        "label": "AI and design"
+      },
+      {
+        "type": "topic",
+        "slug": "ai",
+        "label": "AI"
+      }
+    ]
+  },
+  {
+    "id": 16349,
+    "title": "UX Strategy for Devising AI-Driven Products",
+    "schoolSlug": "jaimelevy",
+    "courseSlug": "uxstrategy",
+    "canonicalUrl": "https://maven.com/jaimelevy/uxstrategy",
+    "instructors": [
+      "Jaime Levy"
+    ],
+    "nextLiveCohort": "2026-06-02T16:00:00Z",
+    "ratingCount": 60,
+    "sourceUrls": [
+      "https://maven.com/courses/for-designers/ai"
+    ],
+    "tags": [
+      {
+        "type": "category",
+        "slug": "product-ll",
+        "label": "Product"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "courses-filtered-for-recommendations",
+        "label": "Courses filtered for recommendations"
+      },
+      {
+        "type": "persona",
+        "slug": "for-designers",
+        "label": "For Designers"
+      },
+      {
+        "type": "topic",
+        "slug": "ux",
+        "label": "UX"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-product-fundamentals",
+        "label": "Product fundamentals"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-product-strategy",
+        "label": "Product strategy"
+      },
+      {
+        "type": "topic",
+        "slug": "ai",
+        "label": "AI"
+      }
+    ]
+  },
+  {
+    "id": 15500,
+    "title": "Vibe Coding Data-Enabled AI Apps for Product Managers, Designers, and Founders",
+    "schoolSlug": "drewfalkman",
+    "courseSlug": "vibe-coding-for-non-technical-founders",
+    "canonicalUrl": "https://maven.com/drewfalkman/vibe-coding-for-non-technical-founders",
+    "instructors": [
+      "Drew Falkman"
+    ],
+    "nextLiveCohort": "2026-03-23T19:00:00Z",
+    "ratingCount": 9,
+    "sourceUrls": [
+      "https://maven.com/courses/for-designers/ai",
+      "https://maven.com/courses/for-designers/prototyping",
+      "https://maven.com/courses/for-product-managers/ai",
+      "https://maven.com/courses/for-product-managers/prototyping"
+    ],
+    "tags": [
+      {
+        "type": "category",
+        "slug": "product-ll",
+        "label": "Product"
+      },
+      {
+        "type": "category",
+        "slug": "leadership-ll",
+        "label": "Leadership & career"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-build-with-ai",
+        "label": "Build with AI"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "ai-affiliates-nov-24",
+        "label": "AI Affiliates"
+      },
+      {
+        "type": "category",
+        "slug": "ai-ll",
+        "label": "AI"
+      },
+      {
+        "type": "internal_collection",
+        "slug": "courses-filtered-for-recommendations",
+        "label": "Courses filtered for recommendations"
+      },
+      {
+        "type": "persona",
+        "slug": "for-product-managers",
+        "label": "For Product Managers"
+      },
+      {
+        "type": "persona",
+        "slug": "for-designers",
+        "label": "For Designers"
+      },
+      {
+        "type": "topic",
+        "slug": "prototyping",
+        "label": "Prototyping"
+      },
+      {
+        "type": "topic",
+        "slug": "ai-coding",
+        "label": "Coding with AI"
+      },
+      {
+        "type": "deprecated",
+        "slug": "x-subcategory-critical-workplace-skills",
+        "label": "Critical workplace skills"
+      },
+      {
+        "type": "persona",
+        "slug": "for-founders",
+        "label": "For Founders"
+      },
+      {
+        "type": "topic",
+        "slug": "ai",
+        "label": "AI"
+      }
+    ]
+  },
+  {
+    "id": 18834,
+    "title": "Vibe Coding Mastery: Turning Product Ideas into Software",
+    "schoolSlug": "vrungta",
+    "courseSlug": "vibe-coding-mastery-idea-to-deployment",
+    "canonicalUrl": "https://maven.com/vrungta/vibe-coding-mastery-idea-to-deployment",
+    "instructors": [
+      "Vikash Rungta"
+    ],
+    "nextLiveCohort": "2026-03-23T06:30:00Z",
+    "ratingCount": 8,
+    "sourceUrls": [
+      "https://maven.com/courses/for-product-managers/ai",
+      "https://maven.com/courses/for-product-managers/prototyping"
+    ],
+    "tags": [
+      {
+        "type": "persona",
+        "slug": "for-product-managers",
+        "label": "For Product Managers"
+      },
+      {
+        "type": "topic",
+        "slug": "prototyping",
+        "label": "Prototyping"
+      },
+      {
+        "type": "topic",
+        "slug": "ai-coding",
+        "label": "Coding with AI"
+      },
+      {
+        "type": "persona",
+        "slug": "for-founders",
+        "label": "For Founders"
+      },
+      {
+        "type": "topic",
+        "slug": "product-strategy",
+        "label": "Product Strategy"
+      },
+      {
+        "type": "topic",
+        "slug": "ai",
+        "label": "AI"
+      }
+    ]
+  },
+  {
+    "id": 18040,
+    "title": "Vibe Coding with Generative AI for Conversation Designers",
+    "schoolSlug": "ben-mc-culloch",
+    "courseSlug": "vibe-coding-with-generative-ai-for-conversation-designers",
+    "canonicalUrl": "https://maven.com/ben-mc-culloch/vibe-coding-with-generative-ai-for-conversation-designers",
+    "instructors": [
+      "Ben McCulloch"
+    ],
+    "nextLiveCohort": "2026-04-06T10:00:00Z",
+    "ratingCount": 9,
+    "sourceUrls": [
+      "https://maven.com/courses/for-designers/ai",
+      "https://maven.com/courses/for-designers/prototyping",
+      "https://maven.com/courses/for-product-managers/ai",
+      "https://maven.com/courses/for-product-managers/prototyping"
+    ],
+    "tags": [
+      {
+        "type": "persona",
+        "slug": "for-product-managers",
+        "label": "For Product Managers"
+      },
+      {
+        "type": "persona",
+        "slug": "for-designers",
+        "label": "For Designers"
+      },
+      {
+        "type": "topic",
+        "slug": "prototyping",
+        "label": "Prototyping"
+      },
+      {
+        "type": "topic",
+        "slug": "ai-coding",
+        "label": "Coding with AI"
+      },
+      {
+        "type": "topic",
+        "slug": "ai",
+        "label": "AI"
+      }
+    ]
+  }
+]

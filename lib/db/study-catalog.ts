@@ -36,7 +36,12 @@ type StudyCatalogData = {
   learningPaths: LearningPath[];
 };
 
-const verifiedAt = "2026-03-15T09:00:00.000Z";
+type StudyEntryOverride = {
+  course: string;
+  url: string;
+};
+
+const verifiedAt = "2026-03-16T19:50:00.000Z";
 const ibmSkillsBuildCatalogUrl = "https://skillsbuild.org/students/course-catalog/artificial-intelligence";
 const baseStudyEntries = (studyCatalogEntriesJson as StudyEntryRow[]).map(
   ([index, provider, course, url, credential, sourceFile]) => ({
@@ -63,6 +68,92 @@ const microsoftLearnEntries = (microsoftLearnAiEngineerEntriesJson as MicrosoftL
 const studyEntries = [
   ...baseStudyEntries.filter((entry) => entry.provider !== "Microsoft Learn"),
   ...microsoftLearnEntries,
+];
+
+const study150ProviderOverrides: Record<string, StudyEntryOverride> = {
+  Google: {
+    course: "Machine Learning Crash Course",
+    url: "https://developers.google.com/machine-learning/crash-course",
+  },
+  "IBM SkillsBuild": {
+    course: "Free Artificial Intelligence Course for Students | SkillsBuild",
+    url: ibmSkillsBuildCatalogUrl,
+  },
+  "DeepLearning.AI": {
+    course: "Courses - DeepLearning.AI",
+    url: "https://www.deeplearning.ai/courses/",
+  },
+  "Coursera (Free Audit)": {
+    course: "Machine Learning Online Courses | Coursera",
+    url: "https://www.coursera.org/browse/data-science/machine-learning",
+  },
+  "edX (Audit Free)": {
+    course: "Online AI courses and programs | edX",
+    url: "https://www.edx.org/learn/artificial-intelligence",
+  },
+  "Kaggle Learn": {
+    course: "Learn Python, Data Viz, Pandas & More | Tutorials | Kaggle",
+    url: "https://www.kaggle.com/learn",
+  },
+  "NVIDIA DLI": {
+    course: "Deep Learning Institute (DLI) Training and Certification | NVIDIA",
+    url: "https://www.nvidia.com/en-us/training/",
+  },
+  "AWS Training": {
+    course: "AI Courses and Training - Learn Artificial Intelligence - AWS",
+    url: "https://aws.amazon.com/ai/learn/",
+  },
+};
+
+const huggingFaceLearnCourseOverrides: StudyEntryOverride[] = [
+  {
+    course: "LLM Course",
+    url: "https://huggingface.co/learn/llm-course",
+  },
+  {
+    course: "Robotics Course",
+    url: "https://huggingface.co/learn/robotics-course",
+  },
+  {
+    course: "MCP Course",
+    url: "https://huggingface.co/learn/mcp-course",
+  },
+  {
+    course: "a smol course",
+    url: "https://huggingface.co/learn/smol-course",
+  },
+  {
+    course: "Agents Course",
+    url: "https://huggingface.co/learn/agents-course",
+  },
+  {
+    course: "Deep RL Course",
+    url: "https://huggingface.co/learn/deep-rl-course",
+  },
+  {
+    course: "Community Computer Vision Course",
+    url: "https://huggingface.co/learn/computer-vision-course",
+  },
+  {
+    course: "Audio Course",
+    url: "https://huggingface.co/learn/audio-course",
+  },
+  {
+    course: "Open-Source AI Cookbook",
+    url: "https://huggingface.co/learn/cookbook",
+  },
+  {
+    course: "ML for Games Course",
+    url: "https://huggingface.co/learn/ml-games-course",
+  },
+  {
+    course: "Diffusion Course",
+    url: "https://huggingface.co/learn/diffusion-course",
+  },
+  {
+    course: "ML for 3D Course",
+    url: "https://huggingface.co/learn/ml-for-3d-course",
+  },
 ];
 
 const providerAliases: Record<
@@ -331,6 +422,25 @@ function normalizeStudyUrl(entry: StudyEntry) {
   return entry.url;
 }
 
+function normalizeStudyEntry(entry: StudyEntry): StudyEntry {
+  if (entry.sourceFile !== "study_150_courses.md") {
+    return entry;
+  }
+
+  const override =
+    entry.provider === "Hugging Face"
+      ? huggingFaceLearnCourseOverrides[
+          (Math.max(Math.floor(entry.index / 10) - 1, 0)) % huggingFaceLearnCourseOverrides.length
+        ]
+      : study150ProviderOverrides[entry.provider];
+
+  return {
+    ...entry,
+    course: override?.course ?? entry.course.replace(/\s+\d+$/, ""),
+    url: override?.url ?? entry.url,
+  };
+}
+
 function getProviderSeed(entry: StudyEntry): Provider {
   const alias = providerAliases[entry.provider];
 
@@ -532,7 +642,7 @@ const pathConfigs: Array<{
 ];
 
 export function getStudyCatalogData(): StudyCatalogData {
-  const entries = studyEntries;
+  const entries = studyEntries.map(normalizeStudyEntry);
 
   const providers = Array.from(
     new Map(

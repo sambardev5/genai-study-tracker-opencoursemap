@@ -25,6 +25,14 @@ export function formatHours(hours?: number | null) {
   return `${hours.toFixed(hours % 1 === 0 ? 0 : 1)} hrs`;
 }
 
+export function formatCourseDuration(hours?: number | null, mode?: string) {
+  if (hours == null || hours <= 0) {
+    return mode === "cohort" || mode === "live" ? "Schedule varies" : "Self-guided";
+  }
+
+  return formatHours(hours);
+}
+
 export function formatPercent(value: number) {
   return `${Math.round(value)}%`;
 }

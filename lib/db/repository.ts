@@ -33,8 +33,22 @@ import type {
 const profileStore = new Map<string, UserProfile>([[demoProfile.id, demoProfile]]);
 const preferenceStore = new Map<string, UserPreferences>([[demoPreferences.userId, demoPreferences]]);
 
-function getVisibleCourses() {
-  return getCatalogCourses().filter((course) => course.isActive && course.isFree);
+function getVisibleCourses(pricing: NonNullable<CourseSearchFilters["pricing"]> = "free") {
+  return getCatalogCourses().filter((course) => {
+    if (!course.isActive) {
+      return false;
+    }
+
+    if (pricing === "free") {
+      return course.isFree;
+    }
+
+    if (pricing === "paid") {
+      return !course.isFree;
+    }
+
+    return true;
+  });
 }
 
 function getProviderById(providerId: string) {
@@ -90,7 +104,7 @@ function sortCourses(items: Course[], filters: CourseSearchFilters) {
 }
 
 function filterCourses(filters: CourseSearchFilters) {
-  return getVisibleCourses().filter((course) => {
+  return getVisibleCourses(filters.pricing ?? "all").filter((course) => {
     if (filters.q && computeQueryScore(course, filters.q) === 0) {
       return false;
     }
@@ -222,7 +236,7 @@ export const repository = {
       return null;
     }
 
-    const related = getVisibleCourses()
+    const related = getVisibleCourses("all")
       .filter(
         (candidate) =>
           candidate.id !== course.id &&
@@ -353,7 +367,7 @@ export const repository = {
     const currentCourses = getCatalogCourses();
     const currentProviders = getCatalogProviders();
     const recommendedNext = getTopRecommendations({
-      courses: getVisibleCourses(),
+      courses: getVisibleCourses("free"),
       profile,
       preferences,
       statuses,
@@ -439,7 +453,7 @@ export const repository = {
 
   getRecommendations(userId: string) {
     return getTopRecommendations({
-      courses: getVisibleCourses(),
+      courses: getVisibleCourses("free"),
       profile: this.getProfile(userId),
       preferences: this.getPreferences(userId),
       statuses: getUserStatuses(userId),

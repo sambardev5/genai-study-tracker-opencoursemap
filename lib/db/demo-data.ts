@@ -12,6 +12,7 @@ import type {
   UserProfile,
 } from "@/lib/types";
 import { getStudyCatalogData } from "@/lib/db/study-catalog";
+import { getMavenCatalogData } from "@/lib/db/maven-catalog";
 
 const now = "2026-03-15T12:00:00.000Z";
 const catalogVerifiedAt = "2026-03-15T09:00:00.000Z";
@@ -702,11 +703,17 @@ function mergeUniqueById<T extends { id: string }>(base: T[], additions: T[]) {
 }
 
 export function getCatalogProviders() {
-  return mergeUniqueById(baseProviders, getStudyCatalogData().providers);
+  return mergeUniqueById(
+    mergeUniqueById(baseProviders, getStudyCatalogData().providers),
+    getMavenCatalogData().providers,
+  );
 }
 
 export function getCatalogCourses() {
-  return mergeUniqueById(baseCourses, getStudyCatalogData().courses);
+  return mergeUniqueById(
+    mergeUniqueById(baseCourses, getStudyCatalogData().courses),
+    getMavenCatalogData().courses,
+  );
 }
 
 export function getCatalogLearningPaths() {

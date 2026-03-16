@@ -2,7 +2,7 @@ import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import { Card } from "@/components/ui/card";
-import { formatHours } from "@/lib/utils";
+import { formatCourseDuration } from "@/lib/utils";
 import type { Course, RecommendationItem } from "@/lib/types";
 
 export function RecommendationList({
@@ -23,7 +23,7 @@ export function RecommendationList({
             <p className="text-sm leading-7 text-ink/68">{item.reason}</p>
           </div>
           <div className="flex items-center gap-4 text-sm text-ink/58">
-            {item.course ? <span>{formatHours(item.course.durationHours)}</span> : null}
+            {item.course ? <span>{formatCourseDuration(item.course.durationHours, item.course.courseMode)}</span> : null}
             <Link href={`/courses/${item.courseId}`} className="inline-flex items-center gap-2 font-semibold text-copper">
               Review course
               <ArrowRight className="h-4 w-4" />

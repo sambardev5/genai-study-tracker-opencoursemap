@@ -8,13 +8,13 @@ export const metadata: Metadata = {
     template: "%s | OpenCourseMap",
   },
   description:
-    "Discover free LLM, MCP, Generative AI, and Machine Learning courses. Track external enrollments, completions, and skill gaps in one place.",
+    "Discover free and paid LLM, MCP, Generative AI, Machine Learning, and agentic AI courses. Track external enrollments, completions, and skill gaps in one place.",
   applicationName: "OpenCourseMap",
   metadataBase: new URL(process.env.NEXT_PUBLIC_APP_URL ?? "http://localhost:3000"),
   openGraph: {
     title: "OpenCourseMap",
     description:
-      "Free-to-enroll AI learning resources with progress tracking, guided paths, and skill-gap dashboards.",
+      "Pricing-aware AI learning resources with progress tracking, guided paths, and skill-gap dashboards.",
     type: "website",
   },
 };

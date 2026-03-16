@@ -6,8 +6,8 @@ export default function AboutPage() {
     <div className="mx-auto max-w-5xl px-4 py-12 sm:px-6 lg:px-8">
       <SectionHeading
         eyebrow="About"
-        title="A free AI learning map with honest product boundaries"
-        description="OpenCourseMap curates only free-to-enroll AI learning resources. We do not auto-enroll users, scrape arbitrary sites, or claim provider completion sync where it does not exist."
+        title="An AI learning map with honest product boundaries"
+        description="OpenCourseMap curates free and paid AI learning resources from tracked provider catalogs. We do not auto-enroll users, scrape arbitrary sites, or claim provider completion sync where it does not exist."
       />
       <div className="mt-10 grid gap-6 lg:grid-cols-2">
         <Card>

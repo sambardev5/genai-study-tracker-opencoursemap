@@ -2,7 +2,7 @@ import Link from "next/link";
 import { ArrowUpRight, Clock3, GraduationCap } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import { Card } from "@/components/ui/card";
-import { formatDate, formatHours } from "@/lib/utils";
+import { formatCourseDuration, formatDate } from "@/lib/utils";
 import type { Course, Provider, Topic } from "@/lib/types";
 
 export function CourseCard({
@@ -16,16 +16,23 @@ export function CourseCard({
   courseTopics?: Topic[];
   action?: React.ReactNode;
 }) {
-  const freeTone = course.freeVerificationStatus === "verified" ? "success" : "warning";
+  const pricingTone = course.isFree
+    ? course.freeVerificationStatus === "verified"
+      ? "success"
+      : "warning"
+    : "muted";
+  const pricingLabel = course.isFree
+    ? course.freeVerificationStatus === "verified"
+      ? "Verified free"
+      : "Free / needs re-check"
+    : "Paid";
 
   return (
     <Card className="flex h-full flex-col gap-5">
       <div className="flex items-start justify-between gap-4">
         <div className="space-y-3">
           <div className="flex flex-wrap gap-2">
-            <Badge tone={freeTone}>
-              {course.freeVerificationStatus === "verified" ? "Verified free" : "Needs re-check"}
-            </Badge>
+            <Badge tone={pricingTone}>{pricingLabel}</Badge>
             <Badge tone="muted">{course.difficulty}</Badge>
           </div>
           <div>
@@ -50,13 +57,13 @@ export function CourseCard({
       <div className="flex flex-wrap items-center gap-4 text-sm text-ink/60">
         <span className="inline-flex items-center gap-2">
           <Clock3 className="h-4 w-4" />
-          {formatHours(course.durationHours)}
+          {formatCourseDuration(course.durationHours, course.courseMode)}
         </span>
         <span className="inline-flex items-center gap-2">
           <GraduationCap className="h-4 w-4" />
           {course.courseMode}
         </span>
-        <span>Verified {formatDate(course.freeVerifiedAt)}</span>
+        <span>Checked {formatDate(course.freeVerifiedAt)}</span>
       </div>
     </Card>
   );

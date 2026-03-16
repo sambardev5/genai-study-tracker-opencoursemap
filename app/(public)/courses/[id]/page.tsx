@@ -7,7 +7,7 @@ import { SectionHeading } from "@/components/layout/section-heading";
 import { Badge } from "@/components/ui/badge";
 import { Card } from "@/components/ui/card";
 import { repository } from "@/lib/db/repository";
-import { formatDate, formatHours } from "@/lib/utils";
+import { formatCourseDuration, formatDate } from "@/lib/utils";
 
 export const dynamic = "force-dynamic";
 export const revalidate = 0;
@@ -50,23 +50,26 @@ export default async function CourseDetailPage({ params }: { params: Promise<{ i
               </div>
               <div>
                 <div className="text-xs uppercase tracking-[0.22em] text-ink/45">Duration</div>
-                <div className="mt-2 text-lg font-semibold">{formatHours(course.durationHours)}</div>
+                <div className="mt-2 text-lg font-semibold">
+                  {formatCourseDuration(course.durationHours, course.courseMode)}
+                </div>
               </div>
               <div>
                 <div className="text-xs uppercase tracking-[0.22em] text-ink/45">Mode</div>
                 <div className="mt-2 text-lg font-semibold">{course.courseMode}</div>
               </div>
               <div>
-                <div className="text-xs uppercase tracking-[0.22em] text-ink/45">Verified free</div>
-                <div className="mt-2 text-lg font-semibold">{formatDate(course.freeVerifiedAt)}</div>
+                <div className="text-xs uppercase tracking-[0.22em] text-ink/45">Pricing</div>
+                <div className="mt-2 text-lg font-semibold">{course.isFree ? "Free" : "Paid"}</div>
               </div>
             </div>
             <p className="mt-6 text-sm leading-7 text-ink/68">
-              Enrollment happens on the provider website; progress tracking happens here.
+              Catalog checked {formatDate(course.freeVerifiedAt)}. Enrollment happens on the provider website;
+              progress tracking happens here.
             </p>
             <div className="mt-6 flex flex-wrap gap-3">
               <Link href={course.enrollmentUrl} className="rounded-full bg-ink px-5 py-3 text-sm font-semibold text-canvas">
-                Open provider enrollment
+                Open provider page
               </Link>
               <CourseStatusActions courseId={course.id} />
             </div>

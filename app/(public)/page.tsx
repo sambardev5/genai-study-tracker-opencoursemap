@@ -24,10 +24,10 @@ export default function HomePage() {
     <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
       <section className="grid gap-10 rounded-[36px] border border-black/5 bg-hero-grid bg-[size:32px_32px] p-8 shadow-card sm:p-10 lg:grid-cols-[1.3fr_0.9fr] lg:p-12">
         <div className="space-y-7">
-          <Badge>Only free-to-enroll resources</Badge>
+          <Badge>Free and paid provider catalogs</Badge>
           <SectionHeading
-            title="Discover the free AI courses worth your study time."
-            description="Find free LLM, SLM, MCP, Generative AI, and ML courses. Enroll on the provider site, then track progress, completions, and skill gaps here."
+            title="Discover AI courses worth your study time."
+            description="Find free and paid LLM, MCP, Generative AI, ML, evals, prototyping, and agentic AI courses. Enroll on the provider site, then track progress, completions, and skill gaps here."
           />
           <div className="flex flex-wrap gap-3">
             <Link href="/courses">
@@ -45,7 +45,7 @@ export default function HomePage() {
           <div className="grid gap-4 sm:grid-cols-3">
             <Card className="bg-white/75">
               <div className="text-3xl font-bold">{featured.pagination.total}</div>
-              <div className="mt-2 text-sm text-ink/60">Catalog synced from study.md and study_150_courses.md with all 250 listed courses grouped into topic-based learning paths.</div>
+              <div className="mt-2 text-sm text-ink/60">Catalog synced from the study guides plus vetted Microsoft Learn and Maven AI category pages.</div>
             </Card>
             <Card className="bg-white/75">
               <div className="text-3xl font-bold">{topics.length}</div>
@@ -53,7 +53,7 @@ export default function HomePage() {
             </Card>
             <Card className="bg-white/75">
               <div className="text-3xl font-bold">{providers.length}</div>
-              <div className="mt-2 text-sm text-ink/60">Allowlisted providers with free-verification tracking.</div>
+              <div className="mt-2 text-sm text-ink/60">Allowlisted providers with pricing-aware catalog tracking.</div>
             </Card>
           </div>
         </div>
@@ -72,7 +72,7 @@ export default function HomePage() {
             <div className="space-y-4 text-sm leading-7 text-canvas/78">
               <div className="flex gap-3">
                 <Compass className="mt-1 h-4 w-4 shrink-0 text-sky" />
-                Search and filter only free-to-enroll resources.
+                Search and filter both free and paid provider offerings.
               </div>
               <div className="flex gap-3">
                 <GraduationCap className="mt-1 h-4 w-4 shrink-0 text-sky" />
@@ -80,7 +80,7 @@ export default function HomePage() {
               </div>
               <div className="flex gap-3">
                 <ShieldCheck className="mt-1 h-4 w-4 shrink-0 text-sky" />
-                See stale or suspected pricing status before committing time.
+                See checked pricing status before committing time.
               </div>
             </div>
           </div>

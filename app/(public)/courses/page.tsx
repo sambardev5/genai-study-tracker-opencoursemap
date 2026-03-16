@@ -163,11 +163,11 @@ export default async function CoursesPage({
     <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
       <SectionHeading
         eyebrow="Catalog"
-        title="Free courses for modern AI practice"
-        description="Search the combined 250-course study catalog from study.md and study_150_courses.md, grouped by provider and topic with the original study URLs preserved."
+        title="AI courses for modern practice"
+        description="Search the merged catalog of free and paid AI, ML, agentic AI, evals, prototyping, and AI coding courses from the study guides plus vetted Maven category pages."
       />
 
-      <form className="mt-10 grid gap-4 rounded-[28px] border border-black/5 bg-white/70 p-5 shadow-card lg:grid-cols-6">
+      <form className="mt-10 grid gap-4 rounded-[28px] border border-black/5 bg-white/70 p-5 shadow-card lg:grid-cols-7">
         <Input name="q" placeholder="Search by title or topic" defaultValue={filters.q} className="lg:col-span-2" />
         <select name="topic" defaultValue={filters.topic} className="h-11 rounded-full border border-black/10 bg-white px-4 text-sm">
           <option value="">All topics</option>
@@ -184,6 +184,11 @@ export default async function CoursesPage({
               {provider.name}
             </option>
           ))}
+        </select>
+        <select name="pricing" defaultValue={filters.pricing} className="h-11 rounded-full border border-black/10 bg-white px-4 text-sm">
+          <option value="all">All pricing</option>
+          <option value="free">Free only</option>
+          <option value="paid">Paid only</option>
         </select>
         <select name="level" defaultValue={filters.level} className="h-11 rounded-full border border-black/10 bg-white px-4 text-sm">
           <option value="">All levels</option>
@@ -219,7 +224,7 @@ export default async function CoursesPage({
             course={course}
             provider={providers.find((provider) => provider.id === course.providerId)}
             courseTopics={topics.filter((topic) => course.topicIds.includes(topic.id))}
-            action={<Link href={course.enrollmentUrl} className="text-sm font-semibold text-copper">Enroll externally</Link>}
+            action={<Link href={course.enrollmentUrl} className="text-sm font-semibold text-copper">Open provider page</Link>}
           />
         ))}
       </div>

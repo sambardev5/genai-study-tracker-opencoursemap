@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 import { SectionHeading } from "@/components/layout/section-heading";
 import { Badge } from "@/components/ui/badge";
 import { Card } from "@/components/ui/card";
-import { formatHours } from "@/lib/utils";
+import { formatCourseDuration } from "@/lib/utils";
 import { repository } from "@/lib/db/repository";
 
 export const dynamic = "force-dynamic";
@@ -41,7 +41,7 @@ export default async function LearningPathDetailPage({ params }: { params: Promi
                 <p className="mt-2 text-sm leading-7 text-ink/68">{item.rationale}</p>
               </div>
               <div className="flex flex-col items-start gap-3 text-sm text-ink/56 md:items-end">
-                <div>{course ? formatHours(course.durationHours) : null}</div>
+                <div>{course ? formatCourseDuration(course.durationHours, course.courseMode) : null}</div>
                 {course ? (
                   <a
                     href={course.enrollmentUrl}

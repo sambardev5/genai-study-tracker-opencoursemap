@@ -34,11 +34,11 @@ describe("study catalog import", () => {
   it("infers topic groupings for representative courses", () => {
     const promptCourse = studyCourses.find((course) => course.title === "ChatGPT Prompt Engineering for Developers");
     const mcpCourse = studyCourses.find((course) => course.title === "Model Context Protocol (MCP) Course");
-    const nvidiaCourse = studyCourses.find((course) => course.title === "Transformers and LLMs 8");
+    const llmCourse = studyCourses.find((course) => course.title === "LLM Course");
 
     expect(promptCourse?.topicIds).toEqual(expect.arrayContaining(["topic-prompt", "topic-genai"]));
     expect(mcpCourse?.topicIds).toEqual(expect.arrayContaining(["topic-mcp", "topic-agents"]));
-    expect(nvidiaCourse?.topicIds).toEqual(expect.arrayContaining(["topic-llm", "topic-genai"]));
+    expect(llmCourse?.topicIds).toEqual(expect.arrayContaining(["topic-llm", "topic-genai"]));
   });
 
   it("preserves repeated study URLs as separate course rows when the files list them separately", () => {
@@ -48,7 +48,7 @@ describe("study catalog import", () => {
 
     expect(crashCourseRows).toHaveLength(16);
     expect(crashCourseRows.some((course) => course.title === "Machine Learning Crash Course")).toBe(true);
-    expect(crashCourseRows.some((course) => course.title === "Introduction to Artificial Intelligence 1")).toBe(true);
+    expect(crashCourseRows.every((course) => course.title === "Machine Learning Crash Course")).toBe(true);
   });
 
   it("normalizes IBM SkillsBuild links to the working AI catalog URL", () => {
@@ -81,6 +81,54 @@ describe("study catalog import", () => {
           course.title === "Develop generative AI apps in Azure" &&
           course.canonicalUrl ===
             "https://learn.microsoft.com/en-us/training/paths/develop-generative-ai-apps/",
+      ),
+    ).toBe(true);
+  });
+
+  it("rescans study_150 placeholder rows onto real catalog pages and removes numeric suffixes", () => {
+    expect(studyCourses.some((course) => course.title === "Generative AI Foundations 4")).toBe(false);
+    expect(studyCourses.some((course) => course.title === "Prompt Engineering 5")).toBe(false);
+    expect(studyCourses.some((course) => course.title === "Transformers and LLMs 8")).toBe(false);
+    expect(studyCourses.some((course) => course.title === "Responsible AI 10")).toBe(false);
+    expect(
+      studyCourses.some(
+        (course) =>
+          course.title === "Open-Source AI Cookbook" &&
+          course.canonicalUrl === "https://huggingface.co/learn/cookbook",
+      ),
+    ).toBe(true);
+    expect(
+      studyCourses.some(
+        (course) =>
+          course.title === "ML for 3D Course" &&
+          course.canonicalUrl === "https://huggingface.co/learn/ml-for-3d-course",
+      ),
+    ).toBe(true);
+    expect(
+      studyCourses.some(
+        (course) =>
+          course.providerId === "provider-hf" && course.canonicalUrl === "https://huggingface.co/learn",
+      ),
+    ).toBe(false);
+    expect(
+      studyCourses.some(
+        (course) =>
+          course.title === "Courses - DeepLearning.AI" &&
+          course.canonicalUrl === "https://www.deeplearning.ai/courses/",
+      ),
+    ).toBe(true);
+    expect(
+      studyCourses.some(
+        (course) =>
+          course.title === "Machine Learning Online Courses | Coursera" &&
+          course.canonicalUrl === "https://www.coursera.org/browse/data-science/machine-learning",
+      ),
+    ).toBe(true);
+    expect(
+      studyCourses.some(
+        (course) =>
+          course.title === "Online AI courses and programs | edX" &&
+          course.canonicalUrl === "https://www.edx.org/learn/artificial-intelligence",
       ),
     ).toBe(true);
   });
