@@ -1,7 +1,15 @@
-import { existsSync, readFileSync } from "node:fs";
-import { join } from "node:path";
+import studyCatalogEntriesJson from "@/data/study-catalog-entries.json";
 import { slugify } from "@/lib/utils";
 import type { Course, CourseLevel, LearningPath, Provider } from "@/lib/types";
+
+type StudyEntryRow = [
+  index: number,
+  provider: string,
+  course: string,
+  url: string,
+  credential: string,
+  sourceFile: string,
+];
 
 type StudyEntry = {
   index: number;
@@ -21,38 +29,16 @@ type StudyCatalogData = {
 
 const verifiedAt = "2026-03-15T09:00:00.000Z";
 const ibmSkillsBuildCatalogUrl = "https://skillsbuild.org/students/course-catalog/artificial-intelligence";
-const studySourceConfigs = [
-  {
-    path: join(process.cwd(), "study.md"),
-    sourceFile: "study.md",
-    mapCells(cells: [string, string, string, string, string]) {
-      const [indexCell, provider, course, url, credential] = cells;
-
-      return {
-        indexCell,
-        provider,
-        course,
-        url,
-        credential,
-      };
-    },
-  },
-  {
-    path: join(process.cwd(), "study_150_courses.md"),
-    sourceFile: "study_150_courses.md",
-    mapCells(cells: [string, string, string, string, string]) {
-      const [indexCell, course, provider, url, credential] = cells;
-
-      return {
-        indexCell,
-        provider,
-        course,
-        url,
-        credential,
-      };
-    },
-  },
-] as const;
+const studyEntries = (studyCatalogEntriesJson as StudyEntryRow[]).map(
+  ([index, provider, course, url, credential, sourceFile]) => ({
+    index,
+    provider,
+    course,
+    url,
+    credential,
+    sourceFile,
+  }),
+);
 
 const providerAliases: Record<
   string,
@@ -175,49 +161,6 @@ const difficultyRank: Record<Exclude<CourseLevel, "unknown">, number> = {
   amateur: 1,
   professional: 2,
 };
-
-function readStudyEntriesFromFile(config: (typeof studySourceConfigs)[number]): StudyEntry[] {
-  if (!existsSync(config.path)) {
-    return [];
-  }
-
-  const content = readFileSync(config.path, "utf8");
-  const lines = content.split(/\r?\n/);
-  const entries: StudyEntry[] = [];
-
-  for (const line of lines) {
-    if (!line.startsWith("|")) {
-      continue;
-    }
-
-    const cells = line
-      .split("|")
-      .slice(1, -1)
-      .map((cell) => cell.trim());
-
-    if (cells.length !== 5 || cells[0] === "#") {
-      continue;
-    }
-
-    const mapped = config.mapCells(cells as [string, string, string, string, string]);
-    const index = Number.parseInt(mapped.indexCell, 10);
-
-    if (Number.isNaN(index)) {
-      continue;
-    }
-
-    entries.push({
-      index,
-      provider: mapped.provider,
-      course: mapped.course,
-      url: mapped.url,
-      credential: mapped.credential,
-      sourceFile: config.sourceFile,
-    });
-  }
-
-  return entries;
-}
 
 function inferTopicIds(entry: StudyEntry) {
   const normalized = `${entry.provider} ${entry.course} ${entry.url}`.toLowerCase();
@@ -452,9 +395,10 @@ function getCertificateFlags(credential: string) {
   };
 }
 
-const sourceOrder = new Map<string, number>(
-  studySourceConfigs.map((config, index) => [config.sourceFile, index] as const),
-);
+const sourceOrder = new Map<string, number>([
+  ["study.md", 0],
+  ["study_150_courses.md", 1],
+]);
 
 function buildPathItems(pathId: string, courseList: Course[]) {
   return courseList.map((course, index) => ({
@@ -562,7 +506,7 @@ const pathConfigs: Array<{
 ];
 
 export function getStudyCatalogData(): StudyCatalogData {
-  const entries = studySourceConfigs.flatMap(readStudyEntriesFromFile);
+  const entries = studyEntries;
 
   const providers = Array.from(
     new Map(
