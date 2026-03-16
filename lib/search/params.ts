@@ -5,7 +5,7 @@ const querySchema = z.object({
   q: z.string().trim().optional(),
   topic: z.string().trim().optional(),
   provider: z.string().trim().optional(),
-  pricing: z.enum(["all", "free", "paid"]).default("all"),
+  pricing: z.enum(["all", "free", "paid", "other"]).default("all"),
   level: z.enum(["basic", "amateur", "professional"]).optional(),
   language: z.string().trim().optional(),
   duration_bucket: z.enum(["short", "medium", "long"]).optional(),

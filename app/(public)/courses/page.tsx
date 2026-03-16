@@ -164,10 +164,10 @@ export default async function CoursesPage({
       <SectionHeading
         eyebrow="Catalog"
         title="AI courses for modern practice"
-        description="Search the merged catalog of free and paid AI, ML, agentic AI, evals, prototyping, and AI coding courses from the study guides plus vetted Maven category pages."
+        description="Search the merged catalog of free, paid, and price-not-stated AI, ML, robotics, simulation, agentic AI, evals, and AI engineering courses from the study guides plus vetted Microsoft, NVIDIA DLI, and Maven catalog sources."
       />
 
-      <form className="mt-10 grid gap-4 rounded-[28px] border border-black/5 bg-white/70 p-5 shadow-card lg:grid-cols-7">
+      <form className="mt-10 grid gap-4 rounded-[28px] border border-black/5 bg-white/70 p-5 shadow-card lg:grid-cols-8">
         <Input name="q" placeholder="Search by title or topic" defaultValue={filters.q} className="lg:col-span-2" />
         <select name="topic" defaultValue={filters.topic} className="h-11 rounded-full border border-black/10 bg-white px-4 text-sm">
           <option value="">All topics</option>
@@ -189,6 +189,15 @@ export default async function CoursesPage({
           <option value="all">All pricing</option>
           <option value="free">Free only</option>
           <option value="paid">Paid only</option>
+          <option value="other">Price not stated</option>
+        </select>
+        <select name="mode" defaultValue={filters.mode} className="h-11 rounded-full border border-black/10 bg-white px-4 text-sm">
+          <option value="">All modes</option>
+          <option value="self-paced">Self-paced</option>
+          <option value="live">Live workshop</option>
+          <option value="cohort">Cohort</option>
+          <option value="hybrid">Hybrid</option>
+          <option value="unknown">Unknown</option>
         </select>
         <select name="level" defaultValue={filters.level} className="h-11 rounded-full border border-black/10 bg-white px-4 text-sm">
           <option value="">All levels</option>

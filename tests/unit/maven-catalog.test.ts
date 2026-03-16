@@ -15,6 +15,7 @@ describe("maven catalog import", () => {
 
     expect(courses.every((course) => course.providerId === "provider-maven")).toBe(true);
     expect(courses.every((course) => course.isFree === false)).toBe(true);
+    expect(courses.every((course) => course.freeVerificationStatus === "verified")).toBe(true);
     expect(courses.every((course) => course.courseMode === "cohort")).toBe(true);
     expect(courses.every((course) => /^https:\/\/maven\.com\/[^/]+\/[^/]+$/.test(course.canonicalUrl))).toBe(true);
     expect(

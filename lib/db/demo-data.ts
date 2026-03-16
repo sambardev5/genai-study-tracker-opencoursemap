@@ -11,8 +11,9 @@ import type {
   UserPreferences,
   UserProfile,
 } from "@/lib/types";
-import { getStudyCatalogData } from "@/lib/db/study-catalog";
 import { getMavenCatalogData } from "@/lib/db/maven-catalog";
+import { getNvidiaCatalogData } from "@/lib/db/nvidia-catalog";
+import { getStudyCatalogData } from "@/lib/db/study-catalog";
 
 const now = "2026-03-15T12:00:00.000Z";
 const catalogVerifiedAt = "2026-03-15T09:00:00.000Z";
@@ -39,6 +40,9 @@ const topicSeed = [
   ["topic-cv", "computer-vision", "Computer Vision", "Vision models, image understanding, and visual reasoning workflows."],
   ["topic-multimodal", "multimodal", "Multimodal", "Cross-modal AI systems spanning text, image, audio, and interaction."],
   ["topic-rl", "reinforcement-learning", "Reinforcement Learning", "Sequential decision-making and policy optimization workflows."],
+  ["topic-gpu", "gpu-computing", "GPU Computing", "CUDA, accelerated computing, inference optimization, and GPU-centric AI workflows."],
+  ["topic-robotics", "robotics", "Robotics", "Embodied AI, perception, Jetson, Isaac, and applied robot-learning workflows."],
+  ["topic-simulation", "simulation-physical-ai", "Simulation & Physical AI", "Simulation, OpenUSD, Omniverse, and physical AI training environments."],
 ] as const;
 
 export const topics: Topic[] = topicSeed.map(([id, slug, name, description]) => ({
@@ -704,14 +708,20 @@ function mergeUniqueById<T extends { id: string }>(base: T[], additions: T[]) {
 
 export function getCatalogProviders() {
   return mergeUniqueById(
-    mergeUniqueById(baseProviders, getStudyCatalogData().providers),
+    mergeUniqueById(
+      mergeUniqueById(baseProviders, getStudyCatalogData().providers),
+      getNvidiaCatalogData().providers,
+    ),
     getMavenCatalogData().providers,
   );
 }
 
 export function getCatalogCourses() {
   return mergeUniqueById(
-    mergeUniqueById(baseCourses, getStudyCatalogData().courses),
+    mergeUniqueById(
+      mergeUniqueById(baseCourses, getStudyCatalogData().courses),
+      getNvidiaCatalogData().courses,
+    ),
     getMavenCatalogData().courses,
   );
 }

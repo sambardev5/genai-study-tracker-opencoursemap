@@ -175,7 +175,7 @@ export interface CourseSearchFilters {
   q?: string;
   topic?: string;
   provider?: string;
-  pricing?: "all" | "free" | "paid";
+  pricing?: "all" | "free" | "paid" | "other";
   level?: Exclude<CourseLevel, "unknown">;
   language?: string;
   durationBucket?: "short" | "medium" | "long";

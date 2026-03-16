@@ -66,7 +66,7 @@ const microsoftLearnEntries = (microsoftLearnAiEngineerEntriesJson as MicrosoftL
 );
 
 const studyEntries = [
-  ...baseStudyEntries.filter((entry) => entry.provider !== "Microsoft Learn"),
+  ...baseStudyEntries.filter((entry) => entry.provider !== "Microsoft Learn" && entry.provider !== "NVIDIA DLI"),
   ...microsoftLearnEntries,
 ];
 

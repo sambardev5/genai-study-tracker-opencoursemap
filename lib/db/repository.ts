@@ -44,7 +44,11 @@ function getVisibleCourses(pricing: NonNullable<CourseSearchFilters["pricing"]> 
     }
 
     if (pricing === "paid") {
-      return !course.isFree;
+      return !course.isFree && course.freeVerificationStatus === "verified";
+    }
+
+    if (pricing === "other") {
+      return !course.isFree && course.freeVerificationStatus !== "verified";
     }
 
     return true;

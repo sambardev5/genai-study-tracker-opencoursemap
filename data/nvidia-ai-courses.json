@@ -1,0 +1,2014 @@
+[
+  {
+    "courseId": "course-v1:DLI+C-AC-02+V1",
+    "title": "Fundamentals of Accelerated Computing with CUDA Python",
+    "canonicalUrl": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+C-AC-02+V1",
+    "summary": "Explore how to use Numba—the just-in-time, type-specializing Python function compiler—to create and launch CUDA kernels to accelerate Python programs on massively parallel NVIDIA GPUs.",
+    "level": "Technical - Beginner",
+    "subject": "Accelerated Computing",
+    "topics": [
+      "Accelerated Computing"
+    ],
+    "tags": [
+      "CUDA Toolkit"
+    ],
+    "pricingCategory": "paid",
+    "courseMode": "live",
+    "durationHours": 8,
+    "hasCertificate": true,
+    "languageCode": "en",
+    "publishedAt": "2018-08-09T20:00:00Z"
+  },
+  {
+    "courseId": "course-v1:DLI+C-FX-01+V3",
+    "title": "Fundamentals of Deep Learning",
+    "canonicalUrl": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+C-FX-01+V3",
+    "summary": "Businesses worldwide are using artificial intelligence to solve their greatest challenges.",
+    "level": "Technical - Beginner",
+    "subject": "Deep Learning",
+    "topics": [
+      "Deep Learning"
+    ],
+    "tags": [
+      "data science",
+      "computer vision & machine vision",
+      "education & training",
+      "ai / deep learning",
+      "big data & data mining",
+      "NVIDIA Pytorch"
+    ],
+    "pricingCategory": "paid",
+    "courseMode": "live",
+    "durationHours": 8,
+    "hasCertificate": true,
+    "languageCode": "en",
+    "publishedAt": "2020-03-18T11:00:00Z"
+  },
+  {
+    "courseId": "course-v1:DLI+C-FX-03+V3",
+    "title": "Building Transformer-Based Natural Language Processing Applications",
+    "canonicalUrl": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+C-FX-03+V3",
+    "summary": "Learn how to apply and fine-tune a Transformer-based Deep Learning model to Natural Language Processing (NLP) tasks",
+    "level": "Technical - Advanced",
+    "subject": "Deep Learning",
+    "topics": [
+      "Deep Learning"
+    ],
+    "tags": [
+      "NeMo",
+      "Triton Inference Server"
+    ],
+    "pricingCategory": "paid",
+    "courseMode": "live",
+    "durationHours": 8,
+    "hasCertificate": true,
+    "languageCode": "en",
+    "publishedAt": "2020-06-04T19:00:00Z"
+  },
+  {
+    "courseId": "course-v1:DLI+C-MF-02+V1",
+    "title": "Applications of AI for Predictive Maintenance",
+    "canonicalUrl": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+C-MF-02+V1",
+    "summary": "Learn how to identify anomalies and failures in time series data, estimate the remaining useful life of the corresponding parts, and use this information to map anomalies to failure conditions.",
+    "level": null,
+    "subject": "Deep Learning",
+    "topics": [
+      "Deep Learning"
+    ],
+    "tags": [
+      "RAPIDS"
+    ],
+    "pricingCategory": "paid",
+    "courseMode": "live",
+    "durationHours": 8,
+    "hasCertificate": true,
+    "languageCode": "en",
+    "publishedAt": "2019-04-01T23:00:00Z"
+  },
+  {
+    "courseId": "course-v1:DLI+C-RX-02+V2",
+    "title": "Getting Started with AI on Jetson Nano",
+    "canonicalUrl": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+C-RX-02+V2",
+    "summary": "Build and train a classification data set and model with the NVIDIA Jetson Nano.",
+    "level": "Introductory",
+    "subject": "robotics",
+    "topics": [],
+    "tags": [
+      "Hardware / Semiconductor",
+      "\t Higher Education / Academia",
+      "Computer Vision / Video Analytics",
+      "\t Robotics",
+      "Developer / Engineer",
+      "\t Educator",
+      "Student: Middle / High School",
+      "\t Student: University",
+      "JetPack SDK"
+    ],
+    "pricingCategory": "paid",
+    "courseMode": "live",
+    "durationHours": 8,
+    "hasCertificate": true,
+    "languageCode": "en",
+    "publishedAt": "2020-10-05T13:01:00Z"
+  },
+  {
+    "courseId": "course-v1:DLI+C-TC-01+V1",
+    "title": "Applications of AI for Anomaly Detection",
+    "canonicalUrl": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+C-TC-01+V1",
+    "summary": "Whether your organization needs to monitor cybersecurity threats, fraudulent financial transactions, product defects, or equipment health, artificial intelligence can help catch data abnormalities before they impact your business.",
+    "level": "Technical - Intermediate",
+    "subject": "Deep Learning",
+    "topics": [
+      "Deep Learning"
+    ],
+    "tags": [
+      "deep learning",
+      "machine learning & ai",
+      "internet / telecommunications",
+      "manufacturing",
+      "business intelligence & analytics",
+      "RAPIDS"
+    ],
+    "pricingCategory": "paid",
+    "courseMode": "live",
+    "durationHours": 8,
+    "hasCertificate": true,
+    "languageCode": "en",
+    "publishedAt": "2018-11-07T20:00:00Z"
+  },
+  {
+    "courseId": "course-v1:DLI+S-AV-06+V1",
+    "title": "Integrating Sensors with NVIDIA DRIVE®",
+    "canonicalUrl": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-AV-06+V1",
+    "summary": "Learn how to integrate your sensor of choice for NVIDIA DRIVE®.",
+    "level": null,
+    "subject": "Deep Learning",
+    "topics": [
+      "Deep Learning"
+    ],
+    "tags": [
+      "automotive",
+      "autonomous vehicles",
+      "DriveWorks"
+    ],
+    "pricingCategory": "paid",
+    "courseMode": "self-paced",
+    "durationHours": 4,
+    "hasCertificate": false,
+    "languageCode": "en",
+    "publishedAt": "2021-03-25T08:05:00Z"
+  },
+  {
+    "courseId": "course-v1:DLI+S-ES-01+V1",
+    "title": "Disaster Risk Monitoring Using Satellite Imagery",
+    "canonicalUrl": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-ES-01+V1",
+    "summary": "Deploy a deep learning model to automate disaster management use cases.",
+    "level": "Technical - Beginner",
+    "subject": "Deep Learning",
+    "topics": [
+      "Deep Learning"
+    ],
+    "tags": [
+      "aerospace",
+      "healthcare & life sciences",
+      "higher education / academia",
+      "public sector",
+      "computer vision / video analytics",
+      "data science",
+      "data scientist",
+      "research: non-academic",
+      "DALI",
+      "TAO Toolkit",
+      "Triton Inference Server",
+      "TensorRT"
+    ],
+    "pricingCategory": "paid",
+    "courseMode": "self-paced",
+    "durationHours": 8,
+    "hasCertificate": true,
+    "languageCode": "en",
+    "publishedAt": "2022-05-04T19:00:00Z"
+  },
+  {
+    "courseId": "course-v1:DLI+S-FX-01+V1",
+    "title": "Getting Started with Deep Learning",
+    "canonicalUrl": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-FX-01+V1",
+    "summary": "Learn how deep learning works through hands-on exercises in computer vision and natural language processing.",
+    "level": "Introductory",
+    "subject": "Deep Learning",
+    "topics": [
+      "Deep Learning"
+    ],
+    "tags": [
+      "NVIDIA PyTorch"
+    ],
+    "pricingCategory": "paid",
+    "courseMode": "self-paced",
+    "durationHours": 8,
+    "hasCertificate": true,
+    "languageCode": "en",
+    "publishedAt": "2021-02-01T12:00:00Z"
+  },
+  {
+    "courseId": "course-v1:DLI+S-IV-01+V1",
+    "title": "Building Real-Time Video AI Applications",
+    "canonicalUrl": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-IV-01+V1",
+    "summary": "Learn the skills you need to enable real-time transformation of raw video data from widely-deployed camera sensors into deep learning-based insights.",
+    "level": "Technical - Beginner",
+    "subject": "Deep Learning",
+    "topics": [
+      "Deep Learning"
+    ],
+    "tags": [
+      "automotive / transportation",
+      "retail",
+      "computer vision / video analytics",
+      "data science",
+      "data scientist",
+      "video streaming / conferencing",
+      "developer / engineer",
+      "dev / it operations",
+      "DeepStream SDK",
+      "TAO Toolkit"
+    ],
+    "pricingCategory": "paid",
+    "courseMode": "self-paced",
+    "durationHours": 8,
+    "hasCertificate": true,
+    "languageCode": "en",
+    "publishedAt": "2021-12-14T20:00:00Z"
+  },
+  {
+    "courseId": "course-v1:DLI+S-RX-02+V2",
+    "title": "Getting Started with AI on Jetson Nano",
+    "canonicalUrl": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-RX-02+V2",
+    "summary": "Build and train a classification data set and model with the NVIDIA Jetson Nano.",
+    "level": "Technical - Beginner",
+    "subject": "Deep Learning",
+    "topics": [
+      "Deep Learning"
+    ],
+    "tags": [
+      "Hardware / Semiconductor",
+      "\t Higher Education / Academia",
+      "Computer Vision / Video Analytics",
+      "\t Robotics",
+      "Developer / Engineer",
+      "Educator",
+      "Edge Computing",
+      "Student: Undergraduate",
+      "Student: Other",
+      "JetPack SDK"
+    ],
+    "pricingCategory": "free",
+    "courseMode": "self-paced",
+    "durationHours": 8,
+    "hasCertificate": true,
+    "languageCode": "en",
+    "publishedAt": "2020-10-05T13:01:00Z"
+  },
+  {
+    "courseId": "course-v1:DLI+T-AC-01+V1",
+    "title": "An Even Easier Introduction to CUDA",
+    "canonicalUrl": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+T-AC-01+V1",
+    "summary": "An interactive accompaniment to Mark Harris's popular blog post An Even Easier Introduction to CUDA.",
+    "level": "Introductory",
+    "subject": "Accelerated Computing",
+    "topics": [
+      "Accelerated Computing"
+    ],
+    "tags": [
+      "CUDA Toolkit"
+    ],
+    "pricingCategory": "free",
+    "courseMode": "self-paced",
+    "durationHours": 1,
+    "hasCertificate": false,
+    "languageCode": "en",
+    "publishedAt": "2018-03-25T16:00:00Z"
+  },
+  {
+    "courseId": "course-v1:DLI+T-FX-01+V1",
+    "title": "Building A Brain in 10 Minutes",
+    "canonicalUrl": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+T-FX-01+V1",
+    "summary": "The notebook explores the biological inspiration for early neural networks.",
+    "level": "Introductory",
+    "subject": "Deep Learning",
+    "topics": [
+      "Deep Learning"
+    ],
+    "tags": [
+      "data science",
+      "computer vision & machine vision",
+      "education & training",
+      "ai / deep learning"
+    ],
+    "pricingCategory": "free",
+    "courseMode": "self-paced",
+    "durationHours": 0.16666666666666666,
+    "hasCertificate": false,
+    "languageCode": "en",
+    "publishedAt": "2021-08-30T23:00:00Z"
+  },
+  {
+    "courseId": "course-v1:DLI+C-MF-01+V2",
+    "title": "Computer Vision for Industrial Inspection",
+    "canonicalUrl": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+C-MF-01+V2",
+    "summary": "Whether companies are manufacturing semiconductor chips, airplanes, automobiles, smartphones, or food or beverages, quality and throughput are key benefits of optimization.",
+    "level": "Technical - Intermediate",
+    "subject": "Deep Learning",
+    "topics": [],
+    "tags": [],
+    "pricingCategory": "other",
+    "courseMode": "live",
+    "durationHours": 8,
+    "hasCertificate": true,
+    "languageCode": "en",
+    "publishedAt": "2022-01-01T00:00:00Z"
+  },
+  {
+    "courseId": "course-v1:DLI+S-FX-05+V1",
+    "title": "Introduction to Graph Neural Networks",
+    "canonicalUrl": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-FX-05+V1",
+    "summary": "Learn the basic concepts, implementations, and applications of graph neural networks (GNN) with hands-on interactive activities so that you can get started using GNN as a graph analysis tool.",
+    "level": "Technical - Beginner",
+    "subject": "Deep Learning",
+    "topics": [
+      "Deep Learning"
+    ],
+    "tags": [
+      "Deep Learning",
+      "RAPIDS",
+      "CuGraph",
+      "Omniverse Core Platform"
+    ],
+    "pricingCategory": "other",
+    "courseMode": "self-paced",
+    "durationHours": 2,
+    "hasCertificate": false,
+    "languageCode": "en",
+    "publishedAt": "2022-11-10T00:00:00Z"
+  },
+  {
+    "courseId": "course-v1:DLI+C-MG-01+V3",
+    "title": "Data Parallelism: How to Train Deep Learning Models on Multiple GPUs",
+    "canonicalUrl": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+C-MG-01+V3",
+    "summary": "Modern deep learning challenges leverage increasingly larger datasets and more complex models.",
+    "level": null,
+    "subject": "Deep Learning",
+    "topics": [
+      "Deep Learning"
+    ],
+    "tags": [
+      "NVIDIA Pytorch"
+    ],
+    "pricingCategory": "other",
+    "courseMode": "live",
+    "durationHours": 8,
+    "hasCertificate": true,
+    "languageCode": "en",
+    "publishedAt": "2020-06-02T00:00:00Z"
+  },
+  {
+    "courseId": "course-v1:DLI+S-AC-08+V1",
+    "title": "GPU Acceleration with the C++ Standard Library",
+    "canonicalUrl": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-AC-08+V1",
+    "summary": "Learn to write simple, portable, parallel-first applications using only standard C++ language features that can be compiled without modification to take advantage of NVIDIA GPU-accelerated environments.",
+    "level": null,
+    "subject": "Accelerated Computing",
+    "topics": [
+      "Accelerated Computing"
+    ],
+    "tags": [
+      "HPC / Supercomputing",
+      "CUDA Toolkit"
+    ],
+    "pricingCategory": "other",
+    "courseMode": "self-paced",
+    "durationHours": 2,
+    "hasCertificate": false,
+    "languageCode": "en",
+    "publishedAt": "2018-03-25T16:00:00Z"
+  },
+  {
+    "courseId": "course-v1:DLI+C-FX-06+V2",
+    "title": "Building Conversational AI Applications",
+    "canonicalUrl": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+C-FX-06+V2",
+    "summary": "Learn how to quickly build and deploy a conversational AI pipeline including transcription, NLP, and speech.",
+    "level": "Technical - Intermediate",
+    "subject": "Deep Learning",
+    "topics": [
+      "Deep Learning"
+    ],
+    "tags": [],
+    "pricingCategory": "other",
+    "courseMode": "live",
+    "durationHours": 9,
+    "hasCertificate": true,
+    "languageCode": "en",
+    "publishedAt": "2022-12-01T20:00:00Z"
+  },
+  {
+    "courseId": "course-v1:DLI+C-DS-04+V1",
+    "title": "Enhancing Data Science Outcomes With Efficient Workflow",
+    "canonicalUrl": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+C-DS-04+V1",
+    "summary": "Organizations analyze large amounts of tabular data to uncover insights, improve products and services, and achieve efficiency.",
+    "level": "Technical - Intermediate",
+    "subject": "data science",
+    "topics": [],
+    "tags": [
+      "RAPIDS",
+      "Merlin ",
+      "NVTabular",
+      "Triton Inference Server"
+    ],
+    "pricingCategory": "other",
+    "courseMode": "live",
+    "durationHours": 8,
+    "hasCertificate": true,
+    "languageCode": "en",
+    "publishedAt": "2023-01-24T00:00:00Z"
+  },
+  {
+    "courseId": "course-v1:DLI+S-AC-10+V1",
+    "title": "Fundamentals of Accelerated Computing with CUDA Python",
+    "canonicalUrl": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-AC-10+V1",
+    "summary": "Explore how to use Numba—the just-in-time, type-specializing Python function compiler—to create and launch CUDA kernels to accelerate Python programs on massively parallel NVIDIA GPUs.",
+    "level": "Technical - Beginner",
+    "subject": "Accelerated Computing",
+    "topics": [
+      "Accelerated Computing"
+    ],
+    "tags": [
+      "OpenACC"
+    ],
+    "pricingCategory": "other",
+    "courseMode": "self-paced",
+    "durationHours": 8,
+    "hasCertificate": true,
+    "languageCode": "en",
+    "publishedAt": "2024-05-01T19:00:00Z"
+  },
+  {
+    "courseId": "course-v1:DLI+S-AC-09+V1",
+    "title": "Scaling GPU-Accelerated Applications with the C++ Standard Library",
+    "canonicalUrl": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-AC-09+V1",
+    "summary": "Learn to write simple, portable, parallel-first applications using only standard C++ language features that can be compiled without modification to take advantage of NVIDIA GPU-accelerated environments.",
+    "level": "Technical - Intermediate",
+    "subject": "Accelerated Computing",
+    "topics": [
+      "Accelerated Computing"
+    ],
+    "tags": [],
+    "pricingCategory": "other",
+    "courseMode": "self-paced",
+    "durationHours": 2,
+    "hasCertificate": false,
+    "languageCode": "en",
+    "publishedAt": "2018-03-25T16:00:00Z"
+  },
+  {
+    "courseId": "course-v1:DLI+S-FX-04+V2",
+    "title": "Get Started with Highly Accurate Custom ASR for Speech AI",
+    "canonicalUrl": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-FX-04+V2",
+    "summary": "Learn to build, train, fine-tune, and deploy a GPU-accelerated automatic speech recognition service with NVIDIA Riva that includes customized features.",
+    "level": "Technical - Beginner",
+    "subject": "Deep Learning",
+    "topics": [
+      "Deep Learning"
+    ],
+    "tags": [
+      "Retail / Consumer Packaged Goods",
+      "Conversational AI",
+      "Developer / Engineer"
+    ],
+    "pricingCategory": "other",
+    "courseMode": "self-paced",
+    "durationHours": 3,
+    "hasCertificate": false,
+    "languageCode": "en",
+    "publishedAt": "2023-06-01T17:00:00Z"
+  },
+  {
+    "courseId": "course-v1:DLI+S-OV-11+V1",
+    "title": "An Introduction to Developing With NVIDIA Omniverse",
+    "canonicalUrl": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-OV-11+V1",
+    "summary": "To build applications from scratch, NVIDIA offers Omniverse Kit SDK and free templates to build starter applications that can be easily customized and extended.",
+    "level": null,
+    "subject": "Graphics and Simulation",
+    "topics": [
+      "Graphics and Simulation",
+      "Simulation and Physical AI"
+    ],
+    "tags": [
+      "Media & Entertainment",
+      "Smart Cities / Spaces",
+      "Manufacturing",
+      "Rendering / Ray Tracing",
+      "Simulation / Modeling / Design",
+      "Omniverse Core Platform"
+    ],
+    "pricingCategory": "free",
+    "courseMode": "self-paced",
+    "durationHours": 2,
+    "hasCertificate": false,
+    "languageCode": "en",
+    "publishedAt": "2024-06-16T19:00:00Z"
+  },
+  {
+    "courseId": "course-v1:DLI+S-FX-07+V1",
+    "title": "Generative AI Explained",
+    "canonicalUrl": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-FX-07+V1",
+    "summary": "In this no-coding course, learn Generative AI concepts and applications, as well as the challenges and opportunities in this exciting field.",
+    "level": "Technical - Beginner",
+    "subject": "Generative AI/LLM",
+    "topics": [
+      "Generative AI/LLM"
+    ],
+    "tags": [],
+    "pricingCategory": "free",
+    "courseMode": "self-paced",
+    "durationHours": 2,
+    "hasCertificate": false,
+    "languageCode": "en",
+    "publishedAt": "2023-08-01T19:00:00Z"
+  },
+  {
+    "courseId": "course-v1:DLI+C-FX-08+V1",
+    "title": "Generative AI with Diffusion Models",
+    "canonicalUrl": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+C-FX-08+V1",
+    "summary": "Thanks to improvements in computing power and scientific theory, generative AI is more accessible than ever before.",
+    "level": null,
+    "subject": "Generative AI/LLM",
+    "topics": [
+      "Generative AI/LLM"
+    ],
+    "tags": [
+      "NVIDIA Pytorch"
+    ],
+    "pricingCategory": "other",
+    "courseMode": "live",
+    "durationHours": 8,
+    "hasCertificate": true,
+    "languageCode": "en",
+    "publishedAt": "2020-03-18T11:00:00Z"
+  },
+  {
+    "courseId": "course-v1:DLI+S-FX-08+V1",
+    "title": "Introduction to Transformer-Based Natural Language Processing",
+    "canonicalUrl": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-FX-08+V1",
+    "summary": "Learn how Transformers are used as the building blocks of modern large language models (LLMs).",
+    "level": "Technical - Beginner",
+    "subject": "Generative AI/LLM",
+    "topics": [
+      "Generative AI/LLM"
+    ],
+    "tags": [
+      "NeMo"
+    ],
+    "pricingCategory": "other",
+    "courseMode": "self-paced",
+    "durationHours": 6,
+    "hasCertificate": true,
+    "languageCode": "en",
+    "publishedAt": "2023-01-01T00:00:00Z"
+  },
+  {
+    "courseId": "course-v1:DLI+S-FX-09+V1",
+    "title": "Synthetic Tabular Data Generation Using Transformers",
+    "canonicalUrl": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-FX-09+V1",
+    "summary": "In this course you'll learn the end-to-end development workflow for generating synthetic data using Transformers, including data preprocessing, model pre-training, fine-tuning, inference, and evaluation",
+    "level": "Technical - Beginner",
+    "subject": "Generative AI/LLM",
+    "topics": [
+      "Generative AI/LLM"
+    ],
+    "tags": [
+      "NeMo",
+      "NeMo Megatron"
+    ],
+    "pricingCategory": "other",
+    "courseMode": "self-paced",
+    "durationHours": 4,
+    "hasCertificate": false,
+    "languageCode": "en",
+    "publishedAt": "2023-01-01T00:00:00Z"
+  },
+  {
+    "courseId": "course-v1:DLI+S-FX-14+V1",
+    "title": "Generative AI with Diffusion Models",
+    "canonicalUrl": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-FX-14+V1",
+    "summary": "Take a deeper dive into denoising diffusion models, which are a popular choice for text-to-image pipelines, with applications in creative content generation, data augmentation, simulation and planning, anomaly detection, drug discovery, personalized recommendations, and more.",
+    "level": null,
+    "subject": "Generative AI/LLM",
+    "topics": [
+      "Generative AI/LLM"
+    ],
+    "tags": [
+      "NVIDIA PyTorch"
+    ],
+    "pricingCategory": "other",
+    "courseMode": "self-paced",
+    "durationHours": 8,
+    "hasCertificate": true,
+    "languageCode": "en",
+    "publishedAt": "2023-11-17T20:00:00Z"
+  },
+  {
+    "courseId": "course-v1:DLI+C-FX-07+V2",
+    "title": "Model Parallelism: Building and Deploying Large Neural Networks",
+    "canonicalUrl": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+C-FX-07+V2",
+    "summary": "About This Course Very large deep neural networks (DNNs), whether applied to natural language processing (e.g., GPT-3), computer vision (e.g., huge Vision Transformers), or speech AI (e.g., Wave2Vec 2) have certain properties that set them apart from their smaller counterparts. As DNNs become larger and are trained on progressively larger datasets, they can adapt to new tasks with just a handful of training examples, accelerating the route toward general artificial intelligence. Training models that contain tens to hundreds of billions of parameters on vast datasets isn’t trivial and requires a unique combination of AI, high-performance computing (HPC), and systems knowledge. In this workshop, participants will learn how to: Train neural networks across multiple servers Use techniques such as activation checkpointing, gradient accumulation, and various forms of model parallelism to overcome the challenges associated with large-model memory footprint Capture and understand training performance characteristics to optimize model architecture Deploy very large multi-GPU models to production using NVIDIA Triton™ Inference Server The goal of this course is to demonstrate how to train the largest of neural networks and deploy them to production. Requirements Familiarity with: Good understanding of PyTorch Good understanding of deep learning and data parallel training concepts Practice with deep learning and data parallel are useful, but optional Tools, libraries, frameworks used: PyTorch, Megatron-LM, DeepSpeed, Slurm, Triton Inference Server Related Training Building Transformer-Based Natural Language Processing Applications Learn how to use Transformer-based natural language processing models for text classification tasks, such as categorizing documents. Fundamentals of Deep Learning for Multi-GPUs echniques for training deep neural networks on multi-GPU technology to shorten the training time required for data-intensive applications. For additional hands-on training through the NVIDIA Deep Learning Institute, visit www.nvidia.com/dli .",
+    "level": "Technical - Advanced",
+    "subject": "Deep Learning",
+    "topics": [
+      "Deep Learning"
+    ],
+    "tags": [
+      "NeMo Megatron",
+      "Triton Inference Server"
+    ],
+    "pricingCategory": "paid",
+    "courseMode": "live",
+    "durationHours": 8,
+    "hasCertificate": false,
+    "languageCode": "en",
+    "publishedAt": "2020-03-18T11:00:00Z"
+  },
+  {
+    "courseId": "course-v1:DLI+S-FX-15+V1",
+    "title": "Building RAG Agents with LLMs",
+    "canonicalUrl": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-FX-15+V1",
+    "summary": "Agents powered by large language models (LLMs) have shown great retrieval capability for using tools, looking at documents, and plan their approaches.",
+    "level": "Technical - Intermediate",
+    "subject": "Generative AI/LLM",
+    "topics": [
+      "Generative AI/LLM"
+    ],
+    "tags": [
+      "Retrieval-Augmented Generation",
+      "Generative AI",
+      "AI Foundation",
+      "LangChain",
+      "Chat Agents",
+      "Dialog Management",
+      "Document Reasoning",
+      "NIMS",
+      "NVIDIA PyTorch",
+      "NeMo Inferencing Microservice"
+    ],
+    "pricingCategory": "paid",
+    "courseMode": "self-paced",
+    "durationHours": 8,
+    "hasCertificate": true,
+    "languageCode": "en",
+    "publishedAt": "2024-01-02T20:00:00Z"
+  },
+  {
+    "courseId": "course-v1:DLI+S-DS-03+V1",
+    "title": "Exploring Adversarial Machine Learning",
+    "canonicalUrl": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-DS-03+V1",
+    "summary": "In this course, which is designed to be accessible to both data scientists and security practitioners, you'll explore the security risks and vulnerabilities that adopting machine learning might expose you to.",
+    "level": "Technical - Intermediate",
+    "subject": "Data Science",
+    "topics": [
+      "Data Science"
+    ],
+    "tags": [
+      "Public Sector",
+      "Cybersecurity",
+      "Security Operations",
+      "NVIDIA PyTorch"
+    ],
+    "pricingCategory": "other",
+    "courseMode": "self-paced",
+    "durationHours": 8,
+    "hasCertificate": true,
+    "languageCode": "en",
+    "publishedAt": "2024-08-05T17:00:00Z"
+  },
+  {
+    "courseId": "course-v1:DLI+C-FX-15+V1",
+    "title": "Building RAG Agents with LLMs",
+    "canonicalUrl": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+C-FX-15+V1",
+    "summary": "Agents powered by large language models (LLMs) have shown great retrieval capability for using tools, looking at documents, and plan their approaches.",
+    "level": "Technical - Intermediate",
+    "subject": "Generative AI/LLM",
+    "topics": [
+      "Generative AI/LLM"
+    ],
+    "tags": [
+      "NVIDIA Pytorch",
+      "NeMo Inferencing Microservice       "
+    ],
+    "pricingCategory": "other",
+    "courseMode": "live",
+    "durationHours": 8,
+    "hasCertificate": true,
+    "languageCode": "en",
+    "publishedAt": "2024-04-12T19:00:00Z"
+  },
+  {
+    "courseId": "course-v1:DLI+S-FX-16+V1",
+    "title": "Augment your LLM Using Retrieval Augmented Generation",
+    "canonicalUrl": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-FX-16+V1",
+    "summary": "In this introductory course, we will provide a high-level overview of Retrieval Augmented Generation and how it improves Generative AI (GenAI).",
+    "level": "Technical - Beginner",
+    "subject": "Generative AI/LLM",
+    "topics": [
+      "Generative AI/LLM"
+    ],
+    "tags": [
+      "llm",
+      "LLM ",
+      "RAG",
+      "Retrieval Augmented Generation",
+      "GenAI",
+      "LlamaIndex",
+      "LangChain",
+      "Llama2",
+      "e5-large"
+    ],
+    "pricingCategory": "free",
+    "courseMode": "self-paced",
+    "durationHours": 1,
+    "hasCertificate": false,
+    "languageCode": "en",
+    "publishedAt": "2023-12-21T20:00:00Z"
+  },
+  {
+    "courseId": "course-v1:DLI+S-OV-13+V1",
+    "title": "Extend Omniverse Kit Applications for Building Digital Twins",
+    "canonicalUrl": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-OV-13+V1",
+    "summary": "The NVIDIA Omniverse platform provides developers with SDKs, APIs, and microservices for developing OpenUSD-based workflows and applications that enable industrial-scale 3D digital twins, from planning to simulation and operations.",
+    "level": "Technical - Beginner",
+    "subject": "Graphics and Simulation",
+    "topics": [
+      "Simulation and Physical AI"
+    ],
+    "tags": [
+      "Developer / Engineer",
+      "\tSimulation / Modeling / Design",
+      "Graphic Designer / Animator",
+      "Omniverse Core Platform"
+    ],
+    "pricingCategory": "free",
+    "courseMode": "self-paced",
+    "durationHours": 2,
+    "hasCertificate": false,
+    "languageCode": "en",
+    "publishedAt": "2024-01-03T18:00:00Z"
+  },
+  {
+    "courseId": "course-v1:DLI+S-FX-18+V1",
+    "title": "Sizing LLM Inference Systems",
+    "canonicalUrl": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-FX-18+V1",
+    "summary": "This course teaches AI practitioners to optimize and deploy large language models using NVIDIA Inference Microservices.",
+    "level": "Technical - Intermediate",
+    "subject": "Generative AI/LLM",
+    "topics": [
+      "Generative AI/LLM",
+      "NIMS"
+    ],
+    "tags": [
+      "NeMo Inference Microservice",
+      "Triton Inference Server",
+      "TensorRT",
+      "NGC AI Models"
+    ],
+    "pricingCategory": "paid",
+    "courseMode": "self-paced",
+    "durationHours": 3,
+    "hasCertificate": true,
+    "languageCode": "en",
+    "publishedAt": "2024-10-13T17:25:00Z"
+  },
+  {
+    "courseId": "course-v1:DLI+S-OV-15+V1",
+    "title": "Fundamentals of Working With OpenUSD",
+    "canonicalUrl": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-OV-15+V1",
+    "summary": "In this introductory level training lab, we will cover the fundamentals of working with Universal Scene Description (OpenUSD) - an open and extensible ecosystem for describing, composing, simulating, and collaborating within 3D worlds.",
+    "level": "Technical - Beginner",
+    "subject": "Graphics and Simulation, OpenUSD",
+    "topics": [
+      "Graphics and Simulation"
+    ],
+    "tags": [
+      "Developer / Engineer",
+      "Simulation / Modeling / Design",
+      "Graphic Designer / Animator",
+      "Omniverse Core Platform"
+    ],
+    "pricingCategory": "free",
+    "courseMode": "self-paced",
+    "durationHours": 2,
+    "hasCertificate": false,
+    "languageCode": "en",
+    "publishedAt": "2024-04-15T17:00:00Z"
+  },
+  {
+    "courseId": "course-v1:DLI+S-FX-19+V1",
+    "title": "Introduction to Deploying RAG Pipelines for Production at Scale",
+    "canonicalUrl": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-FX-19+V1",
+    "summary": "The course focuses on teaching production-level deployment of LLM applications especially enterprise-grade deployment of RAG pipelines.",
+    "level": "Technical - Intermediate",
+    "subject": "Generative AI/LLM",
+    "topics": [
+      "Generative AI/LLM"
+    ],
+    "tags": [
+      "Generative AI/LLM",
+      "NIMs"
+    ],
+    "pricingCategory": "other",
+    "courseMode": "self-paced",
+    "durationHours": 4,
+    "hasCertificate": false,
+    "languageCode": "en",
+    "publishedAt": "2023-06-02T00:00:00Z"
+  },
+  {
+    "courseId": "course-v1:DLI+S-FX-20+V1",
+    "title": "Techniques for Improving the Effectiveness of RAG Systems",
+    "canonicalUrl": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-FX-20+V1",
+    "summary": "Learn techniques that can take your RAG system from an interesting proof-of-concept to a serious asset.",
+    "level": "Technical - Intermediate",
+    "subject": "Generative AI/LLM",
+    "topics": [
+      "Generative AI/LLM",
+      "NIMS"
+    ],
+    "tags": [
+      "NeMo Inferencing Microservice"
+    ],
+    "pricingCategory": "other",
+    "courseMode": "self-paced",
+    "durationHours": 4,
+    "hasCertificate": false,
+    "languageCode": "en",
+    "publishedAt": "2024-06-04T16:00:00Z"
+  },
+  {
+    "courseId": "course-v1:DLI+S-OV-16+V1",
+    "title": "Creating an Omniverse Extension With Python",
+    "canonicalUrl": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-OV-16+V1",
+    "summary": "Build a simple Python extension with this introductory course.",
+    "level": "Technical - Beginner",
+    "subject": "Graphics and Simulation",
+    "topics": [
+      "Graphics and Simulation"
+    ],
+    "tags": [
+      "Simulation / Modeling / Design",
+      "Omniverse Core Platform"
+    ],
+    "pricingCategory": "free",
+    "courseMode": "self-paced",
+    "durationHours": 2,
+    "hasCertificate": false,
+    "languageCode": "en",
+    "publishedAt": "2023-01-25T18:00:00Z"
+  },
+  {
+    "courseId": "course-v1:DLI+S-FX-23+V1",
+    "title": "Introduction to NVIDIA NIM™ Microservices",
+    "canonicalUrl": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-FX-23+V1",
+    "summary": "Learn how NIM enables the building, deploying, and scaling of AI applications.",
+    "level": "General Interest",
+    "subject": "Generative AI/LLM",
+    "topics": [
+      "Generative AI/LLM"
+    ],
+    "tags": [
+      "NIM"
+    ],
+    "pricingCategory": "free",
+    "courseMode": "self-paced",
+    "durationHours": 2,
+    "hasCertificate": false,
+    "languageCode": "en",
+    "publishedAt": "2023-12-31T20:00:00Z"
+  },
+  {
+    "courseId": "course-v1:DLI+C-FX-11+V1",
+    "title": "Building LLM Applications With Prompt Engineering",
+    "canonicalUrl": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+C-FX-11+V1",
+    "summary": "Learn how to build a variety of LLM-based applications through the use of modern prompt engineering techniques.",
+    "level": "Technical - Beginner",
+    "subject": "Generative AI/LLM",
+    "topics": [
+      "Generative AI/LLM"
+    ],
+    "tags": [
+      "NeMo Inferencing Microservice        ",
+      "Nemotron"
+    ],
+    "pricingCategory": "other",
+    "courseMode": "live",
+    "durationHours": 8,
+    "hasCertificate": true,
+    "languageCode": "en",
+    "publishedAt": "2020-06-02T00:00:00Z"
+  },
+  {
+    "courseId": "course-v1:DLI+C-FX-17+V1",
+    "title": "Building AI Agents with Multimodal Models",
+    "canonicalUrl": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+C-FX-17+V1",
+    "summary": "Just like how humans have multiple senses to perceive the world around them, computers have a variety of sensors to help perceive the human world.",
+    "level": null,
+    "subject": "Deep Learning",
+    "topics": [
+      "Generative AI/LLM",
+      "Deep Learning"
+    ],
+    "tags": [
+      "Nemotron"
+    ],
+    "pricingCategory": "other",
+    "courseMode": "live",
+    "durationHours": 8,
+    "hasCertificate": false,
+    "languageCode": "en",
+    "publishedAt": "2025-02-16T20:00:00Z"
+  },
+  {
+    "courseId": "course-v1:DLI+S-OV-27+V1",
+    "title": "Building Your First Robot in Isaac Sim",
+    "canonicalUrl": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-OV-27+V1",
+    "summary": "Build foundational skills in robotics simulation and control with Isaac Sim, the first step in the Isaac Sim Learning Path.",
+    "level": "Technical - Beginner",
+    "subject": "Robotics",
+    "topics": [
+      "Robotics",
+      "Graphics and Simulation"
+    ],
+    "tags": [
+      "Omniverse",
+      "Isaac",
+      "Isaac Sim",
+      "Robotics",
+      "Robot",
+      "Simulation"
+    ],
+    "pricingCategory": "paid",
+    "courseMode": "self-paced",
+    "durationHours": 1.5,
+    "hasCertificate": true,
+    "languageCode": "en",
+    "publishedAt": "2025-01-05T11:00:00Z"
+  },
+  {
+    "courseId": "course-v1:DLI+S-AC-03+V2",
+    "title": "Optimizing CUDA Machine Learning Codes With Nsight Profiling Tools",
+    "canonicalUrl": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-AC-03+V2",
+    "summary": "Learn how to use two powerful NVIDIA developer tools: Nsight Systems and Nsight Compute.",
+    "level": "Technical - Intermediate",
+    "subject": "Accelerated Computing",
+    "topics": [
+      "Accelerated Computing"
+    ],
+    "tags": [],
+    "pricingCategory": "other",
+    "courseMode": "self-paced",
+    "durationHours": 2,
+    "hasCertificate": false,
+    "languageCode": "en",
+    "publishedAt": "2018-03-25T16:00:00Z"
+  },
+  {
+    "courseId": "course-v1:DLI+C-FX-09+V2",
+    "title": "Rapid Application Development with Large Language Models (LLMs)",
+    "canonicalUrl": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+C-FX-09+V2",
+    "summary": "Get started quickly in developing LLM-based applications by exploring the open-sourced ecosystem including pretrained LLMs.",
+    "level": "Technical - Beginner",
+    "subject": "Generative AI/LLM",
+    "topics": [
+      "Generative AI/LLM",
+      "NIMS"
+    ],
+    "tags": [],
+    "pricingCategory": "other",
+    "courseMode": "live",
+    "durationHours": 9,
+    "hasCertificate": true,
+    "languageCode": "en",
+    "publishedAt": "2020-03-18T11:00:00Z"
+  },
+  {
+    "courseId": "course-v1:DLI+C-FX-18+V1",
+    "title": "Deploying RAG Pipelines for Production at Scale",
+    "canonicalUrl": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+C-FX-18+V1",
+    "summary": "Retrieval-Augmented Generation (RAG) pipelines are revolutionizing enterprise operations.",
+    "level": "Technical - Advanced",
+    "subject": "Generative AI/LLM",
+    "topics": [
+      "Generative AI/LLM"
+    ],
+    "tags": [
+      "NeMo Inferencing Microservice\t"
+    ],
+    "pricingCategory": "other",
+    "courseMode": "live",
+    "durationHours": 8,
+    "hasCertificate": false,
+    "languageCode": "en",
+    "publishedAt": "2020-06-02T00:00:00Z"
+  },
+  {
+    "courseId": "course-v1:DLI+C-AC-01+V2",
+    "title": "Fundamentals of Accelerated Computing with Modern CUDA C++",
+    "canonicalUrl": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+C-AC-01+V2",
+    "summary": "Learn how to write, compile, and run GPU-accelerated code, leverage CUDA core libraries to harness the power of massive parallelism provided by modern GPU accelerators, optimize memory migration between CPU and GPU, and implement your own algorithms.",
+    "level": "Technical - Beginner",
+    "subject": "Accelerated Computing",
+    "topics": [
+      "Accelerated Computing"
+    ],
+    "tags": [],
+    "pricingCategory": "other",
+    "courseMode": "live",
+    "durationHours": 8,
+    "hasCertificate": true,
+    "languageCode": "en",
+    "publishedAt": "2024-10-01T19:00:00Z"
+  },
+  {
+    "courseId": "course-v1:DLI+C-DS-02+V2",
+    "title": "Fundamentals of Accelerated Data Science",
+    "canonicalUrl": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+C-DS-02+V2",
+    "summary": "Data science is about using scientific methods, processes, algorithms, and systems to analyze and extract insights from data.",
+    "level": "Technical - Intermediate",
+    "subject": "Data Science",
+    "topics": [
+      "Data Science"
+    ],
+    "tags": [
+      "data science",
+      "business intelligence & analytics",
+      "big data & data mining",
+      "RAPIDS"
+    ],
+    "pricingCategory": "other",
+    "courseMode": "live",
+    "durationHours": 8,
+    "hasCertificate": true,
+    "languageCode": "en",
+    "publishedAt": "2024-09-30T23:00:00Z"
+  },
+  {
+    "courseId": "course-v1:DLI+S-OV-29+V1",
+    "title": "Ingesting Robot Assets and Simulating Your Robot in Isaac Sim",
+    "canonicalUrl": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-OV-29+V1",
+    "summary": "Learn to import robotic assets, add sensors, and run simple simulations.",
+    "level": "Technical - Beginner",
+    "subject": "Robotics",
+    "topics": [
+      "Robotics",
+      "Graphics and Simulation"
+    ],
+    "tags": [
+      "Omniverse",
+      "Simulation",
+      "Robotics",
+      "Isaac Sim",
+      "isaac",
+      "OpenUSD",
+      "URDF",
+      "Robots",
+      "Robot"
+    ],
+    "pricingCategory": "paid",
+    "courseMode": "self-paced",
+    "durationHours": 1,
+    "hasCertificate": true,
+    "languageCode": "en",
+    "publishedAt": "2025-01-06T00:00:00Z"
+  },
+  {
+    "courseId": "course-v1:DLI+S-OV-30+V1",
+    "title": "Synthetic Data Generation for Perception Model Training in Isaac Sim",
+    "canonicalUrl": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-OV-30+V1",
+    "summary": "Learn to train and deploy perception models using synthetic data generation (SDG), applying domain randomization and simulation for real-world robotics.",
+    "level": "Technical - Beginner",
+    "subject": "Robotics",
+    "topics": [
+      "Robotics",
+      "Graphics and Simulation"
+    ],
+    "tags": [
+      "Isaac Sim",
+      "Isaac",
+      "Omniverse",
+      "OpenUSD",
+      "Robotics",
+      "Robots",
+      "Robot",
+      "SDG",
+      "synthetic data",
+      "perception"
+    ],
+    "pricingCategory": "paid",
+    "courseMode": "self-paced",
+    "durationHours": 2,
+    "hasCertificate": true,
+    "languageCode": "en",
+    "publishedAt": "2025-01-08T00:00:00Z"
+  },
+  {
+    "courseId": "course-v1:DLI+S-OV-31+V1",
+    "title": "Developing Robots With Software-in-the-Loop (SIL) In Isaac Sim",
+    "canonicalUrl": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-OV-31+V1",
+    "summary": "Learn the fundamentals of Software in the Loop (SIL) using NVIDIA Isaac Sim and ROS 2 to test, validate, and develop robotics software in simulated environments.",
+    "level": "Technical - Beginner",
+    "subject": "Robotics",
+    "topics": [
+      "Robotics",
+      "Graphics and Simulation"
+    ],
+    "tags": [
+      "Isaac Sim",
+      "Isaac ROS",
+      "Isaac",
+      "Software-in-the-Loop",
+      "SIL",
+      "Robotics",
+      "Robots",
+      "Robot",
+      "Simulation"
+    ],
+    "pricingCategory": "free",
+    "courseMode": "self-paced",
+    "durationHours": 2,
+    "hasCertificate": true,
+    "languageCode": "en",
+    "publishedAt": "2025-01-05T21:00:00Z"
+  },
+  {
+    "courseId": "course-v1:DLI+S-OV-32+V1",
+    "title": "Leveraging ROS 2 and Hardware-in-the-Loop (HIL) in Isaac Sim",
+    "canonicalUrl": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-OV-32+V1",
+    "summary": "Bridge the gap between simulation and real-world robotics using ROS 2, Isaac Sim, and NVIDIA Jetson with HIL.",
+    "level": "Technical - Beginner",
+    "subject": "Robotics",
+    "topics": [
+      "Robotics",
+      "Graphics and Simulation"
+    ],
+    "tags": [
+      "Isaac Sim",
+      "Isaac ROS",
+      "Isaac",
+      "Hardware-in-the-Loop",
+      "HIL",
+      "Robotics",
+      "Robots",
+      "Robot",
+      "Simulation"
+    ],
+    "pricingCategory": "paid",
+    "courseMode": "self-paced",
+    "durationHours": 2,
+    "hasCertificate": true,
+    "languageCode": "en",
+    "publishedAt": "2025-01-05T21:00:00Z"
+  },
+  {
+    "courseId": "course-v1:DLI+S-FX-12+V2",
+    "title": "Building LLM Applications With Prompt Engineering",
+    "canonicalUrl": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-FX-12+V2",
+    "summary": "Learn how to build a variety of LLM-based applications through the use of modern prompt engineering techniques.",
+    "level": "Technical - Beginner",
+    "subject": "Generative AI/LLM",
+    "topics": [
+      "Generative AI/LLM"
+    ],
+    "tags": [
+      "NeMo Inference Microservice",
+      "Nemotron"
+    ],
+    "pricingCategory": "other",
+    "courseMode": "self-paced",
+    "durationHours": 8,
+    "hasCertificate": true,
+    "languageCode": "en",
+    "publishedAt": "2020-06-02T00:00:00Z"
+  },
+  {
+    "courseId": "course-v1:DLI+S-DS-01+V2",
+    "title": "Accelerating End-to-End Data Science Workflows",
+    "canonicalUrl": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-DS-01+V2",
+    "summary": "Data science is about using scientific methods, processes, algorithms, and systems to analyze and extract insights from data.",
+    "level": "Technical - Intermediate",
+    "subject": "Data Science",
+    "topics": [
+      "Data Science"
+    ],
+    "tags": [
+      "data science",
+      "business intelligence & analytics",
+      "big data & data mining",
+      "RAPIDS"
+    ],
+    "pricingCategory": "other",
+    "courseMode": "self-paced",
+    "durationHours": 8,
+    "hasCertificate": true,
+    "languageCode": "en",
+    "publishedAt": "2025-01-01T08:00:00Z"
+  },
+  {
+    "courseId": "course-v1:DLI+S-FX-26+V1",
+    "title": "Rapid Application Development with Large Language Models (LLMs)",
+    "canonicalUrl": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-FX-26+V1",
+    "summary": "Get started quickly in developing LLM-based applications by exploring the open-sourced ecosystem including pretrained LLMs.",
+    "level": "Technical - Beginner",
+    "subject": "Generative AI/LLM",
+    "topics": [
+      "Generative AI/LLM",
+      "NIMS"
+    ],
+    "tags": [],
+    "pricingCategory": "other",
+    "courseMode": "self-paced",
+    "durationHours": 8,
+    "hasCertificate": true,
+    "languageCode": "en",
+    "publishedAt": "2024-12-19T17:00:00Z"
+  },
+  {
+    "courseId": "course-v1:DLI+S-OV-35+V1",
+    "title": "A Beginner's Guide to Autonomous Robots",
+    "canonicalUrl": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-OV-35+V1",
+    "summary": "An introduction to autonomous robots and robotic systems.",
+    "level": "General Interest",
+    "subject": "Graphics and Simulation",
+    "topics": [
+      "Robotics"
+    ],
+    "tags": [
+      "Isaac",
+      "Robotics",
+      "Robots",
+      "Robot",
+      "Isaac Sim",
+      "Physical AI",
+      "NVIDIA Isaac"
+    ],
+    "pricingCategory": "free",
+    "courseMode": "self-paced",
+    "durationHours": 1,
+    "hasCertificate": false,
+    "languageCode": "en",
+    "publishedAt": "2025-01-25T20:00:00Z"
+  },
+  {
+    "courseId": "course-v1:DLI+C-FX-25+V1",
+    "title": "Building Agentic AI Applications with LLMs",
+    "canonicalUrl": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+C-FX-25+V1",
+    "summary": "Learn how to design intelligent agents that can be adapted for arbitrary environments at scale.",
+    "level": "Technical - Intermediate",
+    "subject": "Generative AI/LLM",
+    "topics": [
+      "Generative AI/LLM",
+      "Nemotron"
+    ],
+    "tags": [],
+    "pricingCategory": "other",
+    "courseMode": "live",
+    "durationHours": 8,
+    "hasCertificate": false,
+    "languageCode": "en",
+    "publishedAt": "2025-12-03T17:00:00Z"
+  },
+  {
+    "courseId": "course-v1:DLI+S-FX-28+V1",
+    "title": "Introduction to Federated Learning with NVIDIA FLARE",
+    "canonicalUrl": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-FX-28+V1",
+    "summary": "NVIDIA FLARE is a domain-agnostic, open-source, and extensible Python SDK for Federated Learning.",
+    "level": "Technical - Beginner",
+    "subject": "Deep Learning",
+    "topics": [
+      "Deep Learning"
+    ],
+    "tags": [
+      "NVFlare"
+    ],
+    "pricingCategory": "free",
+    "courseMode": "self-paced",
+    "durationHours": 2,
+    "hasCertificate": false,
+    "languageCode": "en",
+    "publishedAt": "2020-06-02T00:00:00Z"
+  },
+  {
+    "courseId": "course-v1:DLI+S-FX-29+V1",
+    "title": "Decentralized AI at Scale with NVIDIA Flare",
+    "canonicalUrl": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-FX-29+V1",
+    "summary": "Learn how to implement privacy-preserving distributed machine learning with NVFlare.",
+    "level": "Technical - Beginner",
+    "subject": "Deep Learning",
+    "topics": [
+      "Deep Learning"
+    ],
+    "tags": [
+      "NVFlare"
+    ],
+    "pricingCategory": "free",
+    "courseMode": "self-paced",
+    "durationHours": 4,
+    "hasCertificate": false,
+    "languageCode": "en",
+    "publishedAt": "2020-06-02T00:00:00Z"
+  },
+  {
+    "courseId": "course-v1:DLI+S-FX-27+V1",
+    "title": "Introduction to Multi-Modal Data Curation",
+    "canonicalUrl": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-FX-27+V1",
+    "summary": "NeMo Curator is a GPU-accelerated data-curation tool that improves generative AI model accuracy by processing text, image, and video data at scale for training and customization.",
+    "level": "General Interest",
+    "subject": "Generative AI/LLM",
+    "topics": [],
+    "tags": [
+      "NeMo Curator",
+      "Data Curation",
+      "Gen-AI",
+      "Generative-AI",
+      "Generative-AI/LLM"
+    ],
+    "pricingCategory": "free",
+    "courseMode": "self-paced",
+    "durationHours": 1,
+    "hasCertificate": false,
+    "languageCode": "en",
+    "publishedAt": "2025-02-26T17:00:00Z"
+  },
+  {
+    "courseId": "course-v1:DLI+S-HX-02+V1",
+    "title": "Medical AI Development with MONAI: Interactive Annotation Using NVIDIA NIM Microservices",
+    "canonicalUrl": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-HX-02+V1",
+    "summary": "Learn to build end-to-end medical AI workflows using the latest tools.",
+    "level": null,
+    "subject": "Deep Learning",
+    "topics": [],
+    "tags": [],
+    "pricingCategory": "paid",
+    "courseMode": "self-paced",
+    "durationHours": 4,
+    "hasCertificate": false,
+    "languageCode": "en",
+    "publishedAt": "2025-02-24T20:00:00Z"
+  },
+  {
+    "courseId": "course-v1:DLI+S-OV-39+V1",
+    "title": "Software-in-the-Loop Testing for Robots With OpenUSD, Isaac Sim, and ROS",
+    "canonicalUrl": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-OV-39+V1",
+    "summary": "Assemble a virtual environment with robots and simulate and validate their basic movements with ROS (Robot Operating System) commands.",
+    "level": "Technical - Intermediate",
+    "subject": "Graphics and Simulation",
+    "topics": [
+      "Robotics"
+    ],
+    "tags": [
+      "Robotics"
+    ],
+    "pricingCategory": "free",
+    "courseMode": "self-paced",
+    "durationHours": 2,
+    "hasCertificate": false,
+    "languageCode": "en",
+    "publishedAt": "2025-04-06T23:00:00Z"
+  },
+  {
+    "courseId": "course-v1:DLI+S-OV-41+V1",
+    "title": "Accelerating ROS 2 Workloads With NVIDIA GPU-Powered Libraries and AI Models",
+    "canonicalUrl": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-OV-41+V1",
+    "summary": "Learn how to accelerate ROS 2 workloads using NVIDIA’s latest GPU-powered libraries for AI and robotics",
+    "level": "Technical - Intermediate",
+    "subject": "Graphics and Simulation",
+    "topics": [
+      "Robotics"
+    ],
+    "tags": [
+      "robotics",
+      "isaac",
+      "nvidia isaac"
+    ],
+    "pricingCategory": "paid",
+    "courseMode": "self-paced",
+    "durationHours": 3,
+    "hasCertificate": false,
+    "languageCode": "en",
+    "publishedAt": "2025-04-08T19:00:00Z"
+  },
+  {
+    "courseId": "course-v1:DLI+S-OV-42+V1",
+    "title": "An Introduction to NVIDIA Cosmos for Physical AI",
+    "canonicalUrl": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-OV-42+V1",
+    "summary": "Gain hands-on experience with Cosmos WFMs and tools to generate data to train physical AI.",
+    "level": "Technical - Intermediate",
+    "subject": "Generative AI/LLM",
+    "topics": [
+      "Robotics",
+      "Graphics and Simulation",
+      "Generative AI/LLM"
+    ],
+    "tags": [
+      "robotics",
+      "ai",
+      "cosmos",
+      "omniverse"
+    ],
+    "pricingCategory": "paid",
+    "courseMode": "self-paced",
+    "durationHours": 2,
+    "hasCertificate": false,
+    "languageCode": "en",
+    "publishedAt": "2025-05-02T19:00:00Z"
+  },
+  {
+    "courseId": "course-v1:DLI+S-OV-43+V1",
+    "title": "Building and Deploying Digital Twin Applications With Omniverse Kit App Streaming",
+    "canonicalUrl": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-OV-43+V1",
+    "summary": "A hands-on guide to creating, deploying, and extending 3D digital twin applications using NVIDIA Omniverse.",
+    "level": "Technical - Intermediate",
+    "subject": "Graphics and Simulation",
+    "topics": [
+      "Graphics and Simulation"
+    ],
+    "tags": [
+      "simulation",
+      "modeling",
+      "design"
+    ],
+    "pricingCategory": "other",
+    "courseMode": "self-paced",
+    "durationHours": 1.5,
+    "hasCertificate": false,
+    "languageCode": "en",
+    "publishedAt": "2025-04-09T19:00:00Z"
+  },
+  {
+    "courseId": "course-v1:DLI+S-HX-03+V1",
+    "title": "Getting Started with NVIDIA Tools for Generative AI in Digital Health",
+    "canonicalUrl": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-HX-03+V1",
+    "summary": "Gain hands-on experience in developing sophisticated AI-driven applications that can converse with healthcare data, assist researchers in clinical trials, and enhance clinician-patient interactions",
+    "level": "Technical - Beginner",
+    "subject": "Generative AI/LLM",
+    "topics": [],
+    "tags": [],
+    "pricingCategory": "free",
+    "courseMode": "self-paced",
+    "durationHours": 2,
+    "hasCertificate": false,
+    "languageCode": "en",
+    "publishedAt": "2025-02-25T20:00:00Z"
+  },
+  {
+    "courseId": "course-v1:DLI+S-HX-04+V1",
+    "title": "Streamlining Drug Discovery with NVIDIA BioNeMo NIM Microservices and Blueprints",
+    "canonicalUrl": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-HX-04+V1",
+    "summary": "Explore how BioNeMo NIM Microservices and Blueprints can accelerate drug development, improve prediction accuracy, and enable more efficient analysis of biochemical data, showcasing real-world examples of their transformative potential in drug discovery.",
+    "level": "Technical - Beginner",
+    "subject": "Generative AI/LLM",
+    "topics": [],
+    "tags": [],
+    "pricingCategory": "free",
+    "courseMode": "self-paced",
+    "durationHours": 2,
+    "hasCertificate": false,
+    "languageCode": "en",
+    "publishedAt": "2025-02-24T20:00:00Z"
+  },
+  {
+    "courseId": "course-v1:DLI+S-FX-30+V1",
+    "title": "Build High-Performance and AI-Enabled Sensor Processing Applications",
+    "canonicalUrl": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-FX-30+V1",
+    "summary": "Build, deploy, and scale domain-agnostic AI-enabled sensor processing applications.",
+    "level": "Technical - Beginner",
+    "subject": "Deep Learning",
+    "topics": [
+      "Deep Learning",
+      "Robotics"
+    ],
+    "tags": [],
+    "pricingCategory": "other",
+    "courseMode": "self-paced",
+    "durationHours": 3,
+    "hasCertificate": false,
+    "languageCode": "en",
+    "publishedAt": "2022-06-02T00:00:00Z"
+  },
+  {
+    "courseId": "course-v1:DLI+S-FX-31+V1",
+    "title": "Applying AI Weather Models with NVIDIA Earth-2",
+    "canonicalUrl": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-FX-31+V1",
+    "summary": "Explore state-of-the-art AI weather prediction models and learn how to integrate them into custom workflows.",
+    "level": "Technical - Beginner",
+    "subject": "Deep Learning",
+    "topics": [
+      "Deep Learning"
+    ],
+    "tags": [
+      "NVIDIA Earth-2",
+      "NVIDIA PhysicsNeMo",
+      "PyTorch"
+    ],
+    "pricingCategory": "paid",
+    "courseMode": "self-paced",
+    "durationHours": 3,
+    "hasCertificate": false,
+    "languageCode": "en",
+    "publishedAt": "2024-12-19T17:00:00Z"
+  },
+  {
+    "courseId": "course-v1:DLI+S-HX-05+V1",
+    "title": "Accelerate Data Science and Leverage Foundation Models in Digital Biology",
+    "canonicalUrl": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-HX-05+V1",
+    "summary": "Learn how foundation models can reveal novel biological insights, while leveraging NVIDIA’s platform to accelerate the entire workflow for fast, scalable results.",
+    "level": "Technical - Beginner",
+    "subject": "Data Science",
+    "topics": [
+      "Data Science"
+    ],
+    "tags": [
+      "data science",
+      "RAPIDS"
+    ],
+    "pricingCategory": "paid",
+    "courseMode": "self-paced",
+    "durationHours": 2,
+    "hasCertificate": false,
+    "languageCode": "en",
+    "publishedAt": "2023-12-31T20:00:00Z"
+  },
+  {
+    "courseId": "course-v1:DLI+C-FX-26+V1",
+    "title": "Adding New Knowledge to LLMs",
+    "canonicalUrl": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+C-FX-26+V1",
+    "summary": "Transform open-source LLMs into domain-specialized AI assets",
+    "level": "Technical - Intermediate",
+    "subject": "Generative AI/LLM",
+    "topics": [],
+    "tags": [
+      "NeMo Inferencing Microservice",
+      "Nemotron"
+    ],
+    "pricingCategory": "other",
+    "courseMode": "live",
+    "durationHours": 8,
+    "hasCertificate": false,
+    "languageCode": "en",
+    "publishedAt": "2020-06-02T00:00:00Z"
+  },
+  {
+    "courseId": "course-v1:DLI+S-FX-32+V1",
+    "title": "Evaluating RAG and Semantic Search Systems",
+    "canonicalUrl": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-FX-32+V1",
+    "summary": "As large language models (LLMs) and retrieval-augmented generation (RAG) systems become integral to enterprise AI applications, the need for rigorous, domain-aware evaluation grows rapidly.",
+    "level": "Technical - Intermediate",
+    "subject": "Generative AI/LLM",
+    "topics": [
+      "Generative AI/LLM"
+    ],
+    "tags": [],
+    "pricingCategory": "other",
+    "courseMode": "self-paced",
+    "durationHours": 3,
+    "hasCertificate": false,
+    "languageCode": "en",
+    "publishedAt": "2024-12-19T17:00:00Z"
+  },
+  {
+    "courseId": "course-v1:DLI+C-OV-05+V1",
+    "title": "NVIDIA Isaac for Accelerated Robotics",
+    "canonicalUrl": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+C-OV-05+V1",
+    "summary": "Accelerate your robotics innovation with this hands-on workshop focused on simulation-first development, AI-powered perception, and synthetic data generation using NVIDIA Isaac.",
+    "level": "Technical - Intermediate",
+    "subject": "Graphics and Simulation",
+    "topics": [
+      "Robotics"
+    ],
+    "tags": [],
+    "pricingCategory": "other",
+    "courseMode": "live",
+    "durationHours": 8,
+    "hasCertificate": false,
+    "languageCode": "en",
+    "publishedAt": "2025-05-26T19:00:00Z"
+  },
+  {
+    "courseId": "course-v1:DLI+S-AC-13+V1",
+    "title": "Nsight Analysis System: Build Custom Python Analysis Scripts",
+    "canonicalUrl": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-AC-13+V1",
+    "summary": "Learn to build custom Python analysis scripts using the Nsight Analysis System to programmatically identify and summarize application performance bottlenecks.",
+    "level": "Technical - Intermediate",
+    "subject": "Accelerated Computing",
+    "topics": [
+      "Accelerated Computing"
+    ],
+    "tags": [
+      "CUDA",
+      "Nsight"
+    ],
+    "pricingCategory": "other",
+    "courseMode": "self-paced",
+    "durationHours": 2,
+    "hasCertificate": false,
+    "languageCode": "en",
+    "publishedAt": "2020-06-02T00:00:00Z"
+  },
+  {
+    "courseId": "course-v1:DLI+S-DS-05+V1",
+    "title": "Analyzing and Visualizing Large Data Interactively using Accelerated Computing",
+    "canonicalUrl": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-DS-05+V1",
+    "summary": "Learn how to build responsive, interactive dashboards for large datasets using GPU-accelerated Python libraries.",
+    "level": "Technical - Beginner",
+    "subject": "Data Science",
+    "topics": [
+      "Data Science"
+    ],
+    "tags": [
+      "data science",
+      "RAPIDS"
+    ],
+    "pricingCategory": "paid",
+    "courseMode": "self-paced",
+    "durationHours": 2,
+    "hasCertificate": false,
+    "languageCode": "en",
+    "publishedAt": "2023-12-31T20:00:00Z"
+  },
+  {
+    "courseId": "course-v1:DLI+S-DS-04+V1",
+    "title": "Accelerating Clustering Algorithms to Achieve the Highest Performance",
+    "canonicalUrl": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-DS-04+V1",
+    "summary": "Learn how clustering algorithms like K-Means, DBSCAN, and HDBSCAN are used to uncover patterns in data and power real-world applications, while leveraging NVIDIA GPUS to accelerate the entire workflow for fast, scalable results.",
+    "level": "Technical - Beginner",
+    "subject": "Data Science",
+    "topics": [
+      "Data Science"
+    ],
+    "tags": [
+      "data science",
+      "RAPIDS"
+    ],
+    "pricingCategory": "paid",
+    "courseMode": "self-paced",
+    "durationHours": 2,
+    "hasCertificate": false,
+    "languageCode": "en",
+    "publishedAt": "2023-12-31T20:00:00Z"
+  },
+  {
+    "courseId": "course-v1:DLI+S-FX-33+V1",
+    "title": "Domain-Adaptive Pre-Training: Tailoring LLMs for Specialized Applications",
+    "canonicalUrl": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-FX-33+V1",
+    "summary": "Learn to tailor large language models for specialized domains by curating custom datasets, training new tokenizers, and applying techniques like domain-adaptive pretraining and supervised fine-tuning.",
+    "level": "Technical - Intermediate",
+    "subject": "Generative AI/LLM",
+    "topics": [
+      "Generative AI/LLM"
+    ],
+    "tags": [],
+    "pricingCategory": "other",
+    "courseMode": "self-paced",
+    "durationHours": 4,
+    "hasCertificate": false,
+    "languageCode": "en",
+    "publishedAt": "2020-06-02T00:00:00Z"
+  },
+  {
+    "courseId": "course-v1:DLI+S-FX-34+V1",
+    "title": "Evaluation and Light Customization of Large Language Models",
+    "canonicalUrl": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-FX-34+V1",
+    "summary": "Learn how to assess and adapt Large Language Models for specialized enterprise tasks through systematic evaluation and parameter-efficient fine-tuning.",
+    "level": null,
+    "subject": null,
+    "topics": [
+      "Generative AI/LLM"
+    ],
+    "tags": [],
+    "pricingCategory": "paid",
+    "courseMode": "self-paced",
+    "durationHours": 3,
+    "hasCertificate": false,
+    "languageCode": "en",
+    "publishedAt": "2020-06-02T00:00:00Z"
+  },
+  {
+    "courseId": "course-v1:DLI+S-DS-07+V1",
+    "title": "Structure From Chaos: Accelerate GraphRAG With cuGraph and NVIDIA NIM",
+    "canonicalUrl": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-DS-07+V1",
+    "summary": "Learn how to integrate large language models (LLMs) with NVIDIA Inference Microservices (NIM) and cuGraph to create cutting-edge, graph-based AI solutions for handling complex, interconnected data.",
+    "level": "Technical - Intermediate",
+    "subject": "Data Science",
+    "topics": [
+      "Data Science"
+    ],
+    "tags": [
+      "data science",
+      "RAPIDS"
+    ],
+    "pricingCategory": "other",
+    "courseMode": "self-paced",
+    "durationHours": 2,
+    "hasCertificate": false,
+    "languageCode": "en",
+    "publishedAt": "2024-12-31T20:00:00Z"
+  },
+  {
+    "courseId": "course-v1:DLI+S-OV-46+V1",
+    "title": "Train Your First Robot in Isaac Lab",
+    "canonicalUrl": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-OV-46+V1",
+    "summary": "Introducing reinforcement learning for robotics with Isaac Lab.",
+    "level": "Technical - Beginner",
+    "subject": "Robotics",
+    "topics": [
+      "Robotics",
+      "Graphics and Simulation",
+      "OpenUSD"
+    ],
+    "tags": [
+      "Reinforcement Learning",
+      "Isaac Lab",
+      "Isaac Sim",
+      "Robotics"
+    ],
+    "pricingCategory": "paid",
+    "courseMode": "self-paced",
+    "durationHours": 3,
+    "hasCertificate": false,
+    "languageCode": "en",
+    "publishedAt": "2025-07-01T21:00:00Z"
+  },
+  {
+    "courseId": "course-v1:DLI+S-OV-47+V1",
+    "title": "Train Your Second Robot in Isaac Lab",
+    "canonicalUrl": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-OV-47+V1",
+    "summary": "Going further with reinforcement learning for robotics with Isaac Lab.",
+    "level": "Technical - Intermediate",
+    "subject": "Robotics",
+    "topics": [
+      "Robotics",
+      "Graphics and Simulation",
+      "OpenUSD"
+    ],
+    "tags": [
+      "Reinforcement Learning",
+      "Isaac Lab",
+      "Isaac Sim",
+      "Robotics"
+    ],
+    "pricingCategory": "paid",
+    "courseMode": "self-paced",
+    "durationHours": 2,
+    "hasCertificate": false,
+    "languageCode": "en",
+    "publishedAt": "2025-07-02T23:00:00Z"
+  },
+  {
+    "courseId": "course-v1:DLI+S-OV-48+V1",
+    "title": "Accelerating Computer-Aided Engineering (CAE) with NVIDIA AI Physics Technology",
+    "canonicalUrl": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-OV-48+V1",
+    "summary": "Accelerate external aerodynamics simulations using NVIDIA's PhysicsNeMo library",
+    "level": "Technical - Intermediate",
+    "subject": "Graphics and Simulation",
+    "topics": [
+      "Graphics and Simulation"
+    ],
+    "tags": [],
+    "pricingCategory": "other",
+    "courseMode": "self-paced",
+    "durationHours": 8,
+    "hasCertificate": false,
+    "languageCode": "en",
+    "publishedAt": "2025-08-27T19:00:00Z"
+  },
+  {
+    "courseId": "course-v1:DLI+S-AC-14+V1",
+    "title": "Find the Bottleneck: Optimize AI Pipelines With Nsight Systems",
+    "canonicalUrl": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-AC-14+V1",
+    "summary": "Learn to profile and optimize AI pipelines using NVIDIA Nsight Systems to identify and eliminate performance bottlenecks in GPU-accelerated applications.",
+    "level": "Technical - Advanced",
+    "subject": null,
+    "topics": [],
+    "tags": [],
+    "pricingCategory": "other",
+    "courseMode": "self-paced",
+    "durationHours": 3,
+    "hasCertificate": false,
+    "languageCode": "en",
+    "publishedAt": "2020-06-02T00:00:00Z"
+  },
+  {
+    "courseId": "course-v1:DLI+S-OV-52+V1",
+    "title": "Training Healthcare Robotics From Scratch Using Isaac for Healthcare",
+    "canonicalUrl": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-OV-52+V1",
+    "summary": "This course provides a practical, end-to-end guide to building, training, and deploying autonomous medical robots using NVIDIA’s Isaac Sim and Isaac for Healthcare.",
+    "level": null,
+    "subject": "Robotics",
+    "topics": [
+      "Robotics"
+    ],
+    "tags": [],
+    "pricingCategory": "paid",
+    "courseMode": "self-paced",
+    "durationHours": 4,
+    "hasCertificate": false,
+    "languageCode": "en",
+    "publishedAt": "2025-08-25T19:00:00Z"
+  },
+  {
+    "courseId": "course-v1:DLI+S-OV-53+V1",
+    "title": "Building AI-Powered Material Generation for Omniverse With DGX Cloud",
+    "canonicalUrl": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-OV-53+V1",
+    "summary": "Build an Omniverse extension that transforms natural language into realistic 3D materials.",
+    "level": "Technical - Intermediate",
+    "subject": "Graphics and Simulation",
+    "topics": [
+      "Graphics and Simulation",
+      "Generative AI/LLM"
+    ],
+    "tags": [
+      "Omniverse",
+      "DGX Cloud",
+      "Generative AI",
+      "Materials",
+      "RTX",
+      "Material"
+    ],
+    "pricingCategory": "free",
+    "courseMode": "self-paced",
+    "durationHours": 2,
+    "hasCertificate": false,
+    "languageCode": "en",
+    "publishedAt": "2025-09-09T19:00:00Z"
+  },
+  {
+    "courseId": "course-v1:DLI+S-DS-08+V1",
+    "title": "Use GPUs To Accelerate RAG Pipelines with Vector Databases",
+    "canonicalUrl": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-DS-08+V1",
+    "summary": "Learn how to optimize vector database workloads on the GPU.",
+    "level": "Technical - Beginner",
+    "subject": "Data Science",
+    "topics": [
+      "Data Science"
+    ],
+    "tags": [
+      "data science",
+      "RAPIDS"
+    ],
+    "pricingCategory": "other",
+    "courseMode": "self-paced",
+    "durationHours": 2,
+    "hasCertificate": false,
+    "languageCode": "en",
+    "publishedAt": "2024-12-31T20:00:00Z"
+  },
+  {
+    "courseId": "course-v1:DLI+S-FX-38+V1",
+    "title": "Advanced Federated Learning with NVIDIA FLARE",
+    "canonicalUrl": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-FX-38+V1",
+    "summary": "NVIDIA FLARE is a domain-agnostic, open-source, and extensible Python SDK for Federated Learning.",
+    "level": "Technical - Intermediate",
+    "subject": "Deep Learning",
+    "topics": [
+      "Deep Learning"
+    ],
+    "tags": [
+      "NVFlare"
+    ],
+    "pricingCategory": "other",
+    "courseMode": "self-paced",
+    "durationHours": 8,
+    "hasCertificate": false,
+    "languageCode": "en",
+    "publishedAt": "2020-06-02T00:00:00Z"
+  },
+  {
+    "courseId": "course-v1:DLI+S-FX-39+V1",
+    "title": "Agentic AI Explained",
+    "canonicalUrl": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-FX-39+V1",
+    "summary": "Agentic AI sits at the core of AI’s current technological revolution by creating agents capable of independently perceiving, reasoning, acting, and learning—a foundational skill set for building the next generation of intelligent, adaptive systems.",
+    "level": "General Interest",
+    "subject": "Generative AI/LLM",
+    "topics": [
+      "Generative AI/LLM"
+    ],
+    "tags": [],
+    "pricingCategory": "free",
+    "courseMode": "self-paced",
+    "durationHours": 1,
+    "hasCertificate": false,
+    "languageCode": "en",
+    "publishedAt": "2025-11-23T17:00:00Z"
+  },
+  {
+    "courseId": "course-v1:DLI+S-FX-40+V1",
+    "title": "Build a Deep Research Agent",
+    "canonicalUrl": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-FX-40+V1",
+    "summary": "Learn to build autonomous deep research agents using NVIDIA AI-Q Blueprint to orchestrate multi-step investigations and generate comprehensive, cited reports from enterprise data.",
+    "level": "Technical - Intermediate",
+    "subject": "Generative AI/LLM",
+    "topics": [
+      "Generative AI/LLM"
+    ],
+    "tags": [
+      "NeMo Inferencing Microservice",
+      "Nemotron"
+    ],
+    "pricingCategory": "paid",
+    "courseMode": "self-paced",
+    "durationHours": 4,
+    "hasCertificate": false,
+    "languageCode": "en",
+    "publishedAt": "2020-06-02T00:00:00Z"
+  },
+  {
+    "courseId": "course-v1:DLI+S-FX-24+V1",
+    "title": "The Art of Compressing LLMs: Pruning, Distillation, and Quantization Demystified",
+    "canonicalUrl": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-FX-24+V1",
+    "summary": "Master the essential model compression techniques to deploy high-performance, cost-efficient Large Language Models at scale.",
+    "level": "Technical - Intermediate",
+    "subject": "Generative AI/LLM",
+    "topics": [
+      "Generative AI/LLM",
+      "Deep Learning"
+    ],
+    "tags": [
+      "Developer Tools and Techniques",
+      "Performance Optimization",
+      "Deep Learning Frameworks",
+      "Nemotron"
+    ],
+    "pricingCategory": "other",
+    "courseMode": "self-paced",
+    "durationHours": 8,
+    "hasCertificate": false,
+    "languageCode": "en",
+    "publishedAt": "2025-10-01T17:00:00Z"
+  },
+  {
+    "courseId": "course-v1:DLI+S-FX-41+V1",
+    "title": "Building Agentic AI Applications with LLMs",
+    "canonicalUrl": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-FX-41+V1",
+    "summary": "Learn how to design intelligent agents that can be adapted for arbitrary environments at scale.",
+    "level": "Technical - Intermediate",
+    "subject": "Generative AI/LLM",
+    "topics": [
+      "Generative AI/LLMs"
+    ],
+    "tags": [
+      "Generative AI/LLMs",
+      "Nemotron"
+    ],
+    "pricingCategory": "other",
+    "courseMode": "self-paced",
+    "durationHours": 8,
+    "hasCertificate": false,
+    "languageCode": "en",
+    "publishedAt": "2025-12-05T20:15:00Z"
+  },
+  {
+    "courseId": "course-v1:DLI+S-FX-42+V1",
+    "title": "Building AI Agents with Multimodal Models",
+    "canonicalUrl": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-FX-42+V1",
+    "summary": "Just like how humans have multiple senses to perceive the world around them, computers have a variety of sensors to help perceive the human world.",
+    "level": "Technical - Intermediate",
+    "subject": "Deep Learning",
+    "topics": [
+      "Deep Learning",
+      "Generative AI/LLM"
+    ],
+    "tags": [
+      "NVIDIA PyTorch",
+      "Nemotron"
+    ],
+    "pricingCategory": "other",
+    "courseMode": "self-paced",
+    "durationHours": 8,
+    "hasCertificate": false,
+    "languageCode": "en",
+    "publishedAt": "2025-12-03T20:00:00Z"
+  },
+  {
+    "courseId": "course-v1:DLI+S-OV-55+V1",
+    "title": "Learn OpenUSD: Foundations to Applied Concepts",
+    "canonicalUrl": "https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-OV-55+V1",
+    "summary": "Data engineering for physical AI",
+    "level": "Technical - Beginner",
+    "subject": "Simulation and Physical AI",
+    "topics": [
+      "OpenUSD",
+      "Robotics",
+      "Simulation and Physical AI"
+    ],
+    "tags": [],
+    "pricingCategory": "free",
+    "courseMode": "self-paced",
+    "durationHours": 8,
+    "hasCertificate": false,
+    "languageCode": "en",
+    "publishedAt": "2025-12-18T20:00:00Z"
+  }
+]

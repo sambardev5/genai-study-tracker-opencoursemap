@@ -6,12 +6,12 @@ import { studyCourses, studyLearningPaths, studyProviders } from "@/lib/db/study
 
 describe("study catalog import", () => {
   it("imports the study guides plus the Microsoft Learn AI engineer catalog", () => {
-    const baseNonMicrosoftCount = (studyCatalogEntriesJson as Array<[number, string]>).filter(
-      (entry) => entry[1] !== "Microsoft Learn",
+    const baseStudyCount = (studyCatalogEntriesJson as Array<[number, string]>).filter(
+      (entry) => entry[1] !== "Microsoft Learn" && entry[1] !== "NVIDIA DLI",
     ).length;
 
     expect(studyCourses).toHaveLength(
-      baseNonMicrosoftCount + (microsoftLearnAiEngineerEntriesJson as Array<unknown>).length,
+      baseStudyCount + (microsoftLearnAiEngineerEntriesJson as Array<unknown>).length,
     );
   });
 
@@ -22,7 +22,6 @@ describe("study catalog import", () => {
     expect(providerIds.has("provider-microsoft")).toBe(true);
     expect(providerIds.has("provider-kaggle")).toBe(true);
     expect(providerIds.has("provider-ibm")).toBe(true);
-    expect(providerIds.has("provider-nvidia-dli")).toBe(true);
     expect(providerIds.has("provider-edx")).toBe(true);
   });
 
@@ -131,6 +130,7 @@ describe("study catalog import", () => {
           course.canonicalUrl === "https://www.edx.org/learn/artificial-intelligence",
       ),
     ).toBe(true);
+    expect(studyCourses.some((course) => course.providerId === "provider-nvidia-dli")).toBe(false);
   });
 
   it("removes Tesla from the merged catalog providers and courses", () => {

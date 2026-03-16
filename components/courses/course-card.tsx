@@ -20,12 +20,16 @@ export function CourseCard({
     ? course.freeVerificationStatus === "verified"
       ? "success"
       : "warning"
-    : "muted";
+    : course.freeVerificationStatus === "verified"
+      ? "muted"
+      : "warning";
   const pricingLabel = course.isFree
     ? course.freeVerificationStatus === "verified"
       ? "Verified free"
       : "Free / needs re-check"
-    : "Paid";
+    : course.freeVerificationStatus === "verified"
+      ? "Paid"
+      : "Pricing not stated";
 
   return (
     <Card className="flex h-full flex-col gap-5">

@@ -294,7 +294,7 @@ function createMavenCatalogData(): MavenCatalogData {
         durationHours: null,
         languageCode: "en",
         isFree: false,
-        freeVerificationStatus: "unknown",
+        freeVerificationStatus: "verified",
         freeVerifiedAt: verifiedAt,
         isActive: true,
         courseMode: "cohort",

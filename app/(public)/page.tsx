@@ -45,7 +45,7 @@ export default function HomePage() {
           <div className="grid gap-4 sm:grid-cols-3">
             <Card className="bg-white/75">
               <div className="text-3xl font-bold">{featured.pagination.total}</div>
-              <div className="mt-2 text-sm text-ink/60">Catalog synced from the study guides plus vetted Microsoft Learn and Maven AI category pages.</div>
+              <div className="mt-2 text-sm text-ink/60">Catalog synced from the study guides plus vetted Microsoft Learn, NVIDIA DLI AI, and Maven catalog pages.</div>
             </Card>
             <Card className="bg-white/75">
               <div className="text-3xl font-bold">{topics.length}</div>
@@ -80,7 +80,7 @@ export default function HomePage() {
               </div>
               <div className="flex gap-3">
                 <ShieldCheck className="mt-1 h-4 w-4 shrink-0 text-sky" />
-                See checked pricing status before committing time.
+                See free, paid, or price-not-stated status before committing time.
               </div>
             </div>
           </div>

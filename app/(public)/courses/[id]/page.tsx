@@ -30,6 +30,14 @@ export default async function CourseDetailPage({ params }: { params: Promise<{ i
     notFound();
   }
 
+  const pricingLabel = course.isFree
+    ? course.freeVerificationStatus === "verified"
+      ? "Free"
+      : "Free / needs re-check"
+    : course.freeVerificationStatus === "verified"
+      ? "Paid"
+      : "Price not stated";
+
   return (
     <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
       <div className="grid gap-8 lg:grid-cols-[1.2fr_0.8fr]">
@@ -60,7 +68,7 @@ export default async function CourseDetailPage({ params }: { params: Promise<{ i
               </div>
               <div>
                 <div className="text-xs uppercase tracking-[0.22em] text-ink/45">Pricing</div>
-                <div className="mt-2 text-lg font-semibold">{course.isFree ? "Free" : "Paid"}</div>
+                <div className="mt-2 text-lg font-semibold">{pricingLabel}</div>
               </div>
             </div>
             <p className="mt-6 text-sm leading-7 text-ink/68">

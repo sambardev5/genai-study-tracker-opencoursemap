@@ -13,17 +13,19 @@ describe("search param parsing", () => {
   it("parses custom filters", () => {
     const params = parseCourseSearchParams(
       new URLSearchParams({
-        pricing: "paid",
+        pricing: "other",
         level: "professional",
         topic: "topic-rag",
+        mode: "live",
         page: "2",
         page_size: "5",
       }),
     );
 
-    expect(params.pricing).toBe("paid");
+    expect(params.pricing).toBe("other");
     expect(params.level).toBe("professional");
     expect(params.topic).toBe("topic-rag");
+    expect(params.mode).toBe("live");
     expect(params.page).toBe(2);
     expect(params.pageSize).toBe(5);
   });
