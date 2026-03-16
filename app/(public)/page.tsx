@@ -91,7 +91,7 @@ export default function HomePage() {
         <SectionHeading
           eyebrow="Featured catalog"
           title="Start with a small, verified set."
-          description="The repository now includes an official-provider starter catalog so the workspace is useful before Supabase ingestion is connected."
+          description="Click Courses to explore the full AI course catalog"
         />
         <div className="grid gap-6 lg:grid-cols-3">
           {featured.items.map((course) => (

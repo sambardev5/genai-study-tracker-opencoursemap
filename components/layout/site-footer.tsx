@@ -22,8 +22,9 @@ export function SiteFooter() {
         <div>
           <h3 className="font-semibold text-ink">Disclosure</h3>
           <p className="mt-3 leading-7">
-            Enrollment happens on the provider website. Progress tracking and recommendations happen inside
-            OpenCourseMap.
+            OpenCourseMap was created by Sambasivam R as a free public project. Sambasivam R is not
+            responsible for third-party course content and is not sponsored by, affiliated with, or endorsed
+            by any course provider or company listed here.
           </p>
         </div>
       </div>

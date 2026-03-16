@@ -9,27 +9,27 @@ describe("auth redirect helpers", () => {
   });
 
   it("builds the callback URL with a safe next parameter", () => {
-    expect(buildAuthCallbackUrl("https://genaicoursepath.com", "/profile")).toBe(
-      "https://genaicoursepath.com/auth/callback?next=%2Fprofile",
+    expect(buildAuthCallbackUrl("https://opencoursemap.com", "/profile")).toBe(
+      "https://opencoursemap.com/auth/callback?next=%2Fprofile",
     );
-    expect(buildAuthCallbackUrl("https://genaicoursepath.com", "https://evil.example")).toBe(
-      "https://genaicoursepath.com/auth/callback",
+    expect(buildAuthCallbackUrl("https://opencoursemap.com", "https://evil.example")).toBe(
+      "https://opencoursemap.com/auth/callback",
     );
   });
 
   it("builds auth page URLs with safe feedback params", () => {
     expect(
-      buildAuthPageUrl("https://genaicoursepath.com/login", "/login", {
+      buildAuthPageUrl("https://opencoursemap.com/login", "/login", {
         redirectTo: "/profile",
         error: "Invalid credentials",
       }).toString(),
-    ).toBe("https://genaicoursepath.com/login?redirectTo=%2Fprofile&error=Invalid+credentials");
+    ).toBe("https://opencoursemap.com/login?redirectTo=%2Fprofile&error=Invalid+credentials");
 
     expect(
-      buildAuthPageUrl("https://genaicoursepath.com/signup", "/signup", {
+      buildAuthPageUrl("https://opencoursemap.com/signup", "/signup", {
         redirectTo: "https://evil.example",
         message: "Check your email",
       }).toString(),
-    ).toBe("https://genaicoursepath.com/signup?message=Check+your+email");
+    ).toBe("https://opencoursemap.com/signup?message=Check+your+email");
   });
 });

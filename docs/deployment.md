@@ -31,8 +31,8 @@ Then configure:
 - Google OAuth in Supabase Auth
 - email/password auth
 - Supabase Auth redirect URLs:
-  - `https://genaicoursepath.com/auth/callback`
-  - `https://www.genaicoursepath.com/auth/callback`
+  - `https://opencoursemap.com/auth/callback`
+  - `https://www.opencoursemap.com/auth/callback`
   - `http://localhost:3000/auth/callback`
 - edge functions for ingestion and recomputation
 - scheduled jobs that call the edge functions with `CRON_SECRET`

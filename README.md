@@ -67,8 +67,8 @@ Or copy the files into the Supabase SQL editor in order:
 1. Create a project.
 2. Enable Google and email/password auth.
 3. In Auth URL configuration, add these redirect URLs:
-   - `https://genaicoursepath.com/auth/callback`
-   - `https://www.genaicoursepath.com/auth/callback`
+   - `https://opencoursemap.com/auth/callback`
+   - `https://www.opencoursemap.com/auth/callback`
    - `http://localhost:3000/auth/callback`
 4. Apply the migration and seed files.
 5. Deploy edge functions from `supabase/functions/`.

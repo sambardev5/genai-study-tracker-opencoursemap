@@ -11,7 +11,7 @@ export function getEnv() {
     supabaseServiceRoleKey:
       process.env.SUPABASE_SERVICE_ROLE_KEY ??
       process.env.SUPABASE_SECRET_KEY,
-    appUrl: process.env.NEXT_PUBLIC_APP_URL ?? "https://genaicoursepath.com",
+    appUrl: process.env.NEXT_PUBLIC_APP_URL ?? "https://opencoursemap.com",
     adminEmails: (process.env.ADMIN_EMAILS ?? "")
       .split(",")
       .map((value) => value.trim())
