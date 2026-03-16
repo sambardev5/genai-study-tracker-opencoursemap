@@ -139,12 +139,11 @@ values
   ('10000000-0000-0000-0000-000000000005', 'Anthropic', 'https://www.anthropic.com', 'community'),
   ('10000000-0000-0000-0000-000000000006', 'LinkedIn', 'https://www.linkedin.com', 'mooc'),
   ('10000000-0000-0000-0000-000000000007', 'Microsoft', 'https://www.microsoft.com', 'docs'),
-  ('10000000-0000-0000-0000-000000000008', 'IBM', 'https://www.ibm.com', 'community'),
+  ('10000000-0000-0000-0000-000000000008', 'IBM SkillsBuild', 'https://skillsbuild.org/students/course-catalog/artificial-intelligence', 'community'),
   ('10000000-0000-0000-0000-000000000009', 'Amazon Web Services', 'https://aws.amazon.com', 'community'),
   ('10000000-0000-0000-0000-000000000010', 'Google', 'https://cloud.google.com', 'docs'),
   ('10000000-0000-0000-0000-000000000011', 'Perplexity', 'https://www.perplexity.ai', 'docs'),
-  ('10000000-0000-0000-0000-000000000012', 'Meta', 'https://www.meta.com', 'community'),
-  ('10000000-0000-0000-0000-000000000013', 'Tesla', 'https://www.tesla.com', 'other')
+  ('10000000-0000-0000-0000-000000000012', 'Meta', 'https://www.meta.com', 'community')
 on conflict (id) do nothing;
 
 insert into public.resources (id, provider_id, source_id, canonical_url, title, summary, language_code, difficulty, duration_hours, is_free, free_verification_status, free_verified_at, is_active, published_at)
@@ -153,12 +152,11 @@ values
   ('40000000-0000-0000-0000-000000000012', '10000000-0000-0000-0000-000000000005', '30000000-0000-0000-0000-000000000001', 'https://www.anthropic.com/learn', 'Anthropic Academy', 'Anthropic''s official learning hub for Claude guides, prompting, evaluation, and safety.', 'en', 'amateur', null, true, 'verified', '2026-03-15T09:00:00.000Z', true, '2026-03-15T09:00:00.000Z'),
   ('40000000-0000-0000-0000-000000000013', '10000000-0000-0000-0000-000000000006', '30000000-0000-0000-0000-000000000001', 'https://www.linkedin.com/learning/paths/career-essentials-in-generative-ai-by-microsoft-and-linkedin', 'Career Essentials in Generative AI by Microsoft and LinkedIn', 'LinkedIn Learning path for generative AI foundations and practical workplace adoption.', 'en', 'basic', 4.00, true, 'suspected', '2026-03-15T09:00:00.000Z', true, '2026-03-15T09:00:00.000Z'),
   ('40000000-0000-0000-0000-000000000014', '10000000-0000-0000-0000-000000000007', '30000000-0000-0000-0000-000000000001', 'https://microsoft.github.io/generative-ai-for-beginners/', 'Generative AI for Beginners', 'Microsoft''s official beginner series for generative AI concepts and app patterns.', 'en', 'basic', null, true, 'verified', '2026-03-15T09:00:00.000Z', true, '2026-03-15T09:00:00.000Z'),
-  ('40000000-0000-0000-0000-000000000015', '10000000-0000-0000-0000-000000000008', '30000000-0000-0000-0000-000000000001', 'https://skillsbuild.org/learn', 'IBM SkillsBuild AI Foundations', 'IBM''s official SkillsBuild catalog for foundational AI literacy and responsible deployment themes.', 'en', 'basic', 15.00, true, 'verified', '2026-03-15T09:00:00.000Z', true, '2026-03-15T09:00:00.000Z'),
+  ('40000000-0000-0000-0000-000000000015', '10000000-0000-0000-0000-000000000008', '30000000-0000-0000-0000-000000000001', 'https://skillsbuild.org/students/course-catalog/artificial-intelligence', 'IBM SkillsBuild AI Foundations', 'IBM''s official SkillsBuild catalog for foundational AI literacy and responsible deployment themes.', 'en', 'basic', 15.00, true, 'verified', '2026-03-15T09:00:00.000Z', true, '2026-03-15T09:00:00.000Z'),
   ('40000000-0000-0000-0000-000000000016', '10000000-0000-0000-0000-000000000009', '30000000-0000-0000-0000-000000000001', 'https://aws.amazon.com/training/learn-about/generative-ai/', 'AWS Dev Hour: Learn Gen AI from Scratch!', 'AWS''s official training series for GenAI newcomers and hands-on builders.', 'en', 'amateur', null, true, 'verified', '2026-03-15T09:00:00.000Z', true, '2026-03-15T09:00:00.000Z'),
   ('40000000-0000-0000-0000-000000000017', '10000000-0000-0000-0000-000000000010', '30000000-0000-0000-0000-000000000001', 'https://www.cloudskillsboost.google/course_templates/536', 'Introduction to Generative AI', 'Google Cloud Skills Boost microlearning course on generative AI fundamentals.', 'en', 'basic', 0.75, true, 'verified', '2026-03-15T09:00:00.000Z', true, '2026-03-15T09:00:00.000Z'),
   ('40000000-0000-0000-0000-000000000018', '10000000-0000-0000-0000-000000000011', '30000000-0000-0000-0000-000000000001', 'https://docs.perplexity.ai/cookbook/getting_started', 'Perplexity API Cookbook', 'Perplexity''s official cookbook for building search-augmented AI experiences.', 'en', 'amateur', null, true, 'verified', '2026-03-15T09:00:00.000Z', true, '2026-03-15T09:00:00.000Z'),
-  ('40000000-0000-0000-0000-000000000019', '10000000-0000-0000-0000-000000000012', '30000000-0000-0000-0000-000000000001', 'https://www.meta.com/ai/open-source/', 'Open Source AI by Meta', 'Meta''s official resource hub for Llama models, toolkits, and community programs.', 'en', 'amateur', null, true, 'verified', '2026-03-15T09:00:00.000Z', true, '2026-03-15T09:00:00.000Z'),
-  ('40000000-0000-0000-0000-000000000020', '10000000-0000-0000-0000-000000000013', '30000000-0000-0000-0000-000000000001', 'https://www.tesla.com/AI', 'Tesla AI & Robotics', 'Tesla''s official AI and robotics resource hub covering autonomy, Optimus, and training infrastructure.', 'en', 'professional', null, true, 'verified', '2026-03-15T09:00:00.000Z', true, '2026-03-15T09:00:00.000Z')
+  ('40000000-0000-0000-0000-000000000019', '10000000-0000-0000-0000-000000000012', '30000000-0000-0000-0000-000000000001', 'https://www.meta.com/ai/open-source/', 'Open Source AI by Meta', 'Meta''s official resource hub for Llama models, toolkits, and community programs.', 'en', 'amateur', null, true, 'verified', '2026-03-15T09:00:00.000Z', true, '2026-03-15T09:00:00.000Z')
 on conflict (id) do nothing;
 
 insert into public.courses (resource_id, enrollment_url, instructor_name, course_mode, has_certificate, certificate_is_free, prerequisite_text, syllabus, last_verified_at)
@@ -167,12 +165,11 @@ values
   ('40000000-0000-0000-0000-000000000012', 'https://www.anthropic.com/learn', 'Anthropic Team', 'self-paced', false, false, 'Helpful if you already understand basic LLM concepts.', 'Claude usage patterns, safe deployment, prompting, and product workflows.', '2026-03-15T09:00:00.000Z'),
   ('40000000-0000-0000-0000-000000000013', 'https://www.linkedin.com/learning/paths/career-essentials-in-generative-ai-by-microsoft-and-linkedin', 'Microsoft and LinkedIn', 'self-paced', true, false, 'No prerequisites listed.', 'Generative AI basics, workplace use cases, responsible practices, and prompting.', '2026-03-15T09:00:00.000Z'),
   ('40000000-0000-0000-0000-000000000014', 'https://microsoft.github.io/generative-ai-for-beginners/', 'Microsoft Learn', 'self-paced', false, false, 'Helpful if you know basic programming concepts.', 'Generative AI concepts, prompts, responsible AI, apps, and deployment basics.', '2026-03-15T09:00:00.000Z'),
-  ('40000000-0000-0000-0000-000000000015', 'https://skillsbuild.org/learn', 'IBM SkillsBuild', 'self-paced', false, false, 'No prerequisites listed.', 'AI basics, machine learning concepts, ethics, and practical business context.', '2026-03-15T09:00:00.000Z'),
+  ('40000000-0000-0000-0000-000000000015', 'https://skillsbuild.org/students/course-catalog/artificial-intelligence', 'IBM SkillsBuild', 'self-paced', false, false, 'No prerequisites listed.', 'AI basics, machine learning concepts, ethics, and practical business context.', '2026-03-15T09:00:00.000Z'),
   ('40000000-0000-0000-0000-000000000016', 'https://aws.amazon.com/training/learn-about/generative-ai/', 'AWS Training and Certification', 'self-paced', false, false, 'Beginner-friendly entry point.', 'GenAI fundamentals, AWS tooling landscape, and practical next steps.', '2026-03-15T09:00:00.000Z'),
   ('40000000-0000-0000-0000-000000000017', 'https://www.cloudskillsboost.google/course_templates/536', 'Google Cloud Skills Boost', 'self-paced', false, false, 'No prerequisites listed.', 'Generative AI definition, model families, and high-level application patterns.', '2026-03-15T09:00:00.000Z'),
   ('40000000-0000-0000-0000-000000000018', 'https://docs.perplexity.ai/cookbook/getting_started', 'Perplexity Developer Docs', 'self-paced', false, false, 'Helpful if you are comfortable with APIs and prompt-driven workflows.', 'Getting started, request patterns, citations, and application recipes.', '2026-03-15T09:00:00.000Z'),
-  ('40000000-0000-0000-0000-000000000019', 'https://www.meta.com/ai/open-source/', 'Meta AI', 'self-paced', false, false, 'Useful if you want an overview of the Meta open model ecosystem.', 'Llama resources, tooling, programs, and open model adoption guidance.', '2026-03-15T09:00:00.000Z'),
-  ('40000000-0000-0000-0000-000000000020', 'https://www.tesla.com/AI', 'Tesla AI', 'self-paced', false, false, 'Best for learners interested in applied ML systems and robotics.', 'Autonomy stack context, robotics, training infrastructure, and engineering overviews.', '2026-03-15T09:00:00.000Z')
+  ('40000000-0000-0000-0000-000000000019', 'https://www.meta.com/ai/open-source/', 'Meta AI', 'self-paced', false, false, 'Useful if you want an overview of the Meta open model ecosystem.', 'Llama resources, tooling, programs, and open model adoption guidance.', '2026-03-15T09:00:00.000Z')
 on conflict (resource_id) do nothing;
 
 insert into public.course_topics (course_id, topic_id, is_primary)
@@ -203,10 +200,7 @@ values
   ('40000000-0000-0000-0000-000000000018', '00000000-0000-0000-0000-000000000107', false),
   ('40000000-0000-0000-0000-000000000019', '00000000-0000-0000-0000-000000000101', true),
   ('40000000-0000-0000-0000-000000000019', '00000000-0000-0000-0000-000000000105', false),
-  ('40000000-0000-0000-0000-000000000019', '00000000-0000-0000-0000-000000000113', false),
-  ('40000000-0000-0000-0000-000000000020', '00000000-0000-0000-0000-000000000105', true),
-  ('40000000-0000-0000-0000-000000000020', '00000000-0000-0000-0000-000000000111', false),
-  ('40000000-0000-0000-0000-000000000020', '00000000-0000-0000-0000-000000000112', false)
+  ('40000000-0000-0000-0000-000000000019', '00000000-0000-0000-0000-000000000113', false)
 on conflict do nothing;
 
 insert into public.course_skills (course_id, skill_id, strength)
@@ -228,7 +222,5 @@ values
   ('40000000-0000-0000-0000-000000000018', '20000000-0000-0000-0000-000000000004', 0.8),
   ('40000000-0000-0000-0000-000000000018', '20000000-0000-0000-0000-000000000002', 0.6),
   ('40000000-0000-0000-0000-000000000019', '20000000-0000-0000-0000-000000000003', 0.8),
-  ('40000000-0000-0000-0000-000000000019', '20000000-0000-0000-0000-000000000005', 0.7),
-  ('40000000-0000-0000-0000-000000000020', '20000000-0000-0000-0000-000000000006', 0.7),
-  ('40000000-0000-0000-0000-000000000020', '20000000-0000-0000-0000-000000000005', 0.6)
+  ('40000000-0000-0000-0000-000000000019', '20000000-0000-0000-0000-000000000005', 0.7)
 on conflict do nothing;

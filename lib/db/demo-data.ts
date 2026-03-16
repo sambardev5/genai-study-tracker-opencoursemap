@@ -11,9 +11,11 @@ import type {
   UserPreferences,
   UserProfile,
 } from "@/lib/types";
+import { getStudyCatalogData } from "@/lib/db/study-catalog";
 
 const now = "2026-03-15T12:00:00.000Z";
 const catalogVerifiedAt = "2026-03-15T09:00:00.000Z";
+const ibmSkillsBuildCatalogUrl = "https://skillsbuild.org/students/course-catalog/artificial-intelligence";
 
 const topicSeed = [
   ["topic-llm", "llm", "LLM", "Large language model foundations and applied patterns."],
@@ -31,7 +33,12 @@ const topicSeed = [
   ["topic-rai", "responsible-ai", "Responsible AI", "Safety, policy, governance, and bias mitigation."],
   ["topic-python", "python-foundations", "Python Foundations", "Python basics for AI practitioners."],
   ["topic-stats", "statistics", "Statistics", "Statistics and experimentation basics for ML."],
- ] as const;
+  ["topic-data", "data-science", "Data Science", "Applied data science, analytics, and experimentation workflows."],
+  ["topic-copilot", "copilots", "Copilots", "Productivity copilots, assistant UX, and workplace AI workflows."],
+  ["topic-cv", "computer-vision", "Computer Vision", "Vision models, image understanding, and visual reasoning workflows."],
+  ["topic-multimodal", "multimodal", "Multimodal", "Cross-modal AI systems spanning text, image, audio, and interaction."],
+  ["topic-rl", "reinforcement-learning", "Reinforcement Learning", "Sequential decision-making and policy optimization workflows."],
+] as const;
 
 export const topics: Topic[] = topicSeed.map(([id, slug, name, description]) => ({
   id,
@@ -90,9 +97,57 @@ export const skills: SkillDefinition[] = [
     topicId: "topic-ml",
     levelHint: "basic",
   },
+  {
+    id: "skill-data-analysis",
+    slug: "data-analysis",
+    name: "Data analysis",
+    description: "Work with datasets, experiments, and analytics framing for AI systems.",
+    topicId: "topic-data",
+    levelHint: "basic",
+  },
+  {
+    id: "skill-mlops-operations",
+    slug: "mlops-operations",
+    name: "MLOps operations",
+    description: "Operate, deploy, and monitor production AI workflows.",
+    topicId: "topic-mlops",
+    levelHint: "professional",
+  },
+  {
+    id: "skill-copilot-design",
+    slug: "copilot-design",
+    name: "Copilot design",
+    description: "Design task flows and user assistance patterns for copilots and agents.",
+    topicId: "topic-copilot",
+    levelHint: "amateur",
+  },
+  {
+    id: "skill-vision-systems",
+    slug: "vision-systems",
+    name: "Vision systems",
+    description: "Reason about image pipelines, perception tasks, and visual model behavior.",
+    topicId: "topic-cv",
+    levelHint: "amateur",
+  },
+  {
+    id: "skill-multimodal-systems",
+    slug: "multimodal-systems",
+    name: "Multimodal systems",
+    description: "Combine text, image, audio, and interaction modes in AI products.",
+    topicId: "topic-multimodal",
+    levelHint: "professional",
+  },
+  {
+    id: "skill-rl-experimentation",
+    slug: "rl-experimentation",
+    name: "RL experimentation",
+    description: "Work with reward-driven training and policy optimization loops.",
+    topicId: "topic-rl",
+    levelHint: "professional",
+  },
 ];
 
-export const providers: Provider[] = [
+const baseProviders: Provider[] = [
   {
     id: "provider-coursera",
     name: "Coursera",
@@ -144,8 +199,8 @@ export const providers: Provider[] = [
   },
   {
     id: "provider-ibm",
-    name: "IBM",
-    websiteUrl: "https://www.ibm.com",
+    name: "IBM SkillsBuild",
+    websiteUrl: ibmSkillsBuildCatalogUrl,
     providerType: "community",
     isActive: true,
   },
@@ -177,16 +232,9 @@ export const providers: Provider[] = [
     providerType: "community",
     isActive: true,
   },
-  {
-    id: "provider-tesla",
-    name: "Tesla",
-    websiteUrl: "https://www.tesla.com",
-    providerType: "other",
-    isActive: true,
-  },
 ];
 
-export const courses: Course[] = [
+const baseCourses: Course[] = [
   {
     id: "course-llm-foundations",
     title: "LLM Foundations for Builders",
@@ -434,8 +482,8 @@ export const courses: Course[] = [
     title: "IBM SkillsBuild AI Foundations",
     summary:
       "IBM's official SkillsBuild catalog entry for foundational AI literacy, core concepts, and responsible deployment themes.",
-    canonicalUrl: "https://skillsbuild.org/learn",
-    enrollmentUrl: "https://skillsbuild.org/learn",
+    canonicalUrl: ibmSkillsBuildCatalogUrl,
+    enrollmentUrl: ibmSkillsBuildCatalogUrl,
     providerId: "provider-ibm",
     topicIds: ["topic-ml", "topic-genai", "topic-rai"],
     skillIds: ["skill-feature-engineering", "skill-model-selection"],
@@ -554,34 +602,9 @@ export const courses: Course[] = [
     syllabus: "Llama resources, tooling, programs, and open model adoption guidance.",
     publishedAt: "2026-03-15T09:00:00.000Z",
   },
-  {
-    id: "course-tesla-ai-robotics",
-    title: "Tesla AI & Robotics",
-    summary:
-      "Tesla's official AI and robotics resource hub covering autonomy, Optimus, dojo-scale training, and engineering context for applied ML systems.",
-    canonicalUrl: "https://www.tesla.com/AI",
-    enrollmentUrl: "https://www.tesla.com/AI",
-    providerId: "provider-tesla",
-    topicIds: ["topic-ml", "topic-eval", "topic-mlops"],
-    skillIds: ["skill-feature-engineering", "skill-safety-review"],
-    difficulty: "professional",
-    durationHours: null,
-    languageCode: "en",
-    isFree: true,
-    freeVerificationStatus: "verified",
-    freeVerifiedAt: catalogVerifiedAt,
-    isActive: true,
-    courseMode: "self-paced",
-    hasCertificate: false,
-    certificateIsFree: false,
-    instructorName: "Tesla AI",
-    prerequisiteText: "Best for learners interested in applied ML systems and robotics.",
-    syllabus: "Autonomy stack context, robotics, training infrastructure, and engineering overviews.",
-    publishedAt: "2026-03-15T09:00:00.000Z",
-  },
 ];
 
-export const learningPaths: LearningPath[] = [
+const baseLearningPaths: LearningPath[] = [
   {
     id: "path-foundations",
     slug: "generative-ai-foundations",
@@ -661,6 +684,38 @@ export const learningPaths: LearningPath[] = [
     ],
   },
 ];
+
+function mergeUniqueById<T extends { id: string }>(base: T[], additions: T[]) {
+  const merged = [...base];
+  const existingIds = new Set(merged.map((item) => item.id));
+
+  for (const item of additions) {
+    if (existingIds.has(item.id)) {
+      continue;
+    }
+
+    existingIds.add(item.id);
+    merged.push(item);
+  }
+
+  return merged;
+}
+
+export function getCatalogProviders() {
+  return mergeUniqueById(baseProviders, getStudyCatalogData().providers);
+}
+
+export function getCatalogCourses() {
+  return mergeUniqueById(baseCourses, getStudyCatalogData().courses);
+}
+
+export function getCatalogLearningPaths() {
+  return mergeUniqueById(baseLearningPaths, getStudyCatalogData().learningPaths);
+}
+
+export const providers = getCatalogProviders();
+export const courses = getCatalogCourses();
+export const learningPaths = getCatalogLearningPaths();
 
 export const sources: SourceConfig[] = [
   {

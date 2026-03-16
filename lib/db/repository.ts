@@ -1,11 +1,11 @@
 import { formatISO } from "date-fns";
 import {
-  courses,
   demoPreferences,
   demoProfile,
+  getCatalogCourses,
+  getCatalogLearningPaths,
+  getCatalogProviders,
   ingestionCandidates,
-  learningPaths,
-  providers,
   skills,
   sourceRuns,
   sources,
@@ -34,11 +34,11 @@ const profileStore = new Map<string, UserProfile>([[demoProfile.id, demoProfile]
 const preferenceStore = new Map<string, UserPreferences>([[demoPreferences.userId, demoPreferences]]);
 
 function getVisibleCourses() {
-  return courses.filter((course) => course.isActive && course.isFree);
+  return getCatalogCourses().filter((course) => course.isActive && course.isFree);
 }
 
 function getProviderById(providerId: string) {
-  return providers.find((provider) => provider.id === providerId) ?? null;
+  return getCatalogProviders().find((provider) => provider.id === providerId) ?? null;
 }
 
 function compareDurations(left: Course, right: Course, direction: "asc" | "desc") {
@@ -136,7 +136,7 @@ function getUserStatuses(userId: string) {
 }
 
 function findCourse(courseId: string) {
-  return courses.find((course) => course.id === courseId) ?? null;
+  return getCatalogCourses().find((course) => course.id === courseId) ?? null;
 }
 
 function getPathCourses(path: LearningPath) {
@@ -184,23 +184,26 @@ export const repository = {
   },
 
   getProviders(): Provider[] {
-    return providers.filter((provider) => provider.isActive);
+    return getCatalogProviders().filter((provider) => provider.isActive);
   },
 
   listCourses(filters: CourseSearchFilters): CourseSearchResult {
     const filtered = sortCourses(filterCourses(filters), filters);
-    const start = (filters.page - 1) * filters.pageSize;
+    const totalPages = Math.max(1, Math.ceil(filtered.length / filters.pageSize));
+    const page = Math.min(filters.page, totalPages);
+    const start = (page - 1) * filters.pageSize;
     const paged = filtered.slice(start, start + filters.pageSize);
     const topicFacetIds = new Set(filtered.flatMap((course) => course.topicIds));
     const providerFacetIds = new Set(filtered.map((course) => course.providerId));
+    const providers = getCatalogProviders();
 
     return {
       items: paged,
       pagination: {
-        page: filters.page,
+        page,
         pageSize: filters.pageSize,
         total: filtered.length,
-        totalPages: Math.max(1, Math.ceil(filtered.length / filters.pageSize)),
+        totalPages,
       },
       facets: {
         providers: providers.filter((provider) => providerFacetIds.has(provider.id)),
@@ -236,11 +239,13 @@ export const repository = {
   },
 
   getLearningPaths() {
-    return learningPaths.filter((path) => path.isPublished);
+    return getCatalogLearningPaths().filter((path) => path.isPublished);
   },
 
   getLearningPathBySlug(slug: string) {
-    const path = learningPaths.find((learningPath) => learningPath.slug === slug && learningPath.isPublished);
+    const path = getCatalogLearningPaths().find(
+      (learningPath) => learningPath.slug === slug && learningPath.isPublished,
+    );
 
     if (!path) {
       return null;
@@ -345,6 +350,8 @@ export const repository = {
     const profile = this.getProfile(userId);
     const preferences = this.getPreferences(userId);
     const statuses = getUserStatuses(userId);
+    const currentCourses = getCatalogCourses();
+    const currentProviders = getCatalogProviders();
     const recommendedNext = getTopRecommendations({
       courses: getVisibleCourses(),
       profile,
@@ -352,7 +359,7 @@ export const repository = {
       statuses,
       topics,
     });
-    const skillGaps = computeSkillGap({ skills, courses, statuses }).sort(
+    const skillGaps = computeSkillGap({ skills, courses: currentCourses, statuses }).sort(
       (left, right) => right.gapScore - left.gapScore,
     );
 
@@ -371,7 +378,7 @@ export const repository = {
       }))
       .filter((item) => item.completed > 0 || item.inProgress > 0);
 
-    const providerBreakdown = providers
+    const providerBreakdown = currentProviders
       .map((provider) => ({
         providerId: provider.id,
         providerName: provider.name,

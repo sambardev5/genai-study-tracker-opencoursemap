@@ -4,6 +4,9 @@ import { Badge } from "@/components/ui/badge";
 import { Card } from "@/components/ui/card";
 import { repository } from "@/lib/db/repository";
 
+export const dynamic = "force-dynamic";
+export const revalidate = 0;
+
 export default function LearningPathsPage() {
   const paths = repository.getLearningPaths();
   const topics = repository.getTopics();

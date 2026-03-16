@@ -9,6 +9,9 @@ import { Card } from "@/components/ui/card";
 import { repository } from "@/lib/db/repository";
 import { formatDate, formatHours } from "@/lib/utils";
 
+export const dynamic = "force-dynamic";
+export const revalidate = 0;
+
 export async function generateMetadata({ params }: { params: Promise<{ id: string }> }): Promise<Metadata> {
   const { id } = await params;
   const course = repository.getCourseById(id);

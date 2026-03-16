@@ -2,7 +2,7 @@ import { redirect } from "next/navigation";
 import { getDemoProfile } from "@/lib/db/demo-data";
 import { createSupabaseServerClient } from "@/lib/supabase/server";
 import type { UserProfile } from "@/lib/types";
-import { env, hasSupabaseEnv } from "@/lib/utils/env";
+import { getEnv, hasSupabaseEnv } from "@/lib/utils/env";
 
 function fallbackProfileFromAuthUser(input: {
   id: string;
@@ -31,6 +31,7 @@ export async function getCurrentUser() {
     return getDemoProfile();
   }
 
+  const env = getEnv();
   const supabase = await createSupabaseServerClient();
 
   if (!supabase) {

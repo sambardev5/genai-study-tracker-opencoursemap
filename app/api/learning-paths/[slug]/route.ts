@@ -1,6 +1,8 @@
 import { NextResponse } from "next/server";
 import { repository } from "@/lib/db/repository";
 
+export const dynamic = "force-dynamic";
+
 export async function GET(_: Request, { params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   const path = repository.getLearningPathBySlug(slug);

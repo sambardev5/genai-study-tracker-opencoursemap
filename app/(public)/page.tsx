@@ -7,6 +7,9 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { repository } from "@/lib/db/repository";
 
+export const dynamic = "force-dynamic";
+export const revalidate = 0;
+
 export default function HomePage() {
   const featured = repository.listCourses({
     page: 1,
@@ -42,7 +45,7 @@ export default function HomePage() {
           <div className="grid gap-4 sm:grid-cols-3">
             <Card className="bg-white/75">
               <div className="text-3xl font-bold">{featured.pagination.total}</div>
-              <div className="mt-2 text-sm text-ink/60">Seeded official resources from OpenAI, Anthropic, Microsoft, Google, AWS, IBM, and more.</div>
+              <div className="mt-2 text-sm text-ink/60">Catalog synced from study.md and study_150_courses.md with all 250 listed courses grouped into topic-based learning paths.</div>
             </Card>
             <Card className="bg-white/75">
               <div className="text-3xl font-bold">{topics.length}</div>
