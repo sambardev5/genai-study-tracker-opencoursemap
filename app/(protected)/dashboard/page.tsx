@@ -1,5 +1,6 @@
 import { DashboardCharts } from "@/components/dashboard/dashboard-charts";
 import { SectionHeading } from "@/components/layout/section-heading";
+import { WorkInProgressBanner } from "@/components/layout/work-in-progress-banner";
 import { Card } from "@/components/ui/card";
 import { requireCurrentUser } from "@/lib/auth/session";
 import { repository } from "@/lib/db/repository";
@@ -15,6 +16,10 @@ export default async function DashboardPage() {
         eyebrow="Dashboard"
         title="Progress, coverage, and gaps"
         description="KPI cards and chart data are powered by the same dashboard aggregation that backs `/api/me/dashboard`."
+      />
+      <WorkInProgressBanner
+        className="mt-6"
+        message="Login and account creation are still being finalized, so dashboard history and personalization will keep evolving."
       />
 
       <div className="mt-10 grid gap-4 lg:grid-cols-5">

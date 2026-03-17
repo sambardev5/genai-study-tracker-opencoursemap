@@ -2,6 +2,7 @@ import Link from "next/link";
 import { redirect } from "next/navigation";
 import { AuthForm } from "@/components/auth/auth-form";
 import { SectionHeading } from "@/components/layout/section-heading";
+import { WorkInProgressBanner } from "@/components/layout/work-in-progress-banner";
 import { Card } from "@/components/ui/card";
 import { getSafeRedirectPath } from "@/lib/auth/redirects";
 import { getCurrentUser } from "@/lib/auth/session";
@@ -34,6 +35,10 @@ export default async function LoginPage({
           eyebrow="Sign in"
           title="Access your learning tracker"
           description="Use Google OAuth or email/password through Supabase Auth. Your session is persisted server-side for protected pages and APIs."
+        />
+        <WorkInProgressBanner
+          className="mt-6"
+          message="Authentication is still being finalized, so sign-in behavior may change while the flow is completed."
         />
         <AuthForm mode="login" redirectTo={redirectTo} initialError={error} initialMessage={message} />
         <div className="mt-4 grid gap-2">

@@ -28,6 +28,31 @@ a {
   color: inherit;
 }
 
+@keyframes work-in-progress-marquee {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.work-in-progress-marquee {
+  animation: work-in-progress-marquee 32s linear infinite;
+  will-change: transform;
+}
+
+.work-in-progress-marquee:hover {
+  animation-play-state: paused;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .work-in-progress-marquee {
+    animation: none;
+  }
+}
+
 .grain {
   position: relative;
 }

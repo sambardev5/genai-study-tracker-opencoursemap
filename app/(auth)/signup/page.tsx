@@ -2,6 +2,7 @@ import Link from "next/link";
 import { redirect } from "next/navigation";
 import { AuthForm } from "@/components/auth/auth-form";
 import { SectionHeading } from "@/components/layout/section-heading";
+import { WorkInProgressBanner } from "@/components/layout/work-in-progress-banner";
 import { Card } from "@/components/ui/card";
 import { getSafeRedirectPath } from "@/lib/auth/redirects";
 import { getCurrentUser } from "@/lib/auth/session";
@@ -34,6 +35,10 @@ export default async function SignupPage({
           eyebrow="Create account"
           title="Track every course in one place"
           description="Create an account with Google or email/password. Supabase Auth handles identity; the app handles progress tracking and recommendations."
+        />
+        <WorkInProgressBanner
+          className="mt-6"
+          message="Account creation is still being finalized, so signup behavior may change while authentication work is completed."
         />
         <AuthForm mode="signup" redirectTo={redirectTo} initialError={error} initialMessage={message} />
         <div className="mt-4 grid gap-2">
