@@ -164,7 +164,7 @@ export default async function CoursesPage({
       <SectionHeading
         eyebrow="Catalog"
         title="AI courses for modern practice"
-        description="Search the merged catalog of free, paid, and price-not-stated AI, ML, robotics, simulation, agentic AI, evals, and AI engineering courses from the study guides plus vetted Microsoft, NVIDIA DLI, and Maven catalog sources."
+        description="Search the merged catalog of free, paid, and price-not-stated AI, ML, robotics, simulation, agentic AI, evals, and AI engineering courses from the study guides plus vetted OpenAI, Claude, Google, Microsoft, NVIDIA DLI, Maven catalog sources and much more."
       />
 
       <form className="mt-10 grid gap-4 rounded-[28px] border border-black/5 bg-white/70 p-5 shadow-card lg:grid-cols-8">
