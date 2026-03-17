@@ -6,8 +6,13 @@ import { studyCourses, studyLearningPaths, studyProviders } from "@/lib/db/study
 
 describe("study catalog import", () => {
   it("imports the study guides plus the Microsoft Learn AI engineer catalog", () => {
-    const baseStudyCount = (studyCatalogEntriesJson as Array<[number, string]>).filter(
-      (entry) => entry[1] !== "Microsoft Learn" && entry[1] !== "NVIDIA DLI",
+    const baseStudyCount = (
+      studyCatalogEntriesJson as Array<[number, string, string, string, string, string]>
+    ).filter(
+      (entry) =>
+        entry[1] !== "Microsoft Learn" &&
+        entry[1] !== "NVIDIA DLI" &&
+        !(entry[1] === "Coursera (Free Audit)" && entry[5] === "study_150_courses.md"),
     ).length;
 
     expect(studyCourses).toHaveLength(
@@ -119,10 +124,9 @@ describe("study catalog import", () => {
     expect(
       studyCourses.some(
         (course) =>
-          course.title === "Machine Learning Online Courses | Coursera" &&
-          course.canonicalUrl === "https://www.coursera.org/browse/data-science/machine-learning",
+          course.providerId === "provider-coursera",
       ),
-    ).toBe(true);
+    ).toBe(false);
     expect(
       studyCourses.some(
         (course) =>

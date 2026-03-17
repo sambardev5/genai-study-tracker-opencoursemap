@@ -11,11 +11,12 @@ export const dynamic = "force-dynamic";
 export const revalidate = 0;
 
 export default function HomePage() {
-  const featured = repository.listCourses({
+  const catalog = repository.listCourses({
     page: 1,
-    pageSize: 3,
+    pageSize: 1,
     sort: "relevance",
   });
+  const featured = repository.getHomepageFeaturedCourses(6);
   const learningPaths = repository.getLearningPaths();
   const providers = repository.getProviders();
   const topics = repository.getTopics();
@@ -44,7 +45,7 @@ export default function HomePage() {
           </div>
           <div className="grid gap-4 sm:grid-cols-3">
             <Card className="bg-white/75">
-              <div className="text-3xl font-bold">{featured.pagination.total}</div>
+              <div className="text-3xl font-bold">{catalog.pagination.total}</div>
               <div className="mt-2 text-sm text-ink/60">Catalog synced from the study guides plus vetted Microsoft Learn, NVIDIA DLI AI, and Maven catalog pages.</div>
             </Card>
             <Card className="bg-white/75">
@@ -90,11 +91,11 @@ export default function HomePage() {
       <section className="mt-20 space-y-8">
         <SectionHeading
           eyebrow="Featured catalog"
-          title="Start with a small, verified set."
-          description="Click Courses to explore the full AI course catalog"
+          title="Start with a balanced, provider-diverse set."
+          description="Foundational, intermediate, and advanced picks from different providers. Click Courses to explore the full AI catalog."
         />
-        <div className="grid gap-6 lg:grid-cols-3">
-          {featured.items.map((course) => (
+        <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-3">
+          {featured.map((course) => (
             <CourseCard
               key={course.id}
               course={course}

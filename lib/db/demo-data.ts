@@ -11,9 +11,11 @@ import type {
   UserPreferences,
   UserProfile,
 } from "@/lib/types";
+import { getCourseraCatalogData } from "@/lib/db/coursera-catalog";
 import { getMavenCatalogData } from "@/lib/db/maven-catalog";
 import { getNvidiaCatalogData } from "@/lib/db/nvidia-catalog";
 import { getStudyCatalogData } from "@/lib/db/study-catalog";
+import { getUdemyCatalogData } from "@/lib/db/udemy-catalog";
 
 const now = "2026-03-15T12:00:00.000Z";
 const catalogVerifiedAt = "2026-03-15T09:00:00.000Z";
@@ -709,20 +711,32 @@ function mergeUniqueById<T extends { id: string }>(base: T[], additions: T[]) {
 export function getCatalogProviders() {
   return mergeUniqueById(
     mergeUniqueById(
-      mergeUniqueById(baseProviders, getStudyCatalogData().providers),
-      getNvidiaCatalogData().providers,
+      mergeUniqueById(
+        mergeUniqueById(
+          mergeUniqueById(baseProviders, getStudyCatalogData().providers),
+          getCourseraCatalogData().providers,
+        ),
+        getNvidiaCatalogData().providers,
+      ),
+      getMavenCatalogData().providers,
     ),
-    getMavenCatalogData().providers,
+    getUdemyCatalogData().providers,
   );
 }
 
 export function getCatalogCourses() {
   return mergeUniqueById(
     mergeUniqueById(
-      mergeUniqueById(baseCourses, getStudyCatalogData().courses),
-      getNvidiaCatalogData().courses,
+      mergeUniqueById(
+        mergeUniqueById(
+          mergeUniqueById(baseCourses, getStudyCatalogData().courses),
+          getCourseraCatalogData().courses,
+        ),
+        getNvidiaCatalogData().courses,
+      ),
+      getMavenCatalogData().courses,
     ),
-    getMavenCatalogData().courses,
+    getUdemyCatalogData().courses,
   );
 }
 

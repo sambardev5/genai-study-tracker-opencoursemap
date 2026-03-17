@@ -65,8 +65,18 @@ const microsoftLearnEntries = (microsoftLearnAiEngineerEntriesJson as MicrosoftL
   }),
 );
 
+function hasConcreteStudyUrl(entry: StudyEntry) {
+  return !(
+    entry.provider === "Coursera (Free Audit)" &&
+    entry.sourceFile === "study_150_courses.md" &&
+    entry.url === "https://www.coursera.org"
+  );
+}
+
 const studyEntries = [
-  ...baseStudyEntries.filter((entry) => entry.provider !== "Microsoft Learn" && entry.provider !== "NVIDIA DLI"),
+  ...baseStudyEntries.filter(
+    (entry) => entry.provider !== "Microsoft Learn" && entry.provider !== "NVIDIA DLI" && hasConcreteStudyUrl(entry),
+  ),
   ...microsoftLearnEntries,
 ];
 
@@ -82,10 +92,6 @@ const study150ProviderOverrides: Record<string, StudyEntryOverride> = {
   "DeepLearning.AI": {
     course: "Courses - DeepLearning.AI",
     url: "https://www.deeplearning.ai/courses/",
-  },
-  "Coursera (Free Audit)": {
-    course: "Machine Learning Online Courses | Coursera",
-    url: "https://www.coursera.org/browse/data-science/machine-learning",
   },
   "edX (Audit Free)": {
     course: "Online AI courses and programs | edX",

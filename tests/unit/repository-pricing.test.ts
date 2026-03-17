@@ -15,6 +15,7 @@ describe("course catalog pricing filters", () => {
     expect(result.items.every((course) => course.freeVerificationStatus === "verified")).toBe(true);
     expect(result.items.some((course) => course.providerId === "provider-maven")).toBe(true);
     expect(result.items.some((course) => course.providerId === "provider-nvidia-dli")).toBe(true);
+    expect(result.items.some((course) => course.providerId === "provider-udemy")).toBe(true);
   });
 
   it("keeps the free catalog isolated when pricing is set to free", () => {
@@ -28,6 +29,7 @@ describe("course catalog pricing filters", () => {
     expect(result.items.length).toBeGreaterThan(0);
     expect(result.items.every((course) => course.isFree)).toBe(true);
     expect(result.items.some((course) => course.providerId === "provider-maven")).toBe(false);
+    expect(result.items.some((course) => course.providerId === "provider-coursera")).toBe(true);
   });
 
   it("returns NVIDIA courses with unstated pricing when pricing is set to other", () => {

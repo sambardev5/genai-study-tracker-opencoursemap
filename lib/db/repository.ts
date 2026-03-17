@@ -18,6 +18,7 @@ import { computeQueryScore } from "@/lib/search/ranking";
 import { getDurationBucket, slugify } from "@/lib/utils";
 import type {
   Course,
+  CourseLevel,
   CourseSearchFilters,
   CourseSearchResult,
   DashboardData,
@@ -149,6 +150,171 @@ function filterCourses(filters: CourseSearchFilters) {
   });
 }
 
+const featuredDifficultyOrder: Array<Exclude<CourseLevel, "unknown">> = ["basic", "amateur", "professional"];
+
+function getFeaturedDifficultyTargets(limit: number) {
+  const baseTarget = Math.floor(limit / featuredDifficultyOrder.length);
+  const remainder = limit % featuredDifficultyOrder.length;
+
+  return Object.fromEntries(
+    featuredDifficultyOrder.map((level, index) => [level, baseTarget + (index < remainder ? 1 : 0)]),
+  ) as Record<Exclude<CourseLevel, "unknown">, number>;
+}
+
+function selectFeaturedHomepageCourses(limit: number) {
+  if (limit <= 0) {
+    return [];
+  }
+
+  const sortedCourses = sortCourses(getVisibleCourses("all"), {
+    page: 1,
+    pageSize: limit,
+    sort: "newest",
+  });
+  const providerSpotlights: Course[] = [];
+  const spotlightProviders = new Set<string>();
+
+  for (const course of sortedCourses) {
+    if (!spotlightProviders.has(course.providerId)) {
+      providerSpotlights.push(course);
+      spotlightProviders.add(course.providerId);
+    }
+  }
+
+  const selected: Course[] = [];
+  const selectedIds = new Set<string>();
+  const usedProviders = new Set<string>();
+  const difficultyTargets = getFeaturedDifficultyTargets(limit);
+  const difficultyCounts: Record<Exclude<CourseLevel, "unknown">, number> = {
+    basic: 0,
+    amateur: 0,
+    professional: 0,
+  };
+
+  const addCourse = (course: Course | undefined) => {
+    if (!course || selectedIds.has(course.id)) {
+      return false;
+    }
+
+    selected.push(course);
+    selectedIds.add(course.id);
+    usedProviders.add(course.providerId);
+
+    if (course.difficulty !== "unknown") {
+      difficultyCounts[course.difficulty] += 1;
+    }
+
+    return true;
+  };
+
+  const findCandidate = (
+    courses: Course[],
+    options?: {
+      difficulty?: Exclude<CourseLevel, "unknown">;
+      uniqueProviderOnly?: boolean;
+      underTargetOnly?: boolean;
+    },
+  ) =>
+    courses.find((course) => {
+      if (selectedIds.has(course.id)) {
+        return false;
+      }
+
+      if (options?.uniqueProviderOnly && usedProviders.has(course.providerId)) {
+        return false;
+      }
+
+      if (options?.difficulty && course.difficulty !== options.difficulty) {
+        return false;
+      }
+
+      if (options?.underTargetOnly && options.difficulty) {
+        return difficultyCounts[options.difficulty] < difficultyTargets[options.difficulty];
+      }
+
+      return true;
+    });
+
+  for (const difficulty of featuredDifficultyOrder) {
+    if (selected.length >= limit) {
+      break;
+    }
+
+    addCourse(
+      findCandidate(providerSpotlights, {
+        difficulty,
+        uniqueProviderOnly: true,
+      }) ??
+        findCandidate(sortedCourses, {
+          difficulty,
+          uniqueProviderOnly: true,
+        }) ??
+        findCandidate(sortedCourses, {
+          difficulty,
+        }),
+    );
+  }
+
+  while (selected.length < limit) {
+    const prioritizedDifficulties = [...featuredDifficultyOrder].sort((left, right) => {
+      const leftTarget = Math.max(difficultyTargets[left], 1);
+      const rightTarget = Math.max(difficultyTargets[right], 1);
+
+      return difficultyCounts[left] / leftTarget - difficultyCounts[right] / rightTarget;
+    });
+
+    let added = false;
+
+    for (const difficulty of prioritizedDifficulties) {
+      added =
+        addCourse(
+          findCandidate(providerSpotlights, {
+            difficulty,
+            uniqueProviderOnly: true,
+            underTargetOnly: true,
+          }) ??
+            findCandidate(providerSpotlights, {
+              difficulty,
+              uniqueProviderOnly: true,
+            }) ??
+            findCandidate(sortedCourses, {
+              difficulty,
+              uniqueProviderOnly: true,
+              underTargetOnly: true,
+            }) ??
+            findCandidate(sortedCourses, {
+              difficulty,
+              uniqueProviderOnly: true,
+            }),
+        ) || added;
+
+      if (added) {
+        break;
+      }
+    }
+
+    if (added) {
+      continue;
+    }
+
+    if (addCourse(findCandidate(providerSpotlights, { uniqueProviderOnly: true }))) {
+      continue;
+    }
+
+    if (addCourse(findCandidate(sortedCourses, { uniqueProviderOnly: true }))) {
+      continue;
+    }
+
+    if (addCourse(findCandidate(sortedCourses))) {
+      continue;
+    }
+
+    break;
+  }
+
+  return selected;
+}
+
 function getUserStatuses(userId: string) {
   return userCourseStatuses.filter((status) => status.userId === userId);
 }
@@ -203,6 +369,10 @@ export const repository = {
 
   getProviders(): Provider[] {
     return getCatalogProviders().filter((provider) => provider.isActive);
+  },
+
+  getHomepageFeaturedCourses(limit = 6) {
+    return selectFeaturedHomepageCourses(limit);
   },
 
   listCourses(filters: CourseSearchFilters): CourseSearchResult {
