@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Analytics } from "@vercel/analytics/next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import { SiteFrame } from "@/components/layout/site-frame";
 import "./globals.css";
 
@@ -30,6 +31,7 @@ export default function RootLayout({
       <body className="grain bg-canvas text-ink antialiased">
         <SiteFrame>{children}</SiteFrame>
         <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );
